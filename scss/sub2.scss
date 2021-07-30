@@ -1,0 +1,760 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "mq";
+
+$font_type0: 700 32px/1.2 "KoPubWorldBatang", Helvetica, Arial, serif;
+$font_type1: 800 24px/1.2 "NanumSquare", Helvetica, Arial, serif;
+$font_type2: 700 16px/1.2 "NanumSquare", Helvetica, Arial, serif;
+$font_type3: 700 20px/1.2 "NanumSquare", Helvetica, Arial, serif;
+$font_type4: 700 16px/1.6180000305175781 "NanumSquare", Helvetica, Arial, serif;
+$font_type5: 600 25.979999542236328px/1.2 "Montserrat", Helvetica, Arial, serif;
+$font_type6: 16px/1.6180000305175781 "NanumSquare", Helvetica, Arial, serif;
+$font_type7: 800 20px/1.2 "NanumSquare", Helvetica, Arial, serif;
+
+$font_color_type0: rgb(255, 255, 255);
+$font_color_type1: rgb(49, 61, 109);
+$font_color_type2: rgb(245, 112, 74);
+$font_color_type3: rgb(0, 0, 0);
+$font_color_type4: rgb(197, 197, 197);
+
+$border_radius_type0: 20px 20px 20px 20px;
+
+.thyroid-part2-desktop3- {
+  &site {
+    display: flex;
+    flex-direction: column;
+    background-color: $font_color_type0;
+  }
+  &site.lyt {
+    position: relative;
+    overflow: hidden;
+    min-height: 3045px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section1__container {
+    display: flex;
+    background-color: $font_color_type0;
+  }
+  &section1__container.lyt {
+    position: relative;
+    overflow: visible;
+    flex: 0 0 auto;
+    margin: 0px;
+  }
+  &section1__flex {
+    display: flex;
+    @include xs {
+      flex-wrap: wrap;
+    }
+  }
+  &section1__flex.lyt {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 27.73px 60px 12px 64px;
+    @include lg {
+      flex-grow: 1;
+      margin: 25px 30px 25px 32px;
+    }
+    @include md {
+      flex-grow: 1;
+      margin: 25px 15px 25px 16px;
+    }
+    @include sm {
+      flex-grow: 1;
+      margin: 25px 10px;
+    }
+  }
+  &section1__flex-col {
+    display: flex;
+    flex: 1 0 auto;
+    @include xs {
+      flex: 0 0 calc(50% - 10px);
+    }
+  }
+  &section1__big-title {
+    font: $font_type0;
+    color: $font_color_type1;
+    letter-spacing: 0;
+    width: 100%;
+    height: 100%;
+    @include md {
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 31px;
+      text-align: left;
+    }
+    @include sm {
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 27px;
+      text-align: left;
+    }
+  }
+  &section1__flex-spacer {
+    display: flex;
+    flex: 1 1 554px;
+    @include xs {
+      flex: 0 0 20px;
+    }
+  }
+  &section1__subtitle {
+    font: $font_type1;
+    color: $font_color_type1;
+    letter-spacing: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &section1__flex-spacer1 {
+    display: flex;
+    flex: 0 1 79px;
+    @include xs {
+      flex: 0 0 100%;
+      min-height: 20px;
+    }
+  }
+  &section1__flex-col2 {
+    display: flex;
+    flex: 1 1 73px;
+    @include xs {
+      flex: 0 0 calc(50% - 10px);
+    }
+  }
+  &section1__flex1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  &section1__subtitle1 {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type1;
+    color: $font_color_type2;
+    text-align: right;
+    letter-spacing: 0;
+  }
+  &section1__subtitle1.lyt {
+    position: relative;
+    margin: 0px;
+  }
+  &section1__rect {
+    background-color: $font_color_type2;
+    border-radius: 2px 2px 2px 2px;
+  }
+  &section1__rect.lyt {
+    position: relative;
+    height: 4px;
+    margin: 9.16px 5px 0px 0px;
+  }
+  &section1__flex-spacer2 {
+    display: flex;
+    flex: 0 1 80px;
+    @include xs {
+      flex: 0 0 20px;
+    }
+  }
+  &section1__flex-spacer3 {
+    display: flex;
+    flex: 0 1 56px;
+    @include xs {
+      flex: 0 0 100%;
+      min-height: 20px;
+    }
+  }
+  &section1__about {
+    font: $font_type2;
+    color: $font_color_type1;
+    letter-spacing: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &section1__flex-spacer4 {
+    display: flex;
+    flex: 0 1 54px;
+    @include xs {
+      flex: 0 0 20px;
+    }
+  }
+  &section1__text-body {
+    font: $font_type2;
+    color: $font_color_type1;
+    letter-spacing: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &site-row {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  &section2__container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  &section2__flex {
+    display: flex;
+    flex-direction: column;
+  }
+  &section2__flex.lyt {
+    position: relative;
+    overflow: visible;
+    height: min-content;
+    flex-grow: 1;
+    margin: 103px 282px 0px 288px;
+    @include lg {
+      height: min-content;
+      flex-grow: 1;
+      margin: 52px 141px 0px 144px;
+    }
+    @include md {
+      height: min-content;
+      flex-grow: 1;
+      margin: 26px 71px 0px 72px;
+    }
+    @include sm {
+      height: min-content;
+      flex-grow: 1;
+      margin: 25px 36px 0px;
+    }
+    @include xs {
+      height: min-content;
+      flex-grow: 1;
+      margin: 25px 18px 0px;
+    }
+  }
+  &section2__group {
+    display: flex;
+    background-color: $font_color_type1;
+    border-radius: 15px 15px 15px 15px;
+  }
+  &section2__group.lyt {
+    position: relative;
+    overflow: visible;
+    height: min-content;
+    min-height: 43px;
+    width: 97px;
+    min-width: 97px;
+    margin: 0px 773px 0px 0px;
+  }
+  &section2__highlights {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type3;
+    color: $font_color_type0;
+    text-align: right;
+    letter-spacing: 0;
+  }
+  &section2__highlights.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 10px 7px 9px;
+  }
+  &section2__flex-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 36px;
+  }
+  &section2__paragraph-body-box.lyt {
+    position: relative;
+    height: min-content;
+    margin: 0px;
+  }
+  &section2__paragraph-body {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type4;
+    color: $font_color_type3;
+    letter-spacing: 0;
+    white-space: pre-wrap;
+  }
+  &section3__container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  &section3__flex {
+    display: flex;
+    flex-direction: column;
+  }
+  &section3__flex.lyt {
+    position: relative;
+    overflow: visible;
+    height: min-content;
+    flex-grow: 1;
+    margin: 60px 282px 0px 288px;
+    @include lg {
+      height: min-content;
+      flex-grow: 1;
+      margin: 30px 141px 0px 144px;
+    }
+    @include md {
+      height: min-content;
+      flex-grow: 1;
+      margin: 25px 71px 0px 72px;
+    }
+    @include sm {
+      height: min-content;
+      flex-grow: 1;
+      margin: 25px 36px 0px;
+    }
+    @include xs {
+      height: min-content;
+      flex-grow: 1;
+      margin: 25px 18px 0px;
+    }
+  }
+  &section3__medium-title {
+    font: $font_type5;
+    color: $font_color_type3;
+    letter-spacing: 0;
+    opacity: 0.8999999761581421;
+    @include sm {
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 23px;
+      text-align: left;
+    }
+    @include xs {
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 22px;
+      text-align: left;
+    }
+  }
+  &section3__medium-title.lyt {
+    position: relative;
+    margin: 0px;
+  }
+  &section3__flex-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 26px;
+  }
+  &section3__paragraph-body-box.lyt {
+    position: relative;
+    height: min-content;
+    margin: 0px;
+  }
+  &section3__paragraph-body {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type6;
+    color: $font_color_type3;
+    letter-spacing: 0;
+    white-space: pre-wrap;
+  }
+  &section3__flex-spacer1 {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 72px;
+  }
+  &section3__flex-row {
+    display: flex;
+  }
+  &section3__cover-group {
+    display: flex;
+    background-color: rgb(245, 152, 109);
+    width: 100%;
+    height: 100%;
+  }
+  &section3__highlights {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type3;
+    color: $font_color_type3;
+    text-align: right;
+    letter-spacing: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &section4__container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  &section4__flex {
+    display: flex;
+    flex-direction: column;
+  }
+  &section4__flex.lyt {
+    position: relative;
+    overflow: visible;
+    height: min-content;
+    flex-grow: 1;
+    margin: 58px 281px 0px 287px;
+    @include lg {
+      height: min-content;
+      flex-grow: 1;
+      margin: 29px 141px 0px 144px;
+    }
+    @include md {
+      height: min-content;
+      flex-grow: 1;
+      margin: 25px 71px 0px 72px;
+    }
+    @include sm {
+      height: min-content;
+      flex-grow: 1;
+      margin: 25px 36px 0px;
+    }
+    @include xs {
+      height: min-content;
+      flex-grow: 1;
+      margin: 25px 18px 0px;
+    }
+  }
+  &section4__medium-title-box {
+    opacity: 0.8999999761581421;
+    @include sm {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    @include xs {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  }
+  &section4__medium-title-box.lyt {
+    position: relative;
+    margin: 0px 3px;
+    @include sm {
+      margin: 0px 10px;
+    }
+  }
+  &section4__medium-title {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font: $font_type5;
+    color: $font_color_type3;
+    letter-spacing: 0;
+    white-space: pre-wrap;
+    @include sm {
+      font-size: 23px;
+      text-align: left;
+    }
+    @include xs {
+      font-size: 22px;
+      text-align: left;
+    }
+  }
+  &section4__flex-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 26px;
+  }
+  &section4__paragraph-body-box.lyt {
+    position: relative;
+    margin: 0px 1px;
+    @include sm {
+      margin: 0px 10px;
+    }
+  }
+  &section4__paragraph-body {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type6;
+    color: $font_color_type3;
+    letter-spacing: 0;
+    white-space: pre-wrap;
+  }
+  &section4__flex-spacer1 {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 68px;
+  }
+  &section4__flex1 {
+    display: flex;
+    @include lg {
+      flex-wrap: wrap;
+    }
+  }
+  &section4__flex1.lyt {
+    position: relative;
+    overflow: visible;
+    margin: 0px 2px;
+    @include sm {
+      margin: 0px 10px;
+    }
+  }
+  &section4__flex1-col {
+    display: flex;
+    flex: 1 1 414px;
+    @include lg {
+      flex: 0 0 100%;
+    }
+  }
+  &section4__cover-group {
+    display: flex;
+    background-color: $font_color_type4;
+    width: 100%;
+    height: 100%;
+  }
+  &section4__highlights {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type3;
+    color: $font_color_type3;
+    text-align: right;
+    letter-spacing: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &section4__flex1-spacer {
+    display: flex;
+    flex: 0 1 32px;
+    @include lg {
+      flex: 0 0 100%;
+      min-height: 20px;
+    }
+  }
+  &section4__flex-spacer2 {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 43px;
+  }
+  &section4__flex2 {
+    display: flex;
+    @include xl {
+      flex-wrap: wrap;
+    }
+  }
+  &section4__flex2.lyt {
+    position: relative;
+    overflow: visible;
+    margin: 0px;
+  }
+  &section4__flex2-col {
+    display: flex;
+    flex: 1 0 auto;
+    min-width: 424px;
+    @include xl {
+      flex: 0 0 100%;
+      min-width: unset;
+    }
+  }
+  &section4__paragraph-body1-box.lyt {
+    position: relative;
+    height: min-content;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section4__flex2-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 24px;
+    @include xl {
+      flex: 0 0 100%;
+      min-width: unset;
+      min-height: 20px;
+    }
+  }
+  &section4__paragraph-body2-box.lyt {
+    position: relative;
+    height: min-content;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section5__container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  &section5__flex {
+    display: flex;
+    flex-direction: column;
+  }
+  &section5__flex.lyt {
+    position: relative;
+    overflow: visible;
+    height: min-content;
+    flex-grow: 1;
+    margin: 76px 282px 0px 288px;
+    @include lg {
+      height: min-content;
+      flex-grow: 1;
+      margin: 38px 141px 0px 144px;
+    }
+    @include md {
+      height: min-content;
+      flex-grow: 1;
+      margin: 25px 71px 0px 72px;
+    }
+    @include sm {
+      height: min-content;
+      flex-grow: 1;
+      margin: 25px 36px 0px;
+    }
+    @include xs {
+      height: min-content;
+      flex-grow: 1;
+      margin: 25px 18px 0px;
+    }
+  }
+  &section5__flex-row {
+    display: flex;
+  }
+  &section5__medium-title {
+    font: $font_type5;
+    color: $font_color_type3;
+    letter-spacing: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8999999761581421;
+    @include sm {
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 23px;
+      text-align: left;
+    }
+    @include xs {
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 22px;
+      text-align: left;
+    }
+  }
+  &section5__flex-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 26px;
+  }
+  &section5__paragraph-body-box {
+    width: 100%;
+    height: 100%;
+  }
+  &section5__paragraph-body {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type6;
+    color: $font_color_type3;
+    letter-spacing: 0;
+    white-space: pre-wrap;
+  }
+  &section5__flex-spacer1 {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 68px;
+  }
+  &section5__cover-group {
+    display: flex;
+    background-color: $font_color_type4;
+    width: 100%;
+    height: 100%;
+  }
+  &section5__highlights {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type3;
+    color: $font_color_type3;
+    text-align: right;
+    letter-spacing: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &section5__flex-spacer2 {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 61px;
+  }
+  &section5__paragraph-body1-box.lyt {
+    position: relative;
+    height: min-content;
+    width: fit-content;
+    margin: 0px 0px 0px 2px;
+  }
+  &section6__container {
+    display: flex;
+  }
+  &section6__container.lyt {
+    position: relative;
+    overflow: visible;
+    height: 171px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section6__flex {
+    display: flex;
+  }
+  &section6__flex.lyt {
+    position: relative;
+    overflow: visible;
+    width: fit-content;
+    margin: 47px auto 79px;
+  }
+  &section6__flex-col {
+    display: flex;
+    flex: 0 1 127px;
+  }
+  &section6__group {
+    display: flex;
+    background-color: rgb(145, 145, 145);
+    border-radius: $border_radius_type0;
+  }
+  &section6__group.lyt {
+    position: relative;
+    overflow: visible;
+    min-height: 45px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section6__highlights-box {
+    display: flex;
+    justify-content: center;
+  }
+  &section6__highlights-box.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 11px 22px 10px;
+  }
+  &section6__highlights {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font: $font_type7;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: pre-wrap;
+  }
+  &section6__flex-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 100px;
+  }
+  &section6__group1 {
+    display: flex;
+    background-color: $font_color_type2;
+    border-radius: $border_radius_type0;
+  }
+  &section6__group1.lyt {
+    position: relative;
+    overflow: visible;
+    min-height: 45px;
+    flex-grow: 1;
+    margin: 0px;
+    @include xs {
+      min-height: 45px;
+      flex-grow: 1;
+      margin: 25px 0px 40px;
+    }
+  }
+  &section6__highlights1-box {
+    display: flex;
+    justify-content: center;
+  }
+  &section6__highlights1-box.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 11px 22px 10px;
+  }
+}
