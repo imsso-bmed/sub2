@@ -60,19 +60,12 @@ gulp.task('dev', gulp.series('build', 'watch'));
 // demo server
 gulp.task('start', gulp.series('build', 'server'));
 
-/*gulp.task('deploy-init', gulp.series(shell.task([
+gulp.task('deploy-init', gulp.series(shell.task([
     'firebase init'
-])));*/
+])));
 
-/*gulp.task('deploy', gulp.series('build', shell.task([
+gulp.task('deploy', gulp.series('build', shell.task([
     'firebase deploy'
-])));*/
+])));
 
-gulp.task('deploy', function () {
-  gulp.src('./public/**/*')
-    .pipe(netlify({
-      site_id: 
-      82ce2716-4e2c-4361-8d78-89a7162af265,
-      access_token: F4xjNUXoDwbT5gpSbUk4mtMzsH-P3B28LmHUc_dM8V4
-    }))
-})
+
