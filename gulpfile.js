@@ -68,14 +68,3 @@ gulp.task('deploy', gulp.series('build', shell.task([
     'firebase deploy'
 ])));
 
-// Commit and push files to Git
-function git(done) {
-  return exec('git add . && git commit -m "netlify deploy" && git push');
-  done();
-}
-
-// Deploy command
-exports.deploy = series(git, netlify, netlifyOpen);
-
-// Default Gulp command
-exports.default = series(openBrowser, server);
