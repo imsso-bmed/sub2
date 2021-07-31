@@ -6,7 +6,7 @@ $font_type1: 800 24px/1.2 "NanumSquare", Helvetica, Arial, serif;
 $font_type2: 700 16px/1.2 "NanumSquare", Helvetica, Arial, serif;
 $font_type3: 700 20px/1.2 "NanumSquare", Helvetica, Arial, serif;
 $font_type4: 700 16px/1.6180000305175781 "NanumSquare", Helvetica, Arial, serif;
-$font_type5: 600 25.979999542236328px/1.2 "Montserrat", Helvetica, Arial, serif;
+$font_type5: 600 25.979999542236328px/1.5 "NanumSquare", Helvetica, Arial, serif;
 $font_type6: 16px/1.6180000305175781 "NanumSquare", Helvetica, Arial, serif;
 $font_type7: 800 20px/1.2 "NanumSquare", Helvetica, Arial, serif;
 
@@ -90,6 +90,14 @@ $border_radius_type0: 20px 20px 20px 20px;
       font-size: 27px;
       text-align: left;
     }
+  }
+  &clickable {
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.2s;
+  }
+  &clickable:hover {
+    opacity: 0.7;
   }
   &section1__flex-spacer {
     display: flex;
