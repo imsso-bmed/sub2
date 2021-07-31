@@ -12,6 +12,7 @@
   "keywords": [],
   "dependencies": {
   },
+  
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
@@ -22,4 +23,9 @@
     "http-server": "^0.12.3",
     "node-sass": "^4.14.1"
   }
+  
+  {"optionalDependencies": {
+    "fsevents": "*"
+}
+}
 }
