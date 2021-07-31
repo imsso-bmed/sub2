@@ -654,7 +654,7 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   font: 700 20px/1.2 "NanumSquare", Helvetica, Arial, serif;
-  color: black;
+  /*color: black;*/
   text-align: right;
   letter-spacing: 0;
   width: 100%;
