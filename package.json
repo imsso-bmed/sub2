@@ -1,7 +1,7 @@
 {
   "name": "px-html",
   "version": "1.0.0",
-  "description": "",
+  "description": "3d educational contents",
   "scripts": {
     "start": "gulp start",
     "dev": "gulp dev",
