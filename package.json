@@ -14,7 +14,7 @@
     "fsevents": "^2.3.2"
   },
   "optionalDependencies": {
-    "fsevents": "^2.3.2"
+    "fsevents": "*"
   },
   "devDependencies": {
     "browser-sync": "^2.26.13",
