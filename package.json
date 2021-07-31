@@ -29,12 +29,12 @@
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imsso-bmed/sub2.git"
+    "url": "git+https://github.com/imsso-bmed/thyroid-part2-desktop3.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/imsso-bmed/sub2/issues"
+    "url": "https://github.com/imsso-bmed/thyroid-part2-desktop3/issues"
   },
-  "homepage": "https://github.com/imsso-bmed/sub2#readme"
+  "homepage": "https://github.com/imsso-bmed/thyroid-part2-desktop3#readme"
 }
