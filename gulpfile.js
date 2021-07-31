@@ -61,10 +61,10 @@ gulp.task('dev', gulp.series('build', 'watch'));
 gulp.task('start', gulp.series('build', 'server'));
 
 gulp.task('deploy-init', gulp.series(shell.task([
-    'firebase init'
+    'netlify init'
 ])));
 
 gulp.task('deploy', gulp.series('build', shell.task([
-    'firebase deploy'
+    'netlify deploy'
 ])));
 
