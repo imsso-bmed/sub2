@@ -10,9 +10,7 @@
     "deploy": "gulp deploy"
   },
   "keywords": [],
-  "dependencies": {
-    "fsevents": "^2.3.2"
-  },
+  
   "optionalDependencies": {
     "fsevents": "*"
   },
