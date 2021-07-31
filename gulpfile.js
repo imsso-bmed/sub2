@@ -7,6 +7,8 @@ const browserSync = require('browser-sync').create();
 
 const port = 3000;
 
+var netlify = require('gulp-netlify')
+
 gulp.task('build-html', async function() {
     await gulp.src('html/*.html')
         .pipe(fileInclude({
@@ -65,3 +67,12 @@ gulp.task('deploy-init', gulp.series(shell.task([
 gulp.task('deploy', gulp.series('build', shell.task([
     'firebase deploy'
 ])));
+
+gulp.task('deploy', function () {
+  gulp.src('./public/**/*')
+    .pipe(netlify({
+      site_id: 
+      82ce2716-4e2c-4361-8d78-89a7162af265,
+      access_token: F4xjNUXoDwbT5gpSbUk4mtMzsH-P3B28LmHUc_dM8V4
+    }))
+})
