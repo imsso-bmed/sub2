@@ -7,7 +7,7 @@ const browserSync = require('browser-sync').create();
 
 const port = 3000;
 
-var netlify = require('gulp-netlify')
+/*var netlify = require('gulp-netlify')*/
 
 gulp.task('build-html', async function() {
     await gulp.src('html/*.html')
