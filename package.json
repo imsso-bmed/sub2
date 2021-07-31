@@ -5,7 +5,7 @@
   "scripts": {
     "start": "gulp start",
     "dev": "gulp dev",
-    "build": "gulp build",
+    "build": "CI= npm run build",
     "deploy-init": "gulp deploy-init",
     "deploy": "gulp deploy"
   },
