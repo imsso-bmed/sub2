@@ -637,11 +637,11 @@
   display: flex;
 }
 
-.thyroid-part2-desktop3-section3__cover-group {
+/* .thyroid-part2-desktop3-section3__cover-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /*background-color: #f5986d;*/
+  background-color: #f5986d;
   width: 100%;
   height: 100%;
 }
@@ -654,12 +654,12 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   font: 700 20px/1.2 "NanumSquare", Helvetica, Arial, serif;
-  /*color: black;*/
+  color: black;
   text-align: right;
   letter-spacing: 0;
   width: 100%;
   height: 100%;
-}
+} */
 
 .thyroid-part2-desktop3-section4__container {
   display: -webkit-box;
