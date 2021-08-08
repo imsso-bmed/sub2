@@ -1227,10 +1227,7 @@
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0px 0px 0px 2px;
+  margin: 0px;
 }
 
 .thyroid-part2-desktop3-section6__container {
