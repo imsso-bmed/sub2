@@ -1261,10 +1261,13 @@
 }
 
 .thyroid-part2-desktop3-section5__paragraph-body1-box.lyt {
-  position: relative;
+   position: relative;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   margin: 0px;
 }
 
