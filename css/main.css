@@ -21,6 +21,7 @@
 }
 
 .thyroid-part2-desktop3-section1__container {
+  z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
