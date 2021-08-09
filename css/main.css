@@ -585,11 +585,12 @@
   margin-top: 0px;
   margin-bottom: 0px;
   margin: 0px;
-  font: 700 16px/1.618 "NanumSquare", Helvetica, Arial, serif;
+  font:  16px/1.618 "NanumSquare", Helvetica, Arial, serif;
   color: black;
   letter-spacing: 0;
   white-space: pre-wrap;
 }
+
 
 .thyroid-part2-desktop3-section3__container {
   padding-top: 50px;
