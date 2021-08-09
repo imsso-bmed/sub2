@@ -176,7 +176,7 @@
 }
 
 .thyroid-part2-desktop3-section1__subtitle {
-  font: 800 24px/1.2 "NanumSquare", Helvetica, Arial, serif;
+  font: 700 24px/1.2 "NanumSquare", Helvetica, Arial, serif;
   color: #313d6d;
   letter-spacing: 0;
   width: 100%;
@@ -263,7 +263,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  font: 800 18px/1.2 "NanumSquare", Helvetica, Arial, serif;
+  font: 800 24px/1.2 "NanumSquare", Helvetica, Arial, serif;
   color: #f5704a;
   text-align: right;
   letter-spacing: 0;
