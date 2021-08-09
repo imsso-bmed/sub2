@@ -364,7 +364,7 @@
 }
 
 .thyroid-part2-desktop3-section2__container {
-  padding-top: 130px;
+  padding-top: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -513,6 +513,7 @@
 }
 
 .thyroid-part2-desktop3-section3__container {
+  padding-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1053,6 +1054,7 @@
 }
 
 .thyroid-part2-desktop3-section5__container {
+  padding-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
