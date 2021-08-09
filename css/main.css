@@ -183,6 +183,32 @@
   height: 100%;
 }
 
+@media (max-width: 991.98px) {
+  .thyroid-part2-desktop3-section1__subtitle {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    font-size: 18px/1.2;
+    text-align: right;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .thyroid-part2-desktop3-section1__subtitle {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    font-size: 14px/1.2;
+    text-align: right;
+  }
+}
+
 .thyroid-part2-desktop3-section1__flex-spacer1 {
   display: -webkit-box;
   display: -ms-flexbox;
