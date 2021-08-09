@@ -32,6 +32,11 @@
   top: 0;
   left: 0;
   right: 0;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   overflow: visible;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
