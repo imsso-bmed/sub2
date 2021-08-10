@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<!-- Created By CodingNepal -->
+<head>
+   <meta charset="utf-8">
+   <title>Endocrinology</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+   <nav>
+      <ul>
+         <li class="logo"><a href="index.html">플립러닝</a></li>
+         <li class="items"><a href="subpage1.html">내분비학 총론</a></li>
+         <li class="items"><a href="subpage2.html">갑상샘</a></li>
+         <li class="items"><a href="words.html">용어</a></li>
+         <li class="items"><a href="about.html">About</a></li>
+         <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+   </nav>
+   <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+   </script>
+</body>
+</html>
