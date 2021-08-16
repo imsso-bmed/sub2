@@ -257,20 +257,20 @@ section .title::after{
 }
 
 .home .home-content .text1{
-  font-size: 27px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 180%;
 }
 
 .home .home-content .text2{
-  font-size: 50px;
+  font-size: 32px;
   font-weight: 600;
   margin-left: -3px;
   line-height: 160%;
 }
 
 .home .home-content .text3{
-  font-size: 50px;
+  font-size: 32px;
   font-weight: 600;
   margin: 5px 0;
   line-height: 160%;
