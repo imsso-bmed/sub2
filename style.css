@@ -297,25 +297,17 @@ section .title::after{
 }
 .home .home-content a:hover{
   color: #fa8072;
-  background: #fa8072;
 }
 
 
 
 /*section2 thyroid 갑상샘 파트 styling*/
-.thyroid-image1{
-  width: 100%;
-  height: auto;
-}
 
 .section2 .title::after{
   content: "Thyroid Gland";
   text-decoration: none;
 }
- 
-.section2 .section2-content .column{
-  width: 100%;
-}
+
 .section2 .section2-content .left{
   width: 45%;
 }
