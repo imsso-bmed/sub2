@@ -23,9 +23,6 @@ nav{
   position: fixed;
 }
 
-nav.sticky{
-  background: #3d2846;
-}
 
 nav ul{
   list-style: none;
