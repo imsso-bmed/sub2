@@ -224,7 +224,7 @@ section{
   .section2 .section2-content .column{
       width: 100%;
   }
-  ..section2 .section2-content .left{
+  .section2 .section2-content .left{
       display: flex;
       justify-content: center;
       margin: 0 auto 60px;
@@ -259,6 +259,9 @@ section{
   /* .services .serv-content .card{
       width: 100%;
   } */
+  .wrapper{
+    margin: 200px auto;
+  }
 }
 @media (max-width: 500px) {
   .home .home-content .text-2{
@@ -268,7 +271,7 @@ section{
       font-size: 27px;
   }
   .section2 .section2-content .right .text,
-  .skills .skills-content .left .text{
+  .section2-1 .section2-1-content .left .text{
       font-size: 19px;
   }
   /*
@@ -343,15 +346,68 @@ section{
   padding-top: 60px;
 }
 
-/*section2*/
+/*section2 thyroid 갑상샘 파트 styling*/
 .thyroid-image1{
   width: 100%;
   height: auto;
 }
 
+.section2 .title::after{
+  content: "who i am";
+}
+.section2 .section2-content .left{
+  width: 45%;
+}
+.section2 .section2-content .left img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.section2 .section2-content .right{
+  width: 55%;
+}
+.section2 .section2-content .right .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.section2 .section2-content .right .text span{
+  color: #fa8072;
+}
+.section2 .section2-content .right p{
+  text-align: justify;
+}
+.section2 .section2-content .right a{
+  display: inline-block;
+  background: #fa8072;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid #fa8072;
+  transition: all 0.3s ease;
+}
+.section2 .section2-content .right a:hover{
+  color: #fa8072;
+  background: none;
+}
 
-/* section2-1 학습목표 카드 디자인 */
 
+/* section2-1 학습목표 카드 디자인 styling */
+.section2-1{
+  color:#fff;
+  background: ##3d2846;
+}
+.section2-1 .title::before{
+  background: #fff;
+}
+.section2-1 .title::after{
+  background: #3d2846;
+  content: "what i provide";
+}
 
 .wrapper{
   display: grid;
@@ -359,11 +415,7 @@ section{
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
-@media (max-width: 690px) {
-  .wrapper{
-    margin: 200px auto;
-  }
-}
+
 .wrapper .box{
   width: 350px;
   margin: 0 auto;
@@ -377,7 +429,7 @@ section{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
+  box-shadow: 0px 5px 20px 0px rgba(25, 30, 39, 0.1);
   transition: all 0.5s ease;
 }
 .box .front-face .icon{
