@@ -11,18 +11,27 @@
   font-family: 'nanumsquare',sans-serif, 'Black Han Sans', 'Noto Sans KR';
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .max-width{
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
 }
 
-nav{
+/* navbar styling */
+.navbar{
   background: #3d2846;
-  position: sticky;
+  position: fixed;
   padding: 5px 40px;
+  z-index: 999;
+  transition: all 0.3s ease;
   /* position: fixed; */
 }
+
+
 
 
 nav ul{
