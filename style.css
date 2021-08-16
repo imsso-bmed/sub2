@@ -20,7 +20,13 @@
 nav{
   background: #3d2846;
   padding: 5px 40px;
+  position: fixed;
 }
+
+nav.sticky{
+  background: #3d2846;
+}
+
 nav ul{
   list-style: none;
   display: flex;
@@ -139,7 +145,7 @@ nav ul li.btn.hide i:before{
 .home .home-content .text1{
   font-size: 32px;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 180%;
 }
 
 .home .home-content .text2{
