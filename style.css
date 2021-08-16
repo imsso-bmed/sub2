@@ -41,6 +41,47 @@ section{
   margin: auto;
 }
 
+.section2, .section2-1{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.section2, .section2-1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section .title{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.section .title::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+.section .title::after{
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 0 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+
 /* navbar styling */
 .navbar{
   background: #3d2846;
@@ -179,18 +220,19 @@ section{
   .max-width{
       max-width: 930px;
   }
-  /* .about .about-content .column{
+
+  .section2 .section2-content .column{
       width: 100%;
   }
-  .about .about-content .left{
+  ..section2 .section2-content .left{
       display: flex;
       justify-content: center;
       margin: 0 auto 60px;
   }
-  .about .about-content .right{
+  .section2 .section2-content .right{
       flex: 100%;
   }
-  .services .serv-content .card{
+  /* .services .serv-content .card{
       width: calc(50% - 10px);
       margin-bottom: 20px;
   }
@@ -200,6 +242,7 @@ section{
       margin-bottom: 35px;
   } */
 }
+
 @media (max-width: 690px) {
   .max-width{
       padding: 0 23px;
@@ -224,10 +267,11 @@ section{
   .home .home-content .text-3{
       font-size: 27px;
   }
-  /* .about .about-content .right .text,
+  .section2 .section2-content .right .text,
   .skills .skills-content .left .text{
       font-size: 19px;
   }
+  /*
   .contact .right form .fields{
       flex-direction: column;
   }
@@ -299,16 +343,23 @@ section{
   padding-top: 60px;
 }
 
+/*section2*/
+.thyroid-image1{
+  width: 100%;
+  height: auto;
+}
 
 
 /* section2-1 학습목표 카드 디자인 */
+
+
 .wrapper{
   display: grid;
   margin: 200px 90px auto;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
-@media (max-width: 700px) {
+@media (max-width: 690px) {
   .wrapper{
     margin: 200px auto;
   }
@@ -343,7 +394,7 @@ section{
 }
 .box .front-face .icon i,
 .box .front-face span{
-  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #fa8072, #3d2846);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -359,7 +410,7 @@ section{
   opacity: 0;
   transform-style: preserve-3d;
   backface-visibility: hidden;
-  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #fa8072, #3d2846);
   transform: translateY(110px) rotateX(-90deg);
   box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
   transition: all 0.5s ease;
