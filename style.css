@@ -127,7 +127,7 @@ nav ul li.btn.hide i:before{
   display: flex;
   background: white;
   height: 100vh;
-  color: black;
+  color: #3d2846;
   min-height: 500px;
   font-family: 'Noto Sans KR', sans-serif;
 }
@@ -148,12 +148,12 @@ nav ul li.btn.hide i:before{
 }
 
 .home .home-content .text3{
-  font-size: 40px;
+  font-size: 50px;
   margin: 5px 0;
 }
 
 .home .home-content .text3 span{
   color: #fa8072;
-  font-weight: 500;
+  font-weight: 600;
 
 }
