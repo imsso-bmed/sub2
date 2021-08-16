@@ -285,19 +285,19 @@ section .title::after{
 
 .home .home-content a{
   display: inline-block;
-  background: #fa8072;
+  background: #3d2846;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid #fa8072;
+  border: 2px solid #3d2846;
   transition: all 0.3s ease;
 }
 .home .home-content a:hover{
   color: #fa8072;
-  background: none;
+  background: #fa8072;
 }
 
 
@@ -308,22 +308,16 @@ section .title::after{
   height: auto;
 }
 
- 
-.section2 .section2-content .column{
-  width: 45%;
-}
-.section2 .section2-content .left{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 60px;
-}
-.section2 .section2-content .right{
-  flex: 55%;
-}
-
 .section2 .title::after{
   content: "Thyroid Gland";
   text-decoration: none;
+}
+ 
+.section2 .section2-content .column{
+  width: 100%;
+}
+.section2 .section2-content .left{
+  width: 45%;
 }
 
 .section2 .section2-content .left img{
@@ -331,6 +325,10 @@ section .title::after{
   width: 400px;
   object-fit: cover;
   border-radius: 6px;
+}
+
+.section2 .section2-content .right{
+ width: 55%;
 }
 
 .section2 .section2-content .right .text{
