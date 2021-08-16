@@ -172,7 +172,7 @@ section .title::after{
 }
 
 
-/* 
+
 @media (max-width: 991px) {
   .max-width{
       padding: 0 50px;
@@ -185,7 +185,7 @@ section .title::after{
   }
   .menu-btn i.active:before{
       content: "\f00d";
-  } */
+  }
   .navbar .menu{
       position: fixed;
       height: 100vh;
