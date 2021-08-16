@@ -489,10 +489,6 @@ section .title::after{
 }
 
 @media (max-width: 500px) {
-  .navbar .logo a{
-    font-size: 22px;
-    font-weight: 400;
-  }
 
   .home .home-content .text2{
       font-size: 30px;
