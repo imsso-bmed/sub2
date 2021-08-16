@@ -41,6 +41,14 @@ section{
   margin: auto;
 }
 
+h1,h2,h3,h4,h5,h6,hr,p,figure {
+  display: block;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+  border-width: 0;
+}
+
 .section2, .section2-1{
   font-family: 'Noto Sans KR', sans-serif;
 }
@@ -56,6 +64,7 @@ section .title{
   position: relative;
   text-align: center;
   font-size: 40px;
+  color: #3d2846;
   font-weight: 500;
   margin-bottom: 70px;
   padding-bottom: 20px;
@@ -272,12 +281,12 @@ section .title::after{
  width: 55%;
 }
 
-.section2 .section2-content .right .text{
+.section2 .section2-content .right .text1{
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
 }
-.section2 .section2-content .right .text span{
+.section2 .section2-content .right .text1 span{
   color: #fa8072;
 }
 .section2 .section2-content .right p{
