@@ -242,6 +242,8 @@ section .title::after{
   color: #3d2846;
   min-height: 500px;
   font-family: 'Noto Sans KR', sans-serif;
+  justify-content: left;
+  margin: 0 auto 60px;
 }
 
 .home .max-width{
