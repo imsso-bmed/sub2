@@ -32,28 +32,32 @@ html{
 }
 
 
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-
-nav ul{
+.navbar ul{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-nav ul li{
+.navbar ul li{
   padding: 15px 0;
   cursor: pointer;
 }
 
-nav ul li.items{
+.navbar ul li.items{
   position: relative;
   width: auto;
   margin: 0 16px;
   text-align: center;
   order: 3;
 }
-nav ul li.items:after{
+.navbar ul li.items:after{
   position: absolute;
   content: '';
   left: 0;
@@ -64,11 +68,11 @@ nav ul li.items:after{
   opacity: 0;
   transition: all 0.2s linear;
 }
-nav ul li.items:hover:after{
+.navbar ul li.items:hover:after{
   opacity: 1;
   bottom: 8px;
 }
-nav ul li.logo{
+.navbar ul li.logo{
   flex: 1;
   color: white;
   font-size: 28px;
@@ -78,7 +82,7 @@ nav ul li.logo{
   align-items: left;
 }
 
-nav ul li.logo a{
+.navbar ul li.logo a{
   color: white;
   font-size: 24px;
   text-decoration: none;
@@ -86,7 +90,7 @@ nav ul li.logo a{
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-nav ul li.logo a span{
+.navbar ul li.logo a span{
   color: #fa8072;
   font-size: 24px;
   text-decoration: none;
@@ -94,44 +98,44 @@ nav ul li.logo a span{
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-nav ul li a{
+.navbar ul li a{
   color: white;
   font-size: 18px;
   text-decoration: none;
   transition: .4s ease;
 }
-nav ul li:hover a{
+.navbar ul li:hover a{
   color: #fa8072;
 }
-nav ul li i{
+.navbar ul li i{
   font-size: 23px;
 }
-nav ul li.btn{
+.navbar ul li.btn{
   display: none;
 }
-nav ul li.btn.hide i:before{
+.navbar ul li.btn.hide i:before{
   content: '\f00d';
 }
 @media all and (max-width: 900px){
-  nav{
+  .navbar{
     padding: 5px 30px;
   }
-  nav ul li.items{
+  .navbar ul li.items{
     width: 100%;
     display: none;
   }
-  nav ul li.items.show{
+  .navbar ul li.items.show{
     display: block;
   }
-  nav ul li.btn{
+  .navbar ul li.btn{
     display: block;
   }
-  nav ul li.items:hover{
+  .navbar ul li.items:hover{
     border-radius: 5px;
     /* box-shadow: inset 0 0 5px #ff8260,
                 inset 0 0 10px #ff8260; */
   }
-  nav ul li.items:hover:after{
+  .navbar ul li.items:hover:after{
     opacity: 0;
   }
 }
