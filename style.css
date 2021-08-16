@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', 'nanumsquare',sans-serif; 'Black Han Sans', 'Noto Sans KR'
+  font-family: 'nanumsquare',sans-serif; 'Black Han Sans', 'Noto Sans KR'
 }
 nav{
   background: #3d2846;
@@ -51,11 +51,19 @@ nav ul li.items:hover:after{
 nav ul li.logo{
   flex: 1;
   color: white;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 600;
   cursor: default;
   user-select: none;
 }
+
+nav ul li.logo a{
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+  transition: .4s;
+}
+
 nav ul li a{
   color: white;
   font-size: 18px;
