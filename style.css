@@ -65,6 +65,7 @@ nav ul li.logo{
   font-weight: 500;
   cursor: default;
   user-select: none;
+  align-items: left;
 }
 
 nav ul li.logo a{
@@ -129,7 +130,7 @@ nav ul li.btn.hide i:before{
 .home{
   display: flex;
   background: white;
-  height: 70vh;
+  height: 120vh;
   color: #3d2846;
   min-height: 500px;
   font-family: 'Noto Sans KR', sans-serif;
