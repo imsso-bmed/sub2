@@ -125,9 +125,9 @@ nav ul li.btn.hide i:before{
 /* home section styling */
 .home{
   display: flex;
-  background: black;
+  background: white;
   height: 100vh;
-  color: #fff;
+  color: black;
   min-height: 500px;
   font-family: 'Noto Sans KR', sans-serif;
 }
