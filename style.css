@@ -129,7 +129,7 @@ nav ul li.btn.hide i:before{
 .home{
   display: flex;
   background: white;
-  height: 100vh;
+  height: 70vh;
   color: #3d2846;
   min-height: 500px;
   font-family: 'Noto Sans KR', sans-serif;
@@ -164,4 +164,14 @@ nav ul li.btn.hide i:before{
   font-weight: 600;
   line-height: 160%;
 
+}
+
+.sticky{
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .home content {
+  padding-top: 60px;
 }
