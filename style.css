@@ -468,6 +468,12 @@ section .title::after{
   .max-width{
       padding: 0 23px;
   }
+
+  .navbar .logo a{
+    font-size: 24px;
+    font-weight: 400;
+  }
+
   .home .home-content .text2{
       font-size: 36px;
   }
@@ -483,6 +489,11 @@ section .title::after{
 }
 
 @media (max-width: 500px) {
+  .navbar .logo a{
+    font-size: 18px;
+    font-weight: 300;
+  }
+
   .home .home-content .text2{
       font-size: 30px;
   }
