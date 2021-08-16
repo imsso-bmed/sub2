@@ -51,7 +51,7 @@ nav ul li.items:hover:after{
 nav ul li.logo{
   flex: 1;
   color: white;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
   cursor: default;
   user-select: none;
