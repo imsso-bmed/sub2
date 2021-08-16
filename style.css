@@ -520,10 +520,10 @@ section .title::after{
       padding: 0 23px;
   }
   .home .home-content .text-2{
-      font-size: 60px;
+      font-size: 30px;
   }
   .home .home-content .text-3{
-      font-size: 32px;
+      font-size: 30px;
   }
   .home .home-content a{
       font-size: 20px;
@@ -535,10 +535,10 @@ section .title::after{
 
 @media (max-width: 500px) {
   .home .home-content .text-2{
-      font-size: 50px;
+      font-size: 20px;
   }
   .home .home-content .text-3{
-      font-size: 27px;
+      font-size: 20px;
   }
   .section2 .section2-content .right .text,
   .skills .skills-content .left .text{
