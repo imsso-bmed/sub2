@@ -10,6 +10,13 @@
   box-sizing: border-box;
   font-family: 'nanumsquare',sans-serif; 'Black Han Sans', 'Noto Sans KR'
 }
+
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
 nav{
   background: #3d2846;
   padding: 5px 40px;
@@ -62,6 +69,7 @@ nav ul li.logo a{
   font-size: 24px;
   text-decoration: none;
   transition: .4s;
+  font-family: 'Black Han Sans', sans-serif;
 }
 
 nav ul li a{
@@ -104,4 +112,33 @@ nav ul li.btn.hide i:before{
   nav ul li.items:hover:after{
     opacity: 0;
   }
+}
+
+/* home section styling */
+.home{
+  display: flex;
+  background: #3d2846;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.home .max-width{
+  margin: auto 0 auto 40px;
+}
+
+.home .home-content .text1{
+  font-size: 27px;
+}
+
+.home .home-content .text2{
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.home .home-content .text3{
+  font-size: 40px;
+  margin: 5px 0;
 }
