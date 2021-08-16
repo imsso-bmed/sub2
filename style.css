@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'nanumsquare',sans-serif; 'Black Han Sans', 'Noto Sans KR'
+  font-family: 'nanumsquare',sans-serif, 'Black Han Sans', 'Noto Sans KR';
 }
 
 .max-width{
@@ -69,7 +69,7 @@ nav ul li.logo a{
   font-size: 24px;
   text-decoration: none;
   transition: .4s;
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 nav ul li a{
