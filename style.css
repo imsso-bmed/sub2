@@ -238,7 +238,7 @@ section .title::after{
 .home{
   display: flex;
   background: white;
-  height: 100vh;
+  height: 12s0vh;
   color: #3d2846;
   min-height: 500px;
   font-family: 'Noto Sans KR', sans-serif;
