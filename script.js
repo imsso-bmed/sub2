@@ -37,7 +37,7 @@ $(document).ready(function(){
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Flipped Learning", "플립러닝", "거꾸로 학습", "역진행 수업"],
+        strings: ["Thyroid Gland", "내분비 기관", "목에 위치", "나비모양 기관"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
