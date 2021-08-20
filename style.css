@@ -413,7 +413,7 @@ section .title::after{
   background:#3d2846;
 }
 
-.section6 .title{
+.section6 .title::before{
   background: white;
  }
 
