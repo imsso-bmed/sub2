@@ -410,7 +410,7 @@ section .title::after{
 /*section6 용어 모음 styling*/
 .section6, .section7{
   color:#fff;
-  background: #fa8072;
+  background:#3d2846;
 }
 
 .section6 .title::before,
@@ -419,7 +419,7 @@ section .title::after{
 }
 
 .section6 .title::after{
-  background: #fa8072
+  background: #3d2846;
   content: "Words";
 }
 
@@ -433,6 +433,7 @@ section .title::after{
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
+
 }
 
 .section6 .section6-content  p{
