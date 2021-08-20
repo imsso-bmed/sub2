@@ -294,6 +294,21 @@ section .title::after{
 
 /*section3 thyroid 갑상샘 해부학 구조 파트 styling*/
 
+.section2 .title::after{
+  content: "Thyroid Gland Anatomy";
+}
+
+.section2 .section3-content .text1{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.section2 .section3-content  p{
+  text-align: justify;
+}
+
+
 .iframebox{
   position: relative;
   width: 100%;
