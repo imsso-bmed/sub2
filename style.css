@@ -407,6 +407,53 @@ section .title::after{
 }
 
 
+/*section6 용어 모음 styling*/
+
+.section6 .title::after{
+  content: "Words";
+}
+
+.section6-content{
+  align-items: center;
+}
+
+.section6 .section6-content .text1{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+.section6 .section6-content  p{
+  text-align: justify;
+  line-height: 160%;
+}
+
+
+/*section7 프로젝트 about styling*/
+
+.section7 .title::after{
+  content: "Project description";
+}
+
+.section7-content{
+  align-items: center;
+}
+
+.section7 .section7-content .text1{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+.section7 .section7-content  p{
+  text-align: justify;
+  line-height: 160%;
+}
+
 
 /* responsive media query start */
 @media (max-width: 1104px) {
