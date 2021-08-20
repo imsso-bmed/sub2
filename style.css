@@ -302,10 +302,13 @@ section .title::after{
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
+  margin-top: 20px;
+  line-height: 160%;
 }
 
 .section3 .section3-content  p{
   text-align: justify;
+  line-height: 160%;
 }
 
 
