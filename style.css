@@ -408,8 +408,18 @@ section .title::after{
 
 
 /*section6 용어 모음 styling*/
+.section6, .section7{
+  color:#fff;
+  background: #fa8072;
+}
+
+.section6 .title::before,
+.section7 .title::before{
+  background: #fff;
+}
 
 .section6 .title::after{
+  background: #fa8072
   content: "Words";
 }
 
