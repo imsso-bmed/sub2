@@ -307,7 +307,7 @@ section .title::after{
   font-weight: 600;
   margin-bottom: 10px;
   margin-top: 10px;
-  line-height: 160%;
+  padding-top: 30px;
 }
 
 .section3 .section3-content  p{
