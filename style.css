@@ -262,7 +262,7 @@ section .title::after{
 /*section2 thyroid 갑상샘 파트 styling*/
 
 .section2 .title::after{
-  content: "Thyroid Gland";
+  content: "What is Thyroid Gland?";
 }
 
 .section2 .section2-content  .left{
