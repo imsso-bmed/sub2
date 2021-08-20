@@ -416,6 +416,7 @@ section .title::after{
 .section6 .title::before,
 .section7 .title::before{
   background: #fff;
+  color:#fff;
 }
 
 .section6 .title::after{
@@ -433,7 +434,7 @@ section .title::after{
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
-
+  color:#fff;
 }
 
 .section6 .section6-content  p{
@@ -445,6 +446,7 @@ section .title::after{
 /*section7 프로젝트 about styling*/
 
 .section7 .title::after{
+  background: #3d2846;
   content: "Project description";
 }
 
