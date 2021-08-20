@@ -414,7 +414,7 @@ section .title::after{
 }
 
 .section6 .title::before{
-  background: white;
+  background: #fff;
  }
 
 .section6 .title::after{
