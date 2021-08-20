@@ -265,6 +265,10 @@ section .title::after{
   content: "Thyroid Gland";
 }
 
+.section2 .section2-content  .column{
+  width: 100%;
+}
+
 
 .section2 .section2-content  .left{
   width: 45%;
