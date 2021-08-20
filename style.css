@@ -296,7 +296,7 @@ section .title::after{
 /*section3 thyroid 갑상샘 해부학 구조 파트 styling*/
 
 .section3 .title::after{
-  content: "Thyroid Gland Anatomy";
+  content: "Anatomy";
 }
 
 .section3-content{
@@ -344,21 +344,13 @@ section .title::after{
   align-items: center;
 }
 
-.section4 .section4-content  .left{
-  width: 50%;
-}
-
-.section4 .section4-content  .left img,
-.section4 .section4-content  .right img{
+.section4 .section4-content  img{
   height: 400px;
   width: 400px;
   object-fit: cover;
   border-radius: 6px;
 }
 
-.section4 .section4-content  .right{
- width: 50%;
-}
 .section4 .section4-content .text1{
   font-size: 25px;
   font-weight: 600;
@@ -375,7 +367,7 @@ section .title::after{
 /*section5 thyroid 갑상샘 해부학 구조 파트 styling*/
 
 .section5 .title::after{
-  content: "Secretion of Thyroid Gland Hormones";
+  content: "Secretion of Hormones";
 }
 
 .section5-content{
