@@ -10,6 +10,7 @@
   box-sizing: border-box;
   font-family: 'nanumsquare',sans-serif, 'Black Han Sans', 'Noto Sans KR';
   text-decoration: none;
+  word-wrap:break-word;
 }
 
 html{
