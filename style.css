@@ -408,7 +408,7 @@ section .title::after{
 
 
 /*section6 용어 모음 styling*/
-.section6, .section7{
+.section6{
   color:#fff;
   background:#3d2846;
 }
@@ -444,7 +444,6 @@ section .title::after{
 /*section7 프로젝트 about styling*/
 
 .section7 .title::after{
-  background: #3d2846;
   content: "Project description";
 }
 
