@@ -286,6 +286,15 @@ section .title::after{
   color:#fff;
 }
 
+.section2-0 .section2-0-content .text2{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 30px;
+  color:#fa8072;
+}
+
 .section2-0 .section2-0-content  p{
   text-align: justify;
   line-height: 160%;
