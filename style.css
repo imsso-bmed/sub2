@@ -316,6 +316,18 @@ section .title::after{
   content: "Thyroid Gland";
 }
 
+.section2 .section2-content{
+  display:flex;
+  flex-direction:row;
+}
+
+.section2 .section2-content .column{
+  flex:1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .section2 .section2-content .left{
   width: 45%;
 }
