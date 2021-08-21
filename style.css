@@ -324,8 +324,7 @@ section .title::after{
 .section2 .section2-content .column{
   flex:1;
   display:flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .section2 .section2-content .left{
