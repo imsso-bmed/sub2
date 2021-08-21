@@ -272,7 +272,6 @@ section .title::after{
 .section2-0 .title::after{
   background: #3d2846;
   content: "Learning Objectives";
-  display: none;
 }
 
 .section2-0-content{
@@ -347,7 +346,6 @@ section .title::after{
 
 .section3 .title::after{
   content: "Anatomy";
-  display: none;
 }
 
 .section3-content{
@@ -473,7 +471,7 @@ section .title::after{
 .section6 .title::after{
   background: #3d2846;
   content: "Terminology";
-  display: none;
+
 }
 
 .section6-content{
