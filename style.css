@@ -256,6 +256,40 @@ section .title::after{
   color: #fa8072;
 }
 
+/*section2.0 학습목표 styling*/
+
+.section2-0{
+  color:#fff;
+  background:#3d2846;
+}
+
+.section2-0 .title::before{
+   background: #fff;
+  
+}
+
+.section2-0 .title::after{
+  background: #3d2846;
+  content: "learning Objectives";
+}
+
+.section2-0-content{
+  align-items: center;
+}
+
+.section2-0 .section6-content .text1{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 30px;
+  color:#fff;
+}
+
+.section2-0 .section6-content  p{
+  text-align: justify;
+  line-height: 160%;
+}
 
 
 /*section2 thyroid 갑상샘 파트 styling*/
