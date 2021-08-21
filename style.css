@@ -408,14 +408,22 @@ section .title::after{
 
 
 /*section6 용어 모음 styling*/
+
 .section6{
   color:#fff;
   background:#3d2846;
 }
 
 .section6 .title::before{
-  color: #fff;
- }
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #fff;
+  transform: translateX(-50%);
+}
 
 .section6 .title::after{
   background: #3d2846;
