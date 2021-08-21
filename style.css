@@ -316,20 +316,14 @@ section .title::after{
   content: "Thyroid Gland";
 }
 
-.section2 .section2-content{
-  display:flex;
-  flex-direction:row;
+.section2 .section2-content {
+  display: grid;
+  grid-template-columns: 50% 50%;	
 }
 
-.section2 .section2-content .column{
-  flex:2;
-  display:flex;
-  justify-content: space-between;
-}
-
-.section2 .section2-content .left{
+/* .section2 .section2-content .left{
   width: 45%;
-}
+} */
 
 .section2 .section2-content .left img{
   height: 400px;
@@ -338,10 +332,9 @@ section .title::after{
   border-radius: 6px;
 }
 
-.section2 .section2-content .right{
+/* .section2 .section2-content .right{
  width: 55%;
- flex-direction: row;
-}
+} */
 
 .section2 .section2-content .right .text1{
   font-size: 25px;
