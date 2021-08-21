@@ -284,15 +284,17 @@ section .title::after{
   margin-top: 10px;
   padding-top: 30px;
   color:#fff;
+  align-content: center;
 }
 
 .section2-0 .section2-0-content .text2{
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
   margin-bottom: 20px;
   margin-top: 10px;
   padding-top: 30px;
-  color:#fa8072;
+  color:#fff;
+  align-content: center;
 }
 
 .section2-0 .section2-0-content  p{
