@@ -322,7 +322,7 @@ section .title::after{
 }
 
 .section2 .section2-content .column{
-  flex:1;
+  flex:2;
   display:flex;
   justify-content: space-between;
 }
@@ -340,6 +340,7 @@ section .title::after{
 
 .section2 .section2-content .right{
  width: 55%;
+ flex-direction: row;
 }
 
 .section2 .section2-content .right .text1{
