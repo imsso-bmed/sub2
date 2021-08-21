@@ -69,6 +69,7 @@ section .title{
   margin-bottom: 70px;
   padding-bottom: 20px;
   font-family: 'Noto Sans KR', sans-serif;
+  border: none;
 }
 section .title::before{
   content: "";
@@ -79,6 +80,7 @@ section .title::before{
   height: 3px;
   background: #3d2846;
   transform: translateX(-50%);
+  border: none;
 }
 section .title::after{
   position: absolute;
@@ -465,7 +467,7 @@ section .title::after{
 
 .section6 .title::before{
    background: #fff;
-   border-bottom: none;
+   
 }
 
 .section6 .title::after{
