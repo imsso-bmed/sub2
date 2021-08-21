@@ -10,7 +10,6 @@
   box-sizing: border-box;
   font-family: 'nanumsquare',sans-serif, 'Black Han Sans', 'Noto Sans KR';
   text-decoration: none;
-  
 }
 
 html{
@@ -34,10 +33,12 @@ html{
 /* all similar content styling codes */
 section{
   padding: 100px 0;
+  border-radius: 12px;
+
 }
 
 .max-width{
-  max-width: 100%;
+  max-width: 1300px;
   padding: 0 80px;
   margin: auto;
 }
@@ -50,11 +51,15 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
   border-width: 0;
 } */
 
-.section2, .section2-1{
+.section2-0, .section2, .section3, .section4
+.section5, .section6, .section7{
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-.section2, .section2-1{
+.section2-0, .section2, .section3, .section4
+.section5, .section6, .section7,
+.section2-0-content, .section2-content, .section3-content, .section4-content
+.section5-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -316,14 +321,19 @@ section .title::after{
   content: "Thyroid Gland";
 }
 
-.section2 .section2-content {
-  display: grid;
-  grid-template-columns: 50% 50%;	
+.section2 .section2-content .left{
+  flex: 45%;
+  margin-right: auto;
+  padding:20px;
+  border-radius: 12px;
 }
 
-/* .section2 .section2-content .left{
-  width: 45%;
-} */
+.section2 .section2-content .right{
+  flex:auto;
+  margin-left: auto;
+  padding:20px;
+  border-radius: 12px;
+}
 
 .section2 .section2-content .left img{
   height: 400px;
@@ -332,9 +342,6 @@ section .title::after{
   border-radius: 6px;
 }
 
-/* .section2 .section2-content .right{
- width: 55%;
-} */
 
 .section2 .section2-content .right .text1{
   font-size: 25px;
