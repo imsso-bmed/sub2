@@ -10,7 +10,7 @@
   box-sizing: border-box;
   font-family: 'nanumsquare',sans-serif, 'Black Han Sans', 'Noto Sans KR';
   text-decoration: none;
-  word-wrap:break-word;
+  
 }
 
 html{
@@ -270,7 +270,7 @@ section .title::after{
 }
 
 .section2-0 .title::after{
-  background: #3d2846;
+  background: #fff;
   content: "Learning Objectives";
 }
 
