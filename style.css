@@ -368,7 +368,7 @@ section .title::after{
 /*section5 thyroid 갑상샘 해부학 구조 파트 styling*/
 
 .section5 .title::after{
-  content: "Secretion of Hormones";
+  content: "Hormone Secretion";
 }
 
 .section5-content{
