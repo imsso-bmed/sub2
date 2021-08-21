@@ -414,10 +414,20 @@ section .title::after{
   background:#3d2846;
 }
 
+.section6 .title::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #fff;
+  color: white;
+  transform: translateX(-50%);
+}
 
 .section6 .title::after{
   background: #3d2846;
-  color: white;
   content: "Words";
 }
 
