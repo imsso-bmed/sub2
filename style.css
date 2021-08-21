@@ -284,17 +284,21 @@ section .title::after{
   margin-top: 10px;
   padding-top: 30px;
   color:#fff;
-  align-content: center;
+  position: relative;
+  text-align: center;
+  line-height: 160%;
 }
 
 .section2-0 .section2-0-content .text2{
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 20px;
   margin-top: 10px;
   padding-top: 30px;
   color:#fff;
-  align-content: center;
+  position: relative;
+  text-align: center;
+  line-height: 160%;
 }
 
 .section2-0 .section2-0-content  p{
