@@ -270,14 +270,14 @@ section .title::after{
 
 .section2-0 .title::after{
   background: #3d2846;
-  content: "learning Objectives";
+  content: "Learning Objectives";
 }
 
 .section2-0-content{
   align-items: center;
 }
 
-.section2-0 .section6-content .text1{
+.section2-0 .section2-0-content .text1{
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
