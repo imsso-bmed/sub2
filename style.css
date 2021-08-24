@@ -35,7 +35,7 @@ html{
 /* all similar content styling codes */
 section{
   padding: 100px 0;
-
+  height:100vh;
 }
 
 .max-width{
@@ -55,7 +55,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 .section2-0, .section2, .section3, .section4
 .section5, .section6, .section7{
   font-family: 'Noto Sans KR', sans-serif;
-  height:100vh;
+  
 }
 
 .section2-0, .section2, .section3, .section4
