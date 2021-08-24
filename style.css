@@ -273,6 +273,7 @@ section .title::after{
   color:#fff;
   background:#3d2846;
   height:100vh;
+  width:100%;
 }
 
 .section2-0 .title::before{
@@ -408,7 +409,7 @@ section .title::after{
 .section4{
   color:#fff;
   background:#3d2846;
-
+  width:100%;
 }
 
 .section4 .title::before{
@@ -496,6 +497,7 @@ section .title::after{
   color:#fff;
   background:#3d2846;
   height:100vh;
+  width:100%;
 }
 
 .section6 .title::before{
@@ -532,6 +534,7 @@ section .title::after{
 
 .section7{
   height:100vh;
+  width:100%;
 }
 
 .section7 .title::after{
