@@ -671,6 +671,13 @@ section .title::after{
     width:100%;
   }
 
+  .section2 .section2-content .left img,
+  .section4 .section4-content .left img,
+  .section4 .section4-content .right img{
+      height: 250px;
+      width: 250px;
+  }
+
   .home .home-content .text2{
       font-size: 30px;
   }
