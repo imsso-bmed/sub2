@@ -662,7 +662,9 @@ section .title::after{
 }
 
 @media (max-width: 500px) {
-  
+  .section{
+    width: 100%;
+  }
 
   .home .home-content .text2{
       font-size: 30px;
@@ -723,7 +725,7 @@ section .title::after{
     color: #fa8072;
     padding: 0 5px;
     background: #fff;
-    transform: translateX(-80%);
+    transform: translateX(-50%);
     text-align: center;
     text-decoration: none;
   }
