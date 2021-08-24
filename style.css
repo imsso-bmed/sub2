@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 
-.image { opacity:0; }
+
 
 html{
   scroll-behavior: smooth;
@@ -271,6 +271,7 @@ section .title::after{
 .section2-0{
   color:#fff;
   background:#3d2846;
+  background-size: cover;
 }
 
 .section2-0 .title::before{
