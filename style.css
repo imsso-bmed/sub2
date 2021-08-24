@@ -666,7 +666,10 @@ section .title::after{
 }
 
 @media (max-width: 500px) {
-  
+  .section{
+    height:auto;
+    width:100%;
+  }
 
   .home .home-content .text2{
       font-size: 30px;
