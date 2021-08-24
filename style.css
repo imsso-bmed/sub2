@@ -36,7 +36,6 @@ html{
 /* all similar content styling codes */
 section{
   padding: 100px 0;
-  
 }
 
 .max-width{
@@ -570,6 +569,7 @@ section .title::after{
 @media (max-width: 991px) {
   .max-width{
       padding: 0 50px;
+      
   }
 }
 @media (max-width: 947px){
@@ -662,9 +662,7 @@ section .title::after{
 }
 
 @media (max-width: 500px) {
-  .section{
-    width: 100%;
-  }
+  
 
   .home .home-content .text2{
       font-size: 30px;
