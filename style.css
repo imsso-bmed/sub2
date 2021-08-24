@@ -88,6 +88,7 @@ section .title::before{
   background: #3d2846;
   transform: translateX(-50%);
   border: none;
+  text-align: center;
 }
 section .title::after{
   position: absolute;
@@ -98,6 +99,7 @@ section .title::after{
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
+  text-align: center;
 }
 
 /* navbar styling */
