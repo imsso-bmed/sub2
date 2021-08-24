@@ -55,6 +55,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 .section2-0, .section2, .section3, .section4
 .section5, .section6, .section7{
   font-family: 'Noto Sans KR', sans-serif;
+  height:100vh;
 }
 
 .section2-0, .section2, .section3, .section4
@@ -269,7 +270,6 @@ section .title::after{
 .section2-0{
   color:#fff;
   background:#3d2846;
-  height:100vh;
 }
 
 .section2-0 .title::before{
