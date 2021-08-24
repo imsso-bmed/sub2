@@ -12,6 +12,8 @@
   text-decoration: none;
 }
 
+.image { opacity:0; }
+
 html{
   scroll-behavior: smooth;
 }
