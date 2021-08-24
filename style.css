@@ -400,8 +400,19 @@ section .title::after{
 
 /*section4 thyroid 갑상샘 미세구조와 호르몬 styling*/
 
+.section4{
+  color:#fff;
+  background:#3d2846;
+}
+
+.section4 .title::before{
+  background: #fff;
+  
+}
+
 .section4 .title::after{
   content: "Microscopic structure";
+  background: #3d2846;
 }
 
 .section4-content{
@@ -422,12 +433,14 @@ section .title::after{
   margin-top: 10px;
   padding-top: 30px;
   display:flex;
+  color:#fff;
 }
 
 .section4 .section4-content  p{
   text-align: justify;
   line-height: 160%;
   display:flex;
+  color:#fff;
 }
 
 /*section5 thyroid 갑상샘 해부학 구조 파트 styling*/
