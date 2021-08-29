@@ -343,7 +343,7 @@ section .title::after{
 
 .section2 .section2-content img{
   height: auto;
-  width: 100vw;
+  width: 100%;
   object-fit: cover;
   border-radius: 6px;
 }
@@ -429,7 +429,7 @@ section .title::after{
 
 .section4 .section4-content  img{
   height: auto;
-  width: 100vw;
+  width: 100%;
   object-fit: cover;
   border-radius: 6px;
 }
@@ -565,7 +565,7 @@ section .title::after{
   .section2 .section2-content  img,
   .section4 .section4-content  img{
       height: auto;
-      width: 100vw;
+      width: 100%;
   }
 }
 
@@ -673,7 +673,7 @@ section .title::after{
   .section2 .section2-content img,
   .section4 .section4-content img{
       height: auto;
-      width: 100vw;
+      width: 100%;
   }
 
   .home .home-content .text2{
