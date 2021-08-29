@@ -327,7 +327,7 @@ section .title::after{
   content: "Thyroid Gland";
 }
 
-.section2 .section2-content .left{
+/* .section2 .section2-content .left{
   flex: 45%;
   margin-right: auto;
   padding:20px;
@@ -339,25 +339,25 @@ section .title::after{
   margin-left: auto;
   padding:20px;
   border-radius: 12px;
-}
+} */
 
-.section2 .section2-content .left img{
-  height: 400px;
-  width: 400px;
+.section2 .section2-content img{
+  height: auto;
+  width: 800px;
   object-fit: cover;
   border-radius: 6px;
 }
 
 
-.section2 .section2-content .right .text1{
+.section2 .section2-content .text1{
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
 }
-.section2 .section2-content .right .text1 span{
+.section2 .section2-content  .text1 span{
   color: #fa8072;
 }
-.section2 .section2-content .right p{
+.section2 .section2-content  p{
   text-align: justify;
 }
 
@@ -428,8 +428,8 @@ section .title::after{
 }
 
 .section4 .section4-content  img{
-  height: 400px;
-  width: 400px;
+  height: auto;
+  width: 800px;
   object-fit: cover;
   border-radius: 6px;
 }
@@ -562,11 +562,10 @@ section .title::after{
 
 /* responsive media query start */
 @media (max-width: 1104px) {
-  .section2 .section2-content .left img,
-  .section4 .section4-content .left img,
-  .section4 .section4-content .right img{
-      height: 350px;
-      width: 350px;
+  .section2 .section2-content  img,
+  .section4 .section4-content  img{
+      height: auto;
+      width: 500px;
   }
 }
 
@@ -671,9 +670,9 @@ section .title::after{
     width:100%;
   }
 
-  .section2 .section2-content .left img,
-  .section4 .section4-content .img{
-      height: 270px;
+  .section2 .section2-content img,
+  .section4 .section4-content img{
+      height: auto;
       width: 270px;
   }
 
