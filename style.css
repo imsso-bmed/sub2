@@ -638,12 +638,18 @@ section .title::after{
       width: 100%;
       margin-bottom: 35px;
   }
+  p{ word-break:keep-all; 
+    text-align: left;
+ }
 }
 
 @media (max-width: 690px) {
   .max-width{
       padding: 0 23px;
   }
+  p{ word-break:keep-all; 
+    text-align: left;
+ }
 
   .navbar .logo a{
     font-size: 24px;
@@ -669,6 +675,10 @@ section .title::after{
     height:auto;
     width:100%;
   }
+
+  p{ word-break:keep-all; 
+    text-align: left;
+ }
 
   .section2 .section2-content img,
   .section4 .section4-content img{
