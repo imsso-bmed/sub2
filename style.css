@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 
-p{ word-wrap:break-word; 
+p{ 
    text-align: left;
 }
 
@@ -647,9 +647,7 @@ section .title::after{
   .max-width{
       padding: 0 23px;
   }
-  p{ word-wrap:break-word; 
-    text-align: left;
- }
+
 
   .navbar .logo a{
     font-size: 24px;
@@ -676,9 +674,7 @@ section .title::after{
     width:100%;
   }
 
-  p{ word-wrap:break-word; 
-    text-align: left;
- }
+
 
   .section2 .section2-content img,
   .section4 .section4-content img{
