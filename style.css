@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 
-p{ 
+p{ word-wrap:break-word; 
    text-align: left;
 }
 
