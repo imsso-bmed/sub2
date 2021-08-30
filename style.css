@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 
-p{ word-break:keep-all; 
+p{ word-wrap:break-word; 
    text-align: left;
 }
 
@@ -638,7 +638,7 @@ section .title::after{
       width: 100%;
       margin-bottom: 35px;
   }
-  p{ word-break:keep-all; 
+  p{ word-wrap:break-word;  
     text-align: left;
  }
 }
@@ -647,7 +647,7 @@ section .title::after{
   .max-width{
       padding: 0 23px;
   }
-  p{ word-break:keep-all; 
+  p{ word-wrap:break-word; 
     text-align: left;
  }
 
@@ -676,7 +676,7 @@ section .title::after{
     width:100%;
   }
 
-  p{ word-break:keep-all; 
+  p{ word-wrap:break-word; 
     text-align: left;
  }
 
