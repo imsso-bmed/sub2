@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 .section2-0, .section2, .section3, .section4
 .section5, 
 .section2-0-content, .section2-content, .section3-content, .section4-content
-.section5-content, .section8-content, .section8-1-content, .section9-content {
+.section5-content,  {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -492,33 +492,38 @@ section .title::after{
 }
 
 
-/*section8 환자 진료과정 styling*/
+/*section8,9 환자 진료과정 styling*/
 
-.section8, .section8-1{
+.section8, .section9{
   color:#fff;
   background:#3d2846;
   width:100%;
 }
 
 .section8 .title::before,
-.section8-1 .title::before{
+.section9 .title::before{
   background: #fff;
   
 }
 
-.section8 .title::after,
-.section8-1 .title::after{
-  content: "Microscopic structure";
+.section8 .title::after{
+  content: "Treatment Process";
   background: #3d2846;
 }
 
+.section9 .title::after{
+  content: "Diagnostic Process";
+  background: #3d2846;
+}
+
+
 .section8-content,
-.section8-1-content{
+.section9-content{
   align-items: center;
 }
 
 .section8 .section8-content  img,
-.section8-1 .section8-content  img{
+.section9 .section8-content  img{
   height: auto;
   width: 100%;
   object-fit: cover;
@@ -526,7 +531,7 @@ section .title::after{
 }
 
 .section8 .section8-content .text1,
-.section8-1 .section8-1-content .text1{
+.section9 .section9-content .text1{
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -537,23 +542,23 @@ section .title::after{
 }
 
 .section8 .section8-content  p,
-.section8-1 .section8-1-content  p{
+.section9 .section9-content  p{
   text-align: justify;
   display:flex;
   color:#fff;
 }
 
-/*section9 갑상샘 질환 파트 styling*/
+/*section10 갑상샘 질환 파트 styling*/
 
-.section9 .title::after{
-  content: "Hormone Secretion";
+.section10 .title::after{
+  content: "Thyroid Disease";
 }
 
-.section9-content{
+.section10-content{
   align-items: center;
 }
 
-.section9 .section9-content .text1{
+.section10 .section10-content .text1{
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -561,7 +566,7 @@ section .title::after{
   padding-top: 30px;
 }
 
-.section9 .section9-content  p{
+.section10 .section10-content  p{
   text-align: justify;
   line-height: 160%;
 }
