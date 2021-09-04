@@ -492,41 +492,41 @@ section .title::after{
 }
 
 
-/*section7 환자 진료과정 styling*/
+/*section8 환자 진료과정 styling*/
 
-.section7, .section7-1{
+.section8, .section8-1{
   color:#fff;
   background:#3d2846;
   width:100%;
 }
 
-.section7 .title::before,
-.section7-1 .title::before{
+.section8 .title::before,
+.section8-1 .title::before{
   background: #fff;
   
 }
 
-.section7 .title::after,
-.section7-1 .title::after{
+.section8 .title::after,
+.section8-1 .title::after{
   content: "Microscopic structure";
   background: #3d2846;
 }
 
-.section7-content,
-.section7-1-content{
+.section8-content,
+.section8-1-content{
   align-items: center;
 }
 
-.section7 .section7-content  img,
-.section7-1 .section7-content  img{
+.section8 .section8-content  img,
+.section8-1 .section8-content  img{
   height: auto;
   width: 100%;
   object-fit: cover;
   border-radius: 6px;
 }
 
-.section7 .section7-content .text1,
-.section7-1 .section7-1-content .text1{
+.section8 .section8-content .text1,
+.section8-1 .section8-1-content .text1{
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -536,24 +536,24 @@ section .title::after{
   color:#fff;
 }
 
-.section7 .section7-content  p,
-.section7-1 .section7-1-content  p{
+.section8 .section8-content  p,
+.section8-1 .section8-1-content  p{
   text-align: justify;
   display:flex;
   color:#fff;
 }
 
-/*section8 호르몬 분비 파트 styling*/
+/*section9 갑상샘 질환 파트 styling*/
 
-.section8 .title::after{
+.section9 .title::after{
   content: "Hormone Secretion";
 }
 
-.section8-content{
+.section9-content{
   align-items: center;
 }
 
-.section8 .section8-content .text1{
+.section9 .section8-content .text1{
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -561,7 +561,7 @@ section .title::after{
   padding-top: 30px;
 }
 
-.section8 .section8-content  p{
+.section9 .section9-content  p{
   text-align: justify;
   line-height: 160%;
 }
@@ -582,6 +582,7 @@ section .title::after{
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 
 /*section6 용어 모음 styling*/
 
