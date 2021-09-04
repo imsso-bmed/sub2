@@ -492,16 +492,15 @@ section .title::after{
 }
 
 
-/*section8,9 환자 진료과정 styling*/
+/*section8 환자 진료과정 styling*/
 
-.section8, .section9{
+.section8{
   color:#fff;
   background:#3d2846;
   width:100%;
 }
 
-.section8 .title::before,
-.section9 .title::before{
+.section8 .title::before{
   background: #fff;
   
 }
@@ -511,18 +510,58 @@ section .title::after{
   background: #3d2846;
 }
 
+
+.section8-content{
+  align-items: center;
+}
+
+.section8 .section8-content  img{
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.section8 .section8-content .text1{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 30px;
+  display:flex;
+  color:#fff;
+}
+
+.section8 .section8-content  p{
+  text-align: justify;
+  display:flex;
+  color:#fff;
+}
+
+/*section9 환자 진료과정 styling*/
+
+.section9{
+  color:#fff;
+  background:#3d2846;
+  width:100%;
+}
+
+.section9 .title::before{
+  background: #fff;
+  
+}
+
+
 .section9 .title::after{
   content: "Diagnostic Process";
   background: #3d2846;
 }
 
 
-.section8-content,
 .section9-content{
   align-items: center;
 }
 
-.section8 .section8-content  img,
 .section9 .section8-content  img{
   height: auto;
   width: 100%;
@@ -530,7 +569,6 @@ section .title::after{
   border-radius: 6px;
 }
 
-.section8 .section8-content .text1,
 .section9 .section9-content .text1{
   font-size: 25px;
   font-weight: 600;
@@ -541,7 +579,6 @@ section .title::after{
   color:#fff;
 }
 
-.section8 .section8-content  p,
 .section9 .section9-content  p{
   text-align: justify;
   display:flex;
