@@ -517,7 +517,7 @@ section .title::after{
   align-items: center;
 }
 
-.section7 .section7-content  img
+.section7 .section7-content  img,
 .section7-1 .section7-content  img{
   height: auto;
   width: 100%;
@@ -525,7 +525,7 @@ section .title::after{
   border-radius: 6px;
 }
 
-.section7 .section7-content .text1
+.section7 .section7-content .text1,
 .section7-1 .section7-1-content .text1{
   font-size: 25px;
   font-weight: 600;
@@ -536,7 +536,7 @@ section .title::after{
   color:#fff;
 }
 
-.section7 .section7-content  p
+.section7 .section7-content  p,
 .section7-1 .section7-1-content  p{
   text-align: justify;
   display:flex;
@@ -553,7 +553,7 @@ section .title::after{
   align-items: center;
 }
 
-.section8 .section5-content .text1{
+.section8 .section8-content .text1{
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
