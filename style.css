@@ -604,7 +604,7 @@ section .title::after{
   justify-content: flex-end;
 }
 .section9 .section9-content .wrapper .row section{
-  background: #fa8072;
+  background: #3d2846;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -662,7 +662,7 @@ section .title::after{
 .section9 .section9-content .row section .details .title2{
   font-size: 22px;
   font-weight: 600;
-  color: white;
+  color: #fa8072;
 }
 .section9 .section9-content .row section p{
   margin: 10px 0 17px 0;
