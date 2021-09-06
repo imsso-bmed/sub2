@@ -379,6 +379,7 @@ section .title::after{
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
+  color: #fa8072;
 }
 
 .section3 .section3-content  p{
@@ -442,7 +443,7 @@ section .title::after{
   margin-top: 10px;
   padding-top: 30px;
   display:flex;
-  color:#fff;
+  color:#fa8072;
 }
 
 .section4 .section4-content  p{
@@ -480,7 +481,7 @@ section .title::after{
   margin-top: 10px;
   padding-top: 30px;
   display:flex;
-  color:#fff;
+  color:#fa8072;
 }
 
 .section5 .section5-content  p{
@@ -726,6 +727,7 @@ section .title::after{
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
+  color: #fa8072;
 }
 
 .section10 .section10-content  p{
@@ -781,7 +783,7 @@ section .title::after{
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
-  color:#fff;
+  color:#fa8072;
 }
 
 .section6 .section6-content  p{
