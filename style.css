@@ -576,8 +576,8 @@ section .title::after{
 
 /*section9 - vertical timeline test*/
 ::selection{
-  color: #fff;
-  background: #ff7979;
+  color: #3d2846;
+  background: #fa8072;
 }
 .section9 .section9-content .wrapper{
   max-width: 1080px;
@@ -589,7 +589,7 @@ section .title::after{
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #fff;
+  background: #3d2846;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -604,7 +604,7 @@ section .title::after{
   justify-content: flex-end;
 }
 .section9 .section9-content .wrapper .row section{
-  background: #fff;
+  background: #3d2846;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -615,7 +615,7 @@ section .title::after{
   content: "";
   height: 15px;
   width: 15px;
-  background: #fff;
+  background: #3d2846;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
@@ -635,7 +635,7 @@ section .title::after{
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #ff7979;
+  color: #fa8072;
   font-size: 17px;
   box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
 }
@@ -659,7 +659,7 @@ section .title::after{
   align-items: center;
   justify-content: space-between;
 }
-.section9 .section9-content .row section .details .title{
+.section9 .section9-content .row section .details .title2{
   font-size: 22px;
   font-weight: 600;
 }
@@ -668,8 +668,8 @@ section .title::after{
 }
 .section9 .section9-content .row section .bottom a{
   text-decoration: none;
-  background: #ff7979;
-  color: #fff;
+  background: #fa8072;
+  color: #3d2846;
   padding: 7px 15px;
   border-radius: 5px;
   /* font-size: 17px; */
