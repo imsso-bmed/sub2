@@ -589,7 +589,7 @@ section .title::after{
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #3d2846;
+  background: #fa8072;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -662,14 +662,16 @@ section .title::after{
 .section9 .section9-content .row section .details .title2{
   font-size: 22px;
   font-weight: 600;
+  color: #fa8072;
 }
 .section9 .section9-content .row section p{
   margin: 10px 0 17px 0;
+  color:white;
 }
 .section9 .section9-content .row section .bottom a{
   text-decoration: none;
   background: #fa8072;
-  color: #3d2846;
+  color: white;
   padding: 7px 15px;
   border-radius: 5px;
   /* font-size: 17px; */
