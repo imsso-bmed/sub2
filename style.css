@@ -574,6 +574,139 @@ section .title::after{
   
 }
 
+/*section9 - vertical timeline test*/
+::selection{
+  color: #fff;
+  background: #ff7979;
+}
+.section9 .section9-content .wrapper{
+  max-width: 1080px;
+  margin: 50px auto;
+  padding: 0 20px;
+  position: relative;
+}
+.section9 .section9-content .wrapper .center-line{
+  position: absolute;
+  height: 100%;
+  width: 4px;
+  background: #fff;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+}
+.section9 .section9-content .wrapper .row{
+  display: flex;
+}
+.section9 .section9-content .wrapper .row-1{
+  justify-content: flex-start;
+}
+.section9 .section9-content .wrapper .row-2{
+  justify-content: flex-end;
+}
+.section9 .section9-content .wrapper .row section{
+  background: #fff;
+  border-radius: 5px;
+  width: calc(50% - 40px);
+  padding: 20px;
+  position: relative;
+}
+.section9 .section9-content .wrapper .row section::before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  top: 28px;
+  z-index: -1;
+  transform: rotate(45deg);
+}
+.section9 .section9-content .row-1 section::before{
+  right: -7px;
+}
+.section9 .section9-content .row-2 section::before{
+  left: -7px;
+}
+.section9 .section9-content .row section .icon,
+.section9 .section9-content .center-line .scroll-icon{
+  position: absolute;
+  background: #f2f2f2;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ff7979;
+  font-size: 17px;
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+}
+.section9 .section9-content .center-line .scroll-icon{
+  bottom: 0px;
+  left: 50%;
+  font-size: 25px;
+  transform: translateX(-50%);
+}
+.section9 .section9-content .row-1 section .icon{
+  top: 15px;
+  right: -60px;
+}
+.section9 .section9-content .row-2 section .icon{
+  top: 15px;
+  left: -60px;
+}
+.section9 .section9-content .row section .details,
+.section9 .section9-content .row section .bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section9 .section9-content .row section .details .title{
+  font-size: 22px;
+  font-weight: 600;
+}
+.section9 .section9-content .row section p{
+  margin: 10px 0 17px 0;
+}
+.section9 .section9-content .row section .bottom a{
+  text-decoration: none;
+  background: #ff7979;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 5px;
+  /* font-size: 17px; */
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+.section9 .section9-content .row section .bottom a:hover{
+  transform: scale(0.97);
+}
+@media(max-width: 790px){
+  .section9 .section9-content .wrapper .center-line{
+    left: 40px;
+  }
+  .section9 .section9-content .wrapper .row{
+    margin: 30px 0 3px 60px;
+  }
+  .section9 .section9-content .wrapper .row section{
+    width: 100%;
+  }
+  .section9 .section9-content .row-1 section::before{
+    left: -7px;
+  }
+  .section9 .section9-content .row-1 section .icon{
+    left: -60px;
+  }
+}
+@media(max-width: 440px){
+  .section9 .section9-content .wrapper .center-line,
+  .section9 .section9-content .row section::before,
+  .section9 .section9-content .row section .icon{
+    display: none;
+  }
+  .section9 .section9-content .wrapper .row{
+    margin: 10px 0;
+  }
+}
+
 /*section10 갑상샘 질환 파트 styling*/
 
 .section10 .title::after{
