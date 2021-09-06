@@ -508,10 +508,10 @@ section .title::after{
 }
 
 
-/*section8 환자 진료과정 styling*/
+/*section8 갑상샘 기능검사 종류 styling*/
 
 .section8 .title::after{
-  content: "Treatment Process";
+  content: "Thyroid Function Panel";
   
 }
 
