@@ -663,6 +663,7 @@ section .title::after{
   font-size: 22px;
   font-weight: 600;
   color: #fa8072;
+  line-height:  1.68;
 }
 .section9 .section9-content .row section p{
   margin: 10px 0 17px 0;
