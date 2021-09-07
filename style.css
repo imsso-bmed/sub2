@@ -61,7 +61,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 
 .section2-0, .section2, .section3, .section4
 .section5, 
-.section2-0-content, .section2-content, .section3-content, .section4-content
+ .section2-content, .section3-content, .section4-content
 .section5-content {
   display: flex;
   flex-wrap: wrap;
