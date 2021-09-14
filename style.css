@@ -318,8 +318,8 @@ section .title::after{
 
 }
 
-.section2-0 .section2-0-content .left-column .text2{
-  font-size: 22px;
+.left-column .text2{
+  font-size: 18px;
   font-weight: 300;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -329,8 +329,8 @@ section .title::after{
   line-height: 160%;
 }
 
-.section2-0 .section2-0-content .right-column .text2{
-  font-size: 22px;
+.right-column .text2{
+  font-size: 18px;
   font-weight: 300;
   margin-bottom: 20px;
   margin-top: 10px;
