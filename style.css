@@ -54,13 +54,13 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
   border-width: 0;
 } */
 
-.section2-0, .section2, .section3, .section4
+.section2-0, .section2, .section3, .section4,
 .section5, .section6, .section7, .section8, .section8-1, .section9{
   font-family: 'Noto Sans KR', sans-serif;
   }
 
 
- .section2-0,.section2, .section3, .section4
+.section2-0,.section2, .section3, .section4,
 .section5, 
 .section2-content, .section3-content, .section4-content
 .section5-content  {
@@ -312,6 +312,7 @@ section .title::after{
 }
 
 .left-column, .right-column{
+  justify-content: left;
   flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
   flex-basis: 50%; /* sets initial width to 70% */
  padding:0 80;
