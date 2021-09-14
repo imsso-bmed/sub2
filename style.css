@@ -395,8 +395,8 @@ section .title::after{
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-right: 10px;
   color: black;
   text-align: left;
   line-height: 160%;
@@ -885,6 +885,12 @@ section .title::after{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .section2-content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
