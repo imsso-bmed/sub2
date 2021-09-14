@@ -318,7 +318,6 @@ section .title::after{
   margin-top: 10px;
   padding-top: 30px;
   color:#fff;
-  position: relative;
   text-align: left;
   line-height: 160%;
 }
