@@ -379,6 +379,7 @@ section .title::after{
   margin-bottom: 20px;
   margin-top: 10px;
   padding-top: 30px;
+  color: black;
   text-align: left;
   line-height: 160%;
 }
@@ -389,6 +390,7 @@ section .title::after{
   margin-bottom: 20px;
   margin-top: 10px;
   padding-top: 30px;
+  color: black;
   text-align: left;
   line-height: 160%;
 }
