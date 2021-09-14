@@ -389,7 +389,7 @@ section .title::after{
   font-weight: 300;
   margin-bottom: 20px;
   padding-top: 20px;
-  padding-right: 20px;
+  padding-right: 10vw;
   color: black;
   text-align: left;
   line-height: 160%;
