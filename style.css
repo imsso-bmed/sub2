@@ -334,6 +334,7 @@ section .title::after{
   color:#fff;
   text-align: left;
   line-height: 160%;
+  word-wrap:break-word;  
 }
 
 .right-column .text2{
@@ -345,6 +346,7 @@ section .title::after{
   color:#fff;
   text-align: left;
   line-height: 160%;
+  word-wrap:break-word;  
 }
 
 .section2-0 .section2-0-content  p{
@@ -389,6 +391,7 @@ section .title::after{
   color: black;
   text-align: left;
   line-height: 160%;
+  word-wrap:break-word;  
 }
 
 .right-column .text3{
@@ -400,6 +403,7 @@ section .title::after{
   color: black;
   text-align: left;
   line-height: 160%;
+  word-wrap:break-word;  
 }
 
 
