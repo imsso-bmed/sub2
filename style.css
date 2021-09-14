@@ -60,9 +60,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
   
 }
 
- 
-
-.section2-0,.section2, .section3, .section4
+ .section2-0,.section2, .section3, .section4
 .section5, 
 .section2-content, .section3-content, .section4-content
 .section5-content  {
@@ -75,7 +73,6 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 .section2-0-content{
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -315,6 +312,7 @@ section .title::after{
 
 .left-column, .right-column{
  flex:1;
+ padding:0 80;
 }
 
 .section2-0 .section2-0-content .left-column .text2{
