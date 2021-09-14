@@ -319,7 +319,7 @@ section .title::after{
   padding-top: 30px;
   color:#fff;
   position: relative;
-  text-align: center;
+  text-align: left;
   line-height: 160%;
 }
 
