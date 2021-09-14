@@ -373,6 +373,26 @@ section .title::after{
   border-radius: 6px;
 }
 
+.left-column .text3{
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 30px;
+  text-align: left;
+  line-height: 160%;
+}
+
+.right-column .text3{
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 30px;
+  text-align: left;
+  line-height: 160%;
+}
+
 
 .section2 .section2-content .text1{
   font-size: 25px;
