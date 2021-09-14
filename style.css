@@ -886,12 +886,6 @@ section .title::after{
     align-items: center;
     justify-content: space-between;
   }
-
-  .section2-content-2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 @media (max-width: 991px) {
@@ -966,6 +960,11 @@ section .title::after{
   p{ word-wrap:break-word;  
     text-align: left;
  }
+ .section2-content-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
 }
 
 @media (max-width: 690px) {
