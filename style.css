@@ -307,7 +307,7 @@ section .title::after{
   padding-top: 30px;
   color:#fff;
   position: relative;
-  text-align: center;
+  text-align: left;
   line-height: 160%;
 }
 
@@ -315,7 +315,7 @@ section .title::after{
   justify-content: left;
   flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
   flex-basis: 50%; /* sets initial width to 70% */
- padding:0 80;
+
 }
 
 .section2-0 .section2-0-content .left-column .text2{
