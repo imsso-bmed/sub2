@@ -57,18 +57,12 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 .section2-0, .section2, .section3, .section4
 .section5, .section6, .section7, .section8, .section8-1, .section9{
   font-family: 'Noto Sans KR', sans-serif;
-  
-}
+  }
 
-.section2-0, .section2, .section3, .section4
-.section5, 
-<<<<<<< HEAD
+
  .section2-content, .section3-content, .section4-content
 .section5-content {
-=======
-.section2-0-content, .section2-content, .section3-content, .section4-content
-.section5-content  {
->>>>>>> 75ede9efd06f6dc5c65f07f1a8fcdff1b740f3e7
+
   display: flex;
   flex-wrap: wrap;
   align-items: center;
