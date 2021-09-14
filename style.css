@@ -70,6 +70,11 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
   justify-content: space-between;
 }
 
+.section2-content{
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
 .section2-0-content{
   display: flex;
   flex-direction: row;
@@ -377,8 +382,7 @@ section .title::after{
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 20px;
-  margin-top: 10px;
-  padding-top: 30px;
+  padding-right: 10px;
   color: black;
   text-align: left;
   line-height: 160%;
@@ -388,8 +392,7 @@ section .title::after{
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 20px;
-  margin-top: 10px;
-  padding-top: 30px;
+  padding-right: 10px;
   color: black;
   text-align: left;
   line-height: 160%;
