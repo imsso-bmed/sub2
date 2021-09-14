@@ -75,7 +75,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 .section2-0-content{
   display: flex;
   flex-direction: row;
-  align-items: left;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -850,6 +850,9 @@ section .title::after{
       height: auto;
       width: 100%;
   }
+  .left-column, .right-column{
+    flex:0;
+   }
 }
 
 @media (max-width: 991px) {
