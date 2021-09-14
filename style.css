@@ -60,12 +60,20 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
   }
 
 
- .section2-content, .section3-content, .section4-content
-.section5-content {
-
+ .section2-0,.section2, .section3, .section4
+.section5, 
+.section2-content, .section3-content, .section4-content
+.section5-content  {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+}
+
+.section2-0-content{
+  display: flex;
+  flex-direction: row;
+  align-items: left;
   justify-content: space-between;
 }
 
@@ -288,7 +296,7 @@ section .title::after{
 }
 
 .section2-0-content{
-  align-items: center;
+  align-items: left;
 }
 
 .section2-0 .section2-0-content .text1{
@@ -303,15 +311,31 @@ section .title::after{
   line-height: 160%;
 }
 
-.section2-0 .section2-0-content .text2{
+.left-column, .right-column{
+  flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
+  flex-basis: 50%; /* sets initial width to 70% */
+ padding:0 80;
+}
+
+.section2-0 .section2-0-content .left-column .text2{
   font-size: 22px;
   font-weight: 300;
   margin-bottom: 20px;
   margin-top: 10px;
   padding-top: 30px;
   color:#fff;
-  position: relative;
-  text-align: center;
+  text-align: left;
+  line-height: 160%;
+}
+
+.section2-0 .section2-0-content .right-column .text2{
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 30px;
+  color:#fff;
+  text-align: left;
   line-height: 160%;
 }
 
@@ -825,6 +849,12 @@ section .title::after{
   .section4 .section4-content  img{
       height: auto;
       width: 100%;
+  }
+  .section2-0-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
