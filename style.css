@@ -927,8 +927,8 @@ section .title::after{
   background-color: #fa8072;
 }
 
-.start_btn,
-.info_box{
+.section10 .section10-content .start_btn,
+.section10 .section10-content .info_box{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -936,7 +936,7 @@ section .title::after{
 }
 
 /*Start Quiz Button Styling*/
-.start_btn button{
+.section10 .section10-content .start_btn button{
   font-size: 25px;
   font-weight: 500;
   color:#fa8072;
@@ -948,13 +948,13 @@ section .title::after{
   cursor: pointer;
 }
 
-.info_box{
+.section10 .section10-content .info_box{
   width: 540px;
   background: #fff;
   border-radius: 5px;
 }
 
-.info_box .info_title{
+.section10 .section10-content .info_box .info_title{
   height: 60px;
   width:100%;
   border-bottom: 1px solid lightgray;
@@ -965,21 +965,21 @@ section .title::after{
   font-weight: 600;
 }
 
-.info_box .info_list{
+.section10 .section10-content .info_box .info_list{
   padding: 15px 35px;
 }
 
-.info_box .info_list .info{
+.section10 .section10-content .info_box .info_list .info{
   margin: 5px 0;
   font-size: 17px;
 }
 
-.info_box .info_list .info span{
+.section10 .section10-content .info_box .info_list .info span{
   font-weight: 600;
   color: #fa8072;
 }
 
-.info_box .buttons{
+.section10 .section10-content .info_box .buttons{
   height: 60px;
   display: flex;
   align-items: center;
@@ -988,7 +988,7 @@ section .title::after{
   border-top: 1px solid lightgray;
 }
 
-.info_box .buttons button{
+.section10 .section10-content .info_box .buttons button{
   margin: 0 5px;
   height: 40px;
   width: 100px;
@@ -1000,13 +1000,13 @@ section .title::after{
   cursor: pointer;
 }
 
-.buttons button.restart{
+.section10 .section10-content .buttons button.restart{
   color: #fff;
   background: #fa8072;
 }
 
 
-.buttons button.quit{
+.section10 .section10-content .buttons button.quit{
   color: #fa8072;
   border-color: #fa8072;
 }
