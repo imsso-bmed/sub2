@@ -55,15 +55,15 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 } */
 
 .section2-0, .section2, .section3, .section3-2, .section4,
-.section5, .section6, .section7, .section8, .section8-1, .section9{
+.section5, .section6, .section7, .section8, .section8-1, .section9, .section10{
   font-family: 'Noto Sans KR', sans-serif;
   }
 
 
 .section2-0,.section2, .section3, .section3-2, .section4,
-.section5, 
+.section5, .section10
 .section2-content, .section3-content, .section3-2-content, .section4-content
-.section5-content  {
+.section5-content, .section10-content  {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -922,8 +922,8 @@ section .title::after{
   line-height: 160%;
 }
 
-/*Quiz 파트 스타일링*/
-.section8{
+/*section 10 Quiz 파트 스타일링*/
+.section10{
   background-color: #fa8072;
 }
 
