@@ -1028,11 +1028,15 @@ section .title::after{
 /* responsive media query start */
 @media (max-width: 1104px) {
   .section2 .section2-content  img,
-  .section4 .section4-content  img,
-  .section3-2 .section3-2-content  img{
+  .section4 .section4-content  img{
       height: auto;
       width: 100%;
   }
+
+  .section3-2 .section3-2-content  img{
+    height: auto;
+    width: 70%;
+}
   .section2-0-content{
     display: flex;
     flex-direction: column;
@@ -1160,11 +1164,15 @@ section .title::after{
 
 
   .section2 .section2-content img,
-  .section4 .section4-content img,
-  .section3-2 .section3-2-content  img{
+  .section4 .section4-content img{
       height: auto;
       width: 100%;
   }
+
+  .section3-2 .section3-2-content  img{
+    height: auto;
+    width: 70%;
+}
 
   .home .home-content .text2{
       font-size: 30px;
