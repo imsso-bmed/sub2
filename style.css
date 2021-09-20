@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 
 .section2-0,.section2, .section3, .section3-2, .section4,
 .section5, .section7, .section10, .section11,
-.section2-content, .section3-content, .section3-2-content, .section3-2-content-2, .section4-content
+.section2-content, .section3-content, .section3-2-content, .section4-content
 .section5-content, .section10-content, .section11-content  {
   display: flex;
   flex-wrap: wrap;
@@ -71,9 +71,11 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
   justify-content: space-between;
 }
 
+/*2-column layout section*/
 .section2-0-content,
 .section10-content,
-.section7-content{
+.section7-content,
+.section3-2-content-2{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -957,6 +959,17 @@ section .title::after{
   padding-top: 30px;
 }
 
+.section7 .section7-content . .right-column .text1{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+
+
 .section7 .section7-content  p{
   text-align: justify;
   line-height: 160%;
@@ -1066,7 +1079,8 @@ section .title::after{
 }
   .section2-0-content,
   .section10-content,
-  .section7-content{
+  .section7-content,
+  .section3-2-content-2{
     display: flex;
     flex-direction: column;
     align-items: left;
