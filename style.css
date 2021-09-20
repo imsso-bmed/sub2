@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 
 .section2-0,.section2, .section3, .section3-2, .section4,
 .section5, .section7, .section10, .section11,
-.section2-content, .section3-content, .section3-2-content, .section4-content
+.section2-content, .section3-content, .section3-2-content, .section3-2-content-2, .section4-content
 .section5-content, .section10-content, .section11-content  {
   display: flex;
   flex-wrap: wrap;
@@ -315,7 +315,7 @@ section .title::after{
   align-items: left;
 }
 
-.section2-0 .section2-0-content .text1{
+.section2-0 .text1{
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -327,11 +327,18 @@ section .title::after{
   line-height: 160%;
 }
 
-.left-column, .right-column{
+.left-column{
   justify-content: left;
   flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
   flex-basis: 50%; /* sets initial width to 70% */
   padding-right: 10px;
+}
+
+.right-column{
+  justify-content: left;
+  flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
+  flex-basis: 50%; /* sets initial width to 70% */
+  padding-left: 10px;
 }
 
 .left-column .text2{
@@ -478,7 +485,7 @@ section .title::after{
   content: "Physiology";
 }
 
-.section3-2-content{
+.section3-2-content, .section3-2-content-2{
   align-items: center;
   align-items: flex-start;
 }
@@ -957,7 +964,7 @@ section .title::after{
 
 /*section 11 Quiz 파트 스타일링*/
 .section11{
-  background-color: #ffa9a0;
+  background-color: #e2a098;
 }
 
 .section11 .section11-content .start_btn,
