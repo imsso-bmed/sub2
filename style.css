@@ -62,7 +62,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 
 
 .section2-0,.section2, .section3, .section3-2, .section4,
-.section5, .section10, .section11,
+.section5, .section7, .section10, .section11,
 .section2-content, .section3-content, .section3-2-content, .section4-content
 .section5-content, .section10-content, .section11-content  {
   display: flex;
@@ -72,7 +72,8 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 }
 
 .section2-0-content,
-.section10-content{
+.section10-content,
+.section7-content{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -956,7 +957,7 @@ section .title::after{
 
 /*section 11 Quiz 파트 스타일링*/
 .section11{
-  background-color: #fa8072;
+  background-color: #ffa9a0;
 }
 
 .section11 .section11-content .start_btn,
@@ -1057,7 +1058,8 @@ section .title::after{
     width: 70%;
 }
   .section2-0-content,
-  .section10-content{
+  .section10-content,
+  .section7-content{
     display: flex;
     flex-direction: column;
     align-items: left;
