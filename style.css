@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 .section2-0-content{
   display: flex;
   flex-direction: row;
-  align-items: left;
+  align-items: center;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -485,6 +485,13 @@ section .title::after{
   margin-top: 10px;
   padding-top: 30px;
 
+}
+
+.section3-2 .section3-2-content img{
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
 .section3-2 .section3-2-content  p{
@@ -1018,7 +1025,8 @@ section .title::after{
 /* responsive media query start */
 @media (max-width: 1104px) {
   .section2 .section2-content  img,
-  .section4 .section4-content  img{
+  .section4 .section4-content  img,
+  .section3-2 .section3-2-content  img{
       height: auto;
       width: 100%;
   }
@@ -1147,7 +1155,8 @@ section .title::after{
 
 
   .section2 .section2-content img,
-  .section4 .section4-content img{
+  .section4 .section4-content img,
+  .section3-2 .section3-2-content  img{
       height: auto;
       width: 100%;
   }
