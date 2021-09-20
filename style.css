@@ -1106,6 +1106,27 @@ section .title::after{
     align-items: flex-start;
   }
 
+  .right-column{
+    justify-content: left;
+    flex-shrink: 0; 
+    flex-basis: 50%; 
+    padding-left: 0px;
+  }
+
+  .section10 .section10-content .first-column, .middle-column{
+    justify-content: left;
+    flex-shrink: 0;
+    flex-basis: 30%; 
+    padding-right: 0px;
+  }
+  
+  .section10 .section10-content .middle-column, .last-column{
+    justify-content: left;
+    flex-shrink: 0;
+    flex-basis: 30%; 
+    padding-left: 0px;
+  }
+
   .menu-btn{
     display: block;
     z-index: 999;
