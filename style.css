@@ -153,6 +153,22 @@ section .title::after{
   justify-content: space-between;
 }
 
+.logo-image{
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.navbar .logo .logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
 .navbar .logo a{
   color: #fff;
   font-size: 35px;
