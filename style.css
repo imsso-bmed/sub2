@@ -79,6 +79,8 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
   align-items: flex-start;
 }
 
+
+
 .section2-content-2,
 .section3-content-2{
   display:flex;
@@ -476,6 +478,7 @@ section .title::after{
 
 .section3-2-content{
   align-items: center;
+  align-items: flex-start;
 }
 
 .section3-2 .section3-2-content .text1{
