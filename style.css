@@ -1048,12 +1048,13 @@ section .title::after{
   margin: 0 5px;
   height: 40px;
   width: 100px;
-  border: 1px solid transparent;
+  border: 1px solid #fa8072;
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .section11 .section11-content .buttons button.restart{
@@ -1061,10 +1062,18 @@ section .title::after{
   background: #fa8072;
 }
 
+.section11 .section11-content .buttons button.restart:hover{
+  background: #fa8072;
+}
+
 
 .section11 .section11-content .buttons button.quit{
   color: #fa8072;
-  border-color: #fa8072;
+}
+
+.section11 .section11-content .buttons button.quit:hover{
+  color: #fff;
+  background: #fa8072;
 }
 
 
