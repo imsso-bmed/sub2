@@ -55,15 +55,16 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 } */
 
 .section2-0, .section2, .section3, .section3-2, .section4,
-.section5, .section6, .section7, .section8, .section8-1, .section9, .section10{
+.section5, .section6, .section7, .section8, .section8-1, .section9, .section10,
+.section11{
   font-family: 'Noto Sans KR', sans-serif;
   }
 
 
 .section2-0,.section2, .section3, .section3-2, .section4,
-.section5, .section10
+.section5, .section10, .section11,
 .section2-content, .section3-content, .section3-2-content, .section4-content
-.section5-content, .section10-content  {
+.section5-content, .section10-content, .section11-content  {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -286,6 +287,7 @@ section .title::after{
   color: #fa8072;
 }
 
+
 /*section2.0 학습목표 styling*/
 
 .section2-0{
@@ -317,7 +319,7 @@ section .title::after{
   padding-top: 30px;
   color:#fff;
   position: relative;
-  text-align: left;
+  text-align: center;
   line-height: 160%;
 }
 
@@ -644,6 +646,7 @@ section .title::after{
   display:flex;
   }
 
+
 /*section9 환자 진료과정 styling*/
 
 
@@ -922,13 +925,13 @@ section .title::after{
   line-height: 160%;
 }
 
-/*section 10 Quiz 파트 스타일링*/
-.section10{
+/*section 11 Quiz 파트 스타일링*/
+.section11{
   background-color: #fa8072;
 }
 
-.section10 .section10-content .start_btn,
-.section10 .section10-content .info_box{
+.section11 .section11-content .start_btn,
+.section11 .section11-content .info_box{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -936,7 +939,7 @@ section .title::after{
 }
 
 /*Start Quiz Button Styling*/
-.section10 .section10-content .start_btn button{
+.section11 .section11-content .start_btn button{
   font-size: 25px;
   font-weight: 500;
   color:#fa8072;
@@ -948,13 +951,13 @@ section .title::after{
   cursor: pointer;
 }
 
-.section10 .section10-content .info_box{
+.section11 .section11-content .info_box{
   width: 540px;
   background: #fff;
   border-radius: 5px;
 }
 
-.section10 .section10-content .info_box .info_title{
+.section11 .section11-content .info_box .info_title{
   height: 60px;
   width:100%;
   border-bottom: 1px solid lightgray;
@@ -965,21 +968,21 @@ section .title::after{
   font-weight: 600;
 }
 
-.section10 .section10-content .info_box .info_list{
+.section11 .section11-content .info_box .info_list{
   padding: 15px 35px;
 }
 
-.section10 .section10-content .info_box .info_list .info{
+.section11 .section11-content .info_box .info_list .info{
   margin: 5px 0;
   font-size: 17px;
 }
 
-.section10 .section10-content .info_box .info_list .info span{
+.section11 .section11-content .info_box .info_list .info span{
   font-weight: 600;
   color: #fa8072;
 }
 
-.section10 .section10-content .info_box .buttons{
+.section11 .section11-content .info_box .buttons{
   height: 60px;
   display: flex;
   align-items: center;
@@ -988,7 +991,7 @@ section .title::after{
   border-top: 1px solid lightgray;
 }
 
-.section10 .section10-content .info_box .buttons button{
+.section11 .section11-content .info_box .buttons button{
   margin: 0 5px;
   height: 40px;
   width: 100px;
@@ -1000,13 +1003,13 @@ section .title::after{
   cursor: pointer;
 }
 
-.section10 .section10-content .buttons button.restart{
+.section11 .section11-content .buttons button.restart{
   color: #fff;
   background: #fa8072;
 }
 
 
-.section10 .section10-content .buttons button.quit{
+.section11 .section11-content .buttons button.quit{
   color: #fa8072;
   border-color: #fa8072;
 }
