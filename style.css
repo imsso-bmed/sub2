@@ -94,7 +94,7 @@ section .title{
   position: relative;
   text-align: center;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 70px;
   padding-bottom: 20px;
   font-family: 'Noto Sans KR', sans-serif;
@@ -167,7 +167,7 @@ section .title::after{
   display: block;
   color: #fff;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 25px;
   transition: color 0.3s ease;
 }
@@ -249,27 +249,27 @@ section .title::after{
 
 .home .home-content .text1{
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 180%;
 }
 
 .home .home-content .text2{
   font-size: 50px;
-  font-weight: 600;
+  font-weight:700;
   margin-left: -3px;
   line-height: 160%;
 }
 
 .home .home-content .text3{
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 700;
   margin: 5px 0;
   line-height: 160%;
 }
 
 .home .home-content .text3 span{
   color: #fa8072;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 160%;
 
 }
@@ -281,7 +281,7 @@ section .title::after{
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
-  font-weight: 400;
+  font-weight: 600;
   border: 2px solid #3d2846;
   transition: all 0.3s ease;
 }
@@ -315,7 +315,7 @@ section .title::after{
 
 .section2-0 .section2-0-content .text1{
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 20px;
   margin-top: 10px;
   padding-top: 30px;
@@ -325,7 +325,7 @@ section .title::after{
   line-height: 160%;
 }
 
-.left-column, .right-column{
+.section2-0 .section2-0-content .left-column, .right-column{
   justify-content: left;
   flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
   flex-basis: 50%; /* sets initial width to 70% */
@@ -334,7 +334,7 @@ section .title::after{
 
 .left-column .text2{
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 20px;
   margin-top: 10px;
   padding-top: 30px;
@@ -346,7 +346,7 @@ section .title::after{
 
 .right-column .text2{
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 20px;
   margin-top: 10px;
   padding-top: 30px;
@@ -391,7 +391,7 @@ section .title::after{
 
 .left-column .text3{
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
   padding-right: 3vw;
@@ -403,7 +403,7 @@ section .title::after{
 
 .right-column .text3{
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
   padding-left: 3vw;
@@ -416,7 +416,7 @@ section .title::after{
 
 .section2 .section2-content .text1{
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 .section2 .section2-content  .text1 span{
@@ -439,7 +439,7 @@ section .title::after{
 
 .section3 .section3-content .text1{
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
@@ -448,7 +448,7 @@ section .title::after{
 
 .section3 .section3-content  p{
   text-align: justify;
- 
+  font-weight: 500;
 }
 
 
@@ -483,7 +483,7 @@ section .title::after{
 
 .section3-2 .section3-2-content .text1{
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
@@ -499,7 +499,7 @@ section .title::after{
 
 .section3-2 .section3-2-content  p{
   text-align: justify;
- 
+  font-weight: 500;
 }
 
 
@@ -553,7 +553,7 @@ section .title::after{
 
 .section4 .section4-content .text1{
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
@@ -566,6 +566,7 @@ section .title::after{
   display:flex;
   line-height: 160%;
   color:#fff;
+  font-weight: 500;
 }
 
 /*section5 호르몬 분비 파트 styling*/
@@ -591,7 +592,7 @@ section .title::after{
 
 .section5 .section5-content .text1{
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
@@ -604,6 +605,7 @@ section .title::after{
   line-height: 160%;
   display:flex;
   color:#fff;
+  font-weight: 500;
 }
 
 
@@ -644,7 +646,7 @@ section .title::after{
 
 .section8 .section8-content .text1{
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
@@ -654,6 +656,7 @@ section .title::after{
 .section8 .section8-content  p{
   text-align: justify;
   display:flex;
+  font-weight: 500;
   }
 
 
@@ -678,7 +681,7 @@ section .title::after{
 
 .section9 .section9-content .text1{
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
@@ -688,7 +691,7 @@ section .title::after{
 .section9 .section9-content  p{
   text-align: justify;
   display:flex;
-  
+  font-weight: 500;
 }
 
 /*section9 - vertical timeline test*/
@@ -778,7 +781,7 @@ section .title::after{
 }
 .section9 .section9-content .row section .details .title2{
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   color: #fa8072;
   line-height:  1.68;
 }
@@ -837,9 +840,16 @@ section .title::after{
   align-items: center;
 }
 
+.section10 .section10-content .left-column, .middle-column, .right-column{
+  justify-content: left;
+  flex-shrink: 0;
+  flex-basis: 33%; 
+  padding-right: 10px;
+}
+
 .section10 .section10-content .text1{
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
@@ -849,6 +859,7 @@ section .title::after{
 .section10 .section10-content  p{
   text-align: justify;
   line-height: 160%;
+  font-weight: 500;
 }
 
 
@@ -942,7 +953,7 @@ section .title::after{
 
 .section11 .section11-content .start_btn,
 .section11 .section11-content .info_box{
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
