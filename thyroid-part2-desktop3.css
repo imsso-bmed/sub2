@@ -18,7 +18,7 @@ body {
   height: 100%;
 }
 
-#isthmus, #thyroid {
+#T1, #C7, #thyroid {
   position: absolute;
   background-color: #ee9378;
   border-radius: 5px;
