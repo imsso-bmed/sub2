@@ -983,10 +983,10 @@ section .title::after{
   background-color: #e2a098;
 }
 
-.section11 .section11-content .start_btn,
-.section11 .section11-content .info_box,
-.section11 .section11-content .quiz_box,
-.section11 .section11-content .result_box{
+.start_btn,
+.info_box,
+ .quiz_box,
+ .result_box{
   position: relative;
   /* top: 50%;
   left: 50%;
@@ -996,7 +996,7 @@ section .title::after{
 }
 
 /*Start Quiz Button Styling*/
-.section11 .section11-content .start_btn button{
+.start_btn button{
   font-size: 25px;
   font-weight: 500;
   color:#fa8072;
@@ -1008,7 +1008,7 @@ section .title::after{
   cursor: pointer;
 }
 
-.section11 .section11-content .info_box{
+ .info_box{
  
   width: 540px;
   background: #fff;
@@ -1018,7 +1018,7 @@ section .title::after{
   transform: translate(-50%, -50%) scale(0.9);
 }
 
-.section11 .section11-content .info_box .info_title{
+ .info_box .info_title{
   height: 60px;
   width:100%;
   border-bottom: 1px solid lightgray;
@@ -1029,21 +1029,21 @@ section .title::after{
   font-weight: 600;
 }
 
-.section11 .section11-content .info_box .info_list{
+ .info_box .info_list{
   padding: 15px 35px;
 }
 
-.section11 .section11-content .info_box .info_list .info{
+.info_box .info_list .info{
   margin: 5px 0;
   font-size: 17px;
 }
 
-.section11 .section11-content .info_box .info_list .info span{
+.info_box .info_list .info span{
   font-weight: 600;
   color: #fa8072;
 }
 
-.section11 .section11-content .info_box .buttons{
+.info_box .buttons{
   height: 60px;
   display: flex;
   align-items: center;
@@ -1052,7 +1052,7 @@ section .title::after{
   border-top: 1px solid lightgray;
 }
 
-.section11 .section11-content .info_box .buttons button{
+.info_box .buttons button{
   margin: 0 5px;
   height: 40px;
   width: 100px;
@@ -1065,26 +1065,26 @@ section .title::after{
   transition: all 0.3s ease;
 }
 
-.section11 .section11-content .buttons button.restart{
+.buttons button.restart{
   color: #fff;
   background: #fa8072;
 }
 
-.section11 .section11-content .buttons button.restart:hover{
+ .buttons button.restart:hover{
   background: #fa8072;
 }
 
 
-.section11 .section11-content .buttons button.quit{
+.buttons button.quit{
   color: #fa8072;
 }
 
-.section11 .section11-content .buttons button.quit:hover{
+.buttons button.quit:hover{
   color: #fff;
   background: #fa8072;
 }
 
-.section11 .section11-content .quiz_box{
+.quiz_box{
   
   width:550px;
   background: #FFF;
@@ -1246,7 +1246,7 @@ footer .next_btn:hover{
 
 }
 
-.section11 .section11-content  .result_box{
+ .result_box{
   background:#fff;
   width: 450px;
   padding: 25px 30px;
@@ -1261,37 +1261,37 @@ footer .next_btn:hover{
   transform: translate(-50%, -50%) scale(0.9);
 }
 
-.section11 .section11-content  .result_box .icon{
+ .result_box .icon{
   font-size: 100px;
   color: #007bff;
   margin-bottom: 10px;
 
 }
 
-.section11 .section11-content .result_box .complete_text{
+.result_box .complete_text{
   font-size: 20pc;
   font-weight: 500;
 }
 
-.section11 .section11-content .result_box .score_text span{
+.result_box .score_text span{
   display: flex;
   margin: 10px 0;
   font-size: 18px;
   font-weight: 500;
 }
 
-.section11 .section11-content .result_box .score_text span p{
+.result_box .score_text span p{
   font-weight: 600;
   padding: 0 4px;
 
 }
 
-.section11 .section11-content  .result_box .buttons{
+.result_box .buttons{
   display: flex;
   margin: 20px 0;
 }
 
-.section11 .section11-content  .result_box .buttons button{
+.result_box .buttons button{
   margin: 0 10px;
   height: 40px;
   padding: 0 20px;
