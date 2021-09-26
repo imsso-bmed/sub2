@@ -981,7 +981,7 @@ section .title::after{
 /*Quiz 파트 스타일링*/
 .section11{
   width:100%;
-  color: rgb(255, 221, 221);
+  background: rgb(255, 221, 221);
 }
 
 .section11 .title::after{
@@ -1009,7 +1009,7 @@ body{
     background: #007bff;
 }
 
-.start_btn{
+.start_btn0{
     position: relative;
    
 }
