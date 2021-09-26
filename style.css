@@ -999,8 +999,8 @@ section .title::after{
 
  .start_btn0 button{
   font-size: 25px;
-  font-weight: 700;
-  padding: 15px 15px;
+  font-weight: 800;
+  padding: 30px 30px 30px 30px;
   outline: none;
   border: none;
   border-radius: 5px;
