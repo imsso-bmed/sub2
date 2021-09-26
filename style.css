@@ -986,6 +986,7 @@ section .title::after{
 
 .section11 .title::after{
   content: "Quiz";
+  background: rgb(255, 221, 221);
 }
 
 .section11-content{
