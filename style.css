@@ -990,6 +990,7 @@ section .title::after{
 
 .section11-content{
   align-items: center;
+  background: #fff;
 }
 
 .start_btn0{
@@ -998,14 +999,15 @@ section .title::after{
 
  .start_btn0 button{
   font-size: 25px;
-  font-weight: 500;
-  color: #007bff;
-  padding: 15px 30px;
+  font-weight: 700;
+  padding: 15px 15px;
   outline: none;
   border: none;
   border-radius: 5px;
-  background: #fff;
+  
   cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
