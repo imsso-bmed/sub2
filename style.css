@@ -979,6 +979,18 @@ section .title::after{
 }
 
 /*Quiz 파트 스타일링*/
+.section11{
+  width:100%;
+  color: rgb(255, 221, 221);
+}
+
+.section11 .title::after{
+  content: "Quiz";
+}
+
+.section11-content{
+  align-items: center;
+}
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -999,8 +1011,6 @@ body{
 
 .start_btn{
     position: relative;
-    top: 50%;
-    left: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
