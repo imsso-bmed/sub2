@@ -654,7 +654,13 @@ section .title::after{
 
 .section8-content{
   align-items: center;
+  
+}
+
+.section8-content-1{
+  align-items: center;
   padding-top: 100px;
+  height:50vh;
 }
 
 /* .section8 .section8-content  img{
