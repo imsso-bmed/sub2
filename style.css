@@ -65,7 +65,8 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 /* .section3-2,  */
 .section4,
 .section5, .section7, .section10, .section11,
-.section2-content, .section3-content, .section3-2-content, .section4-content
+.section2-content, .section3-content, .section3-2-content, .section4-content,
+
 .section5-content, .section10-content, .section11-content  {
   display: flex;
   flex-wrap: wrap;
@@ -316,6 +317,10 @@ section .title::after{
   content: "Learning Objectives";
 }
 
+.section2-0-content1{
+  align-items: center;
+}
+
 .section2-0-content{
   align-items: left;
 }
@@ -328,7 +333,7 @@ section .title::after{
   padding-top: 30px;
   color:#fff;
   position: relative;
-  text-align: center;
+  text-align: left;
   line-height: 160%;
 }
 
@@ -649,14 +654,15 @@ section .title::after{
 
 .section8-content{
   align-items: center;
+  padding-top: 100px;
 }
 
-.section8 .section8-content  img{
+/* .section8 .section8-content  img{
   height: auto;
   width: 100%;
   object-fit: cover;
   border-radius: 6px;
-}
+} */
 
 .section8 .section8-content .text1{
   font-size: 25px;
@@ -672,6 +678,8 @@ section .title::after{
   display:flex;
   font-weight: 500;
   }
+
+
 
 
 /*section9 환자 진료과정 styling*/
@@ -816,6 +824,12 @@ section .title::after{
 .section9 .section9-content .row section .bottom a:hover{
   transform: scale(0.97);
 }
+
+
+
+
+
+
 @media(max-width: 790px){
   .section9 .section9-content .wrapper .center-line{
     left: 40px;
@@ -832,6 +846,7 @@ section .title::after{
   .section9 .section9-content .row-1 section .icon{
     left: -60px;
   }
+
 }
 @media(max-width: 440px){
   .section9 .section9-content .wrapper .center-line,
@@ -996,12 +1011,13 @@ section .title::after{
 
 .start_btn0{
   position: relative;
+  background:#fff;
  }
 
  .start_btn0 button{
   font-size: 25px;
   font-weight: 800;
-  padding: 30px 30px ;
+  padding: 20px 25px ;
   outline: none;
   border: none;
   border-radius: 5px;
@@ -1019,6 +1035,8 @@ section .title::after{
       height: auto;
       width: 100%;
   }
+
+  
 
   .section3-2 .section3-2-content  img{
     height: auto;
@@ -1132,6 +1150,7 @@ section .title::after{
     text-align: left;
  }
 
+
 }
 
 @media (max-width: 690px) {
@@ -1139,6 +1158,10 @@ section .title::after{
       padding: 0 23px;
   }
 
+  .section2-0-content1{
+    align-items: center;
+    width: 100%;
+  }
   .section2-content-2,
   .section3-content-2{
     display: flex;
