@@ -727,7 +727,7 @@ section .title::after{
     left: -75px;
     top: calc(50% - 75px);
     transition: 0.5s ease-in-out;
-    background: #fff;
+    background: rgb(241, 168, 168);
   }
 
   .container .card .imgBx:before{
@@ -739,8 +739,10 @@ section .title::after{
     height: 100%;
     text-align: center;
     font-size: 6em;
-    color: rgba(255,255,255,.05);
     font-weight: 700;
+    color: #fff
+    /* color: rgba(255,255,255,.05); */
+    
   }
 
   .container .card .imgBx img{
