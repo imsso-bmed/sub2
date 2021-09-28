@@ -61,13 +61,13 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
   }
 
 
-.section2-0,.section2, .section2-content, .section3, 
+.section2-0,.section2, .section2-content,.section2-content-2, .section3, 
 /* .section3-2,  */
 .section4,
 .section5, .section7, .section10, .section11, .section12,
 .section2-content, .section3-content, .section3-2-content,.section4-content, .section4-2-content,
 
-.section5-content, .section10-content, .section11-content, .section12-content  {
+.section5-content,  .section11-content, .section12-content  {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -77,6 +77,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 /*2-column layout section*/
 .section2-0-content,
 .section2-content,
+.section2-content-2,
 .section10-content,
 .section7-content,
 .section3-2-content-2,
@@ -91,6 +92,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 
 
 
+.section2-content-2,
 .section2-content-2,
 .section3-content-2,
 .section4-content,
@@ -413,7 +415,7 @@ section .title::after{
   border-radius: 6px;
 }
 
-.section2 .section2-content .left-column .text3{
+.section2 .section2-content-2 .left-column .text3{
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -425,7 +427,7 @@ section .title::after{
   word-wrap:break-word;  
 }
 
-.section2 .section2-content  .right-column .text3{
+.section2 .section2-content-2  .right-column .text3{
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -468,6 +470,30 @@ section .title::after{
   margin-top: 10px;
   padding-top: 30px;
 
+}
+
+.section3 .section3-content .left-column .text3{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 3vw;
+  color: black;
+  text-align: left;
+  line-height: 160%;
+  word-wrap:break-word;  
+}
+
+.section3 .section3-content  .right-column .text3{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 3vw;
+  color: black;
+  text-align: left;
+  line-height: 160%;
+  word-wrap:break-word;  
 }
 
 .section3 .section3-content  p{
@@ -1147,6 +1173,11 @@ section .title::after{
 
 /*section10 갑상샘 질환 파트 styling*/
 
+
+.section10{
+  width:100%;
+}
+
 .section10 .title::after{
   content: "Thyroid Disease";
 }
@@ -1155,19 +1186,15 @@ section .title::after{
   align-items: center;
 }
 
-.section10 .section10-content .first-column, .middle-column{
-  justify-content: left;
-  flex-shrink: 0;
-  flex-basis: 30%; 
-  padding-right: 20px;
+.section10 .section10-content img{
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
-.section10 .section10-content .middle-column, .last-column{
-  justify-content: left;
-  flex-shrink: 0;
-  flex-basis: 30%; 
-  padding-left: 20px;
-}
+
+
 
 .section10 .section10-content .text1{
   font-size: 25px;
@@ -1204,7 +1231,7 @@ section .title::after{
 
 /*section6 용어 모음 styling*/
 
-.section6{
+/* .section6{
   color:#fff;
   background:#3d2846;
   height:100vh;
@@ -1238,7 +1265,7 @@ section .title::after{
 .section6 .section6-content  p{
   text-align: justify;
   line-height: 160%;
-}
+} */
 
 
 /*section7 프로젝트 about styling*/
@@ -1270,6 +1297,30 @@ section .title::after{
   margin-top: 10px;
   padding-top: 30px;
   padding-left: 40px;
+}
+
+.section7 .section7-content .left-column .text3{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 3vw;
+  color: black;
+  text-align: left;
+  line-height: 160%;
+  word-wrap:break-word;  
+}
+
+.section7 .section7-content  .right-column .text3{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 3vw;
+  color: black;
+  text-align: left;
+  line-height: 160%;
+  word-wrap:break-word;  
 }
 
 
@@ -1329,8 +1380,8 @@ section .title::after{
     width: 70%;
 }
   .section2-0-content,
-  .section10-content,
   .section7-content,
+  .section10-content,
   .section3-2-content-2{
     display: flex;
     flex-direction: column;
@@ -1346,19 +1397,7 @@ section .title::after{
     padding-left: 0px;
   }
 
-  .section10 .section10-content .first-column, .middle-column{
-    justify-content: left;
-    flex-shrink: 0;
-    flex-basis: 30%; 
-    padding-right: 0px;
-  }
-  
-  .section10 .section10-content .middle-column, .last-column{
-    justify-content: left;
-    flex-shrink: 0;
-    flex-basis: 30%; 
-    padding-left: 0px;
-  }
+ 
 
   .menu-btn{
     display: block;
