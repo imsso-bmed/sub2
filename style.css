@@ -56,18 +56,18 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 
 .section2-0, .section2, .section3, .section3-2, .section4,
 .section5, .section6, .section7, .section8, .section8-1, .section9, .section10,
-.section11{
+.section11, .section12{
   font-family: 'Noto Sans KR', sans-serif;
   }
 
 
-.section2-0,.section2, .section3, 
+.section2-0,.section2, .section2-content, .section3, 
 /* .section3-2,  */
 .section4,
-.section5, .section7, .section10, .section11,
-.section2-content, .section3-content, .section3-2-content, .section4-content,
+.section5, .section7, .section10, .section11, .section12,
+.section2-content, .section3-content, .section3-2-content,.section4-content, .section4-2-content,
 
-.section5-content, .section10-content, .section11-content  {
+.section5-content, .section10-content, .section11-content, .section12-content  {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -76,9 +76,12 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 
 /*2-column layout section*/
 .section2-0-content,
+.section2-content,
 .section10-content,
 .section7-content,
-.section3-2-content-2{
+.section3-2-content-2,
+.section12-content,
+.section5-content{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -89,7 +92,9 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 
 
 .section2-content-2,
-.section3-content-2{
+.section3-content-2,
+.section4-content,
+.section4-2-content{
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -408,7 +413,7 @@ section .title::after{
   border-radius: 6px;
 }
 
-.left-column .text3{
+.section2 .section2-content .left-column .text3{
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -420,7 +425,7 @@ section .title::after{
   word-wrap:break-word;  
 }
 
-.right-column .text3{
+.section2 .section2-content  .right-column .text3{
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -495,7 +500,8 @@ section .title::after{
   content: "Physiology";
 }
 
-.section3-2-content, .section3-2-content-2{
+.section3-2-content, 
+.section3-2-content-2{
   align-items: center;
   align-items: flex-start;
 }
@@ -506,6 +512,19 @@ section .title::after{
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
+
+}
+
+.section3-2 .section3-2-content .text3{
+  font-size: 18px;
+  font-weight: medium;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 3vw;
+  color: black;
+  text-align: left;
+  line-height: 160%;
+  word-wrap:break-word; 
 
 }
 
@@ -559,7 +578,8 @@ section .title::after{
   background: #3d2846;
 }
 
-.section4-content{
+.section4-content,
+.section4-content-2{
   align-items: center;
 }
 
@@ -570,7 +590,7 @@ section .title::after{
   border-radius: 6px;
 }
 
-.section4 .section4-content .text1{
+.section4 .section4-content-2 .text1{
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -578,6 +598,32 @@ section .title::after{
   padding-top: 30px;
   display:flex;
   color:white;
+}
+
+.section4 .section4-content-2 .left-column .text3{
+  font-size: 18px;
+  font-weight: medium;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 3vw;
+  color: #fff;
+  text-align: left;
+  line-height: 160%;
+  word-wrap:break-word; 
+
+}
+
+.section4 .section4-content-2 .right-column .text3{
+  font-size: 18px;
+  font-weight: medium;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 3vw;
+  color: #fff;
+  text-align: left;
+  line-height: 160%;
+  word-wrap:break-word; 
+
 }
 
 .section4 .section4-content  p{
@@ -619,7 +665,111 @@ section .title::after{
   color:white;
 }
 
+.section5 .section5-content .left-column .text3{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 3vw;
+  color: #fff;
+  text-align: left;
+  line-height: 160%;
+  word-wrap:break-word;  
+}
+
+.section5 .section5-content  .right-column .text3{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 3vw;
+  color: #fff;
+  text-align: left;
+  line-height: 160%;
+  word-wrap:break-word;  
+}
+
 .section5 .section5-content  p{
+  text-align: justify;
+  line-height: 160%;
+  display:flex;
+  color:#fff;
+  font-weight: 500;
+}
+
+
+.iframebox{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  display:flex; 
+}
+
+.iframebox iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display:flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/*section12 호르몬 조절기전 파트 styling*/
+.section12{
+  color:#fff;
+  background:#3d2846;
+  width:100%;
+}
+
+.section12 .title::before{
+  background: #fff;
+  
+}
+
+.section12 .title::after{
+  content: "Thyroid Axis";
+  background: #3d2846;
+}
+
+.section12-content{
+  align-items: center;
+}
+
+.section12 .section12-content .text1{
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 30px;
+  display:flex;
+  color:white;
+}
+
+.section12 .section12-content .left-column .text3{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 3vw;
+  color: #fff;
+  text-align: left;
+  line-height: 160%;
+  word-wrap:break-word;  
+}
+
+.section12 .section12-content  .right-column .text3{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 3vw;
+  color: #fff;
+  text-align: left;
+  line-height: 160%;
+  word-wrap:break-word;  
+}
+
+.section12 .section12-content  p{
   text-align: justify;
   line-height: 160%;
   display:flex;
@@ -1299,7 +1449,8 @@ section .title::after{
     width: 100%;
   }
   .section2-content-2,
-  .section3-content-2{
+  .section3-content-2,
+  .section4-2-content{
     display: flex;
     flex-direction: column;
     align-items: center;
