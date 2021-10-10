@@ -25,6 +25,10 @@
     <script src="https://kit.fontawesome.com/a076d05399,js"></script>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+        <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick-1.8.1/slick/slick.css"/>
+// Add the new slick-theme.css if you want the default styling
+<link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick-1.8.1/slick/slick-theme.css"/>
         
     <!-- <link rel="stylesheet" type="text/css" href="/css/common.css" />
     <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
@@ -34,7 +38,98 @@
       .img-container {
         text-align: center;
       }
+  
     </style>
+
+<style type="text/css">
+  .slider {
+      width: 100%;
+      align-content: center;
+      padding-top: 2vw;
+  }
+  .slider  img{    
+          display: block;
+          width: 100%;
+          height: auto;  
+  }
+   
+  .slick-dots {
+      display: flex;
+      justify-content: center;    
+      margin: 0;
+      padding: 3rem 0;    
+      z-index: 600;
+      list-style-type: none;  
+      
+  }
+  .slick-dots li {
+              margin: 0 0.25rem;
+              z-index: 700;
+  }   
+  .slick-dots button {
+              display: block;
+              width: 0.5vw;
+              height: 0.5vw;
+              padding: 0;         
+              border: none;
+              border-radius: 100%;
+              background-color: rgba(255,255,255, 0.5);    
+              z-index: 800;       
+              text-indent: -9999px;
+              cursor: pointer;
+  }
+       
+  .slick-dots li.slick-active button {
+              background-color: rgba(252, 252, 252, 0.829);
+  }   
+   
+      
+.slick-arrow{
+      display: inline-block;
+      position: relative;
+      padding-top: 45rem;
+      z-index: 500;
+      color: #fff;
+      font-size: 2rem;
+  }
+   
+  .slick-prev,
+  .slick-next {
+      font-size:0;
+      position: absolute;
+      padding-bottom: 46rem;
+      color: rgb(255, 255, 255);;
+      border: 0;
+      background: none;
+      z-index: 1;
+       cursor: pointer;
+  }
+   
+  .slick-prev {
+      left: 30px;
+  }
+   
+  /* .slick-prev:after {
+        content: "\f104";
+      font: 40px/1 'FontAwesome';
+  } */
+   
+  .slick-next {
+      right: 40px;
+      text-align: right;
+  }
+   
+  /* .slick-next:after {
+         content: "\f105";
+       font: 40px/1 'FontAwesome';
+  } */
+   
+  .slick-prev:hover:after,
+  .slick-next:hover:after {
+      color: #4f1063;
+  }
+   
+  </style>
   
 </head>
 <body>
@@ -351,10 +446,18 @@
         <div class="right-column">
           <div class="text1">갑상샘의 자가조절기능 (Autoregulation)</div>
           <div class="text3">
-            (3) 요오드는 주로 소장에서 전량 흡수되며, 혈액내에서는 I-로 존재합니다.
+            : 요오드 섭취량이 변화하여도 뇌하수체-갑상샘축과 상관없이 갑상샘 기능을 정상으로 유지하려는 현상입니다.
           </div>
           <div class="text3">
-            (4) 섭취된 요오드의 약 1/4은 갑상샘으로 들어가고, 나머지는 신장으로 배설됩니다. 갑상샘의 요오드 저장양은 약 8mg에 이릅니다.
+            (1) 과량의 요오드 섭취시, 갑상샘 내에서의 요오드 유입 및 유기화를 억제(Wolff-Chaikoff 효과)하고 혈액내로의 갑상샘 호르몬 분비를 억제합니다. 
+            그러나, 이런 현상은 일시적이며 계속 과량 섭취시, 이탈현상에 의해 오히려 갑상샘 호르몬 생산이 증가합니다.
+          </div>
+          <div class="text3">
+            (2) 갑상샘 내의 요오드화 물질이 많아지면 갑상샘 내로의 요오드 유입을 스스로 억제합니다. 또한, 갑상샘 내에 호르몬이 충분한 상태라면 갑상샘
+            내로 유입된 요오드가 호르몬을 만드는데 사용되지 않고 그대로 밖으로 유출됩니다.
+          </div>
+          <div class="text3">
+            (3) T3, T4 생산비를 조절합니다. - 요오드 부족으로 갑상샘 기능저하가 생겨 TSH가 증가되면 좀 더 역가가 강한 T3의 생산이 증가합니다.
           </div>
         </div>    
 
@@ -418,7 +521,7 @@
                 <span class="title2">갑상샘 기능검사의 시행</span>
                 <!-- <span>2nd Jan 2021</span> -->
               </div>
-              <p align="left" style="line-height: 1.68; font-size:1.15em;">1. CBC, admission battery
+              <p align="left" style="line-height: 1.68; font-size:1.15em;">CBC, admission battery
                 등의 일반적인 검사를 시행한 이후에 갑상샘 기능검사를 시행합니다.
               </p>
               <!-- <div class="bottom">
@@ -511,6 +614,17 @@
         <div class="text1">갑상샘 기능검사의 종류</div>
                   <p align="left" style="line-height: 1.68; font-size:1.15em;">갑상샘 질환이 의심되는 환자의 갑상샘 기능 상태를
                     정확히 평가하는 목적의 검사입니다. </p>
+
+<!-- horizontal card code starts -->
+<div class="slider">
+  <div><img src="slides/01.jpg" ></div>
+  <div><img src="slides/02.jpg" ></div>
+  <div><img src="slides/03.jpg" ></div>
+  <div><img src="slides/04.jpg" ></div>
+</div>
+<!-- horizontal card code ends -->
+
+
         <div class="text1">1. 갑상샘의 활성과 갑상샘호르몬 생합성에 대한 평가</div>
                   <p align="left" style="line-height: 1.68; font-size:1.15em;">1) 방사성 요오드 섭취율 검사 </p>
                   <p align="left" style="line-height: 1.68; font-size:1.15em;">2) 과염소산방출검사 (perchlorate discharge test) </p>
@@ -533,144 +647,7 @@
        
    </div>
 
-   <!-- Card hover effect -->
-   <!-- <div class="section8-content">   
-   <div class="container">
-     <div class="card">
-       <div class="imgBx" data-text="기능검사1">
-         <img src="./slides/01.jpg">
-       </div>
-       <div class="content">
-         <h3>기능검사1</h3>
-         <p>기능검사에 대한 설명</p>
-       </div>
-     </div>
-
-     <div class="card">
-      <div class="imgBx" data-text="기능검사2">
-        <img src="./slides/02.jpg">
-      </div>
-      <div class="content">
-        <h3>기능검사2</h3>
-        <p>기능검사에 대한 설명</p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="imgBx" data-text="기능검사2">
-        <img src="./slides/03.jpg">
-      </div>
-      <div class="content">
-        <h3>기능검사3</h3>
-        <p>기능검사에 대한 설명</p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="imgBx" data-text="기능검사1">
-        <img src="./slides/04.jpg">
-      </div>
-      <div class="content">
-        <h3>기능검사4</h3>
-        <p>기능검사에 대한 설명</p>
-      </div>
-    </div>
-
-   </div>
-  </div> -->
-
-
-   <!-- <div class="section8-content-1"> -->
-    <!-- <div class="slider">
-      <div class="slides">
-        <div id="slide-1"><img src="./slides/01.jpg"></div>
-        <div id="slide-2"><img src="./slides/02.jpg"></div>
-        <div id="slide-3"><img src="./slides/03.jpg"></div>
-      </div>
-
-     
-      <a href="#slide-1">1</a>
-      <a href="#slide-2">2</a>
-      <a href="#slide-3">3</a>
-     
-    </div> -->
-
-           <!-- <div class="app">
-             <div class="cardList">
-               <button class="cardList__btn btn btn--left">
-                 <div class="icon">
-                   <svg>
-                     <use xlink:href="#arrow-left"></use>
-                   </svg>
-                 </div>
-               </button>
-           
-               <div class="cards__wrapper">
-                 <div class="card current--card">
-                   <div class="card__image">
-                     <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
-                   </div>
-                 </div>
-           
-                 <div class="card next--card">
-                   <div class="card__image">
-                     <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
-                   </div>
-                 </div>
-           
-                 <div class="card previous--card">
-                   <div class="card__image">
-                     <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
-                   </div>
-                 </div>
-               </div>
-           
-               <button class="cardList__btn btn btn--right">
-                 <div class="icon">
-                   <svg>
-                     <use xlink:href="#arrow-right"></use>
-                   </svg>
-                 </div>
-               </button>
-             </div>
-           
-             <div class="infoList">
-               <div class="info__wrapper">
-                 <div class="info current--info">
-                    <h1 class="text name">Highlands</h1>
-                   <h4 class="text location">Scotland</h4>
-                   <p class="text description">The mountains are calling</p> 
-                 </div>
-           
-                 <div class="info next--info">
-                    <h1 class="text name">Machu Pichu</h1>
-                   <h4 class="text location">Peru</h4>
-                   <p class="text description">Adventure is never far away</p> 
-                 </div>
-           
-                 <div class="info previous--info">
-                   <h1 class="text name">Chamonix</h1>
-                   <h4 class="text location">France</h4>
-                   <p class="text description">Let your dreams come true</p>
-                 </div>
-               </div>
-             </div>
-           
-                          
- 
-           <svg class="icons" style="display: none;">
-             <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-               <polyline points='328 112 184 256 328 400'
-                     style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-             </symbol>
-             <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-               <polyline points='184 112 328 256 184 400'
-                     style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-             </symbol>
-           </svg>
-           
-           
-   </div> -->
+  
 </section>
 
 
@@ -709,33 +686,6 @@
   </div>
 </section>
 
-<!-- 퀴즈 및 평가 start -->
-<!-- <section class="section11" id="section11">
-  <div class="max-width">
-        <h2 class="title">퀴즈 / 평가</h2>
-      <div class="section11-content">
-            start quiz button 
-            <div class="start_btn0"><button><a href="Quiz.html" target='blank'>퀴즈 시작</a></button> 
-              
- 
-               </div>
-      </div>
-   </div>
-           
-        
-</section> -->
-
-<!-- section6 start -->
-<!-- <section class="section6" id="section6">
-  <div class="max-width">
-      <h2 class="title">용어</h2>
-      <div class="section6-content">
-        
-        <div class="text1">단어</div>
-                  <p align="left" style="line-height: 1.68; font-size:1.15em;"> 뜻 풀이, 설명</p>
-       </div>
-   </div>
-</section> -->
 
 
 
@@ -770,6 +720,59 @@
    <!-- <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
    <script type="text/javascript" src="css_cards.js"></script> -->
+
+   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+
+<!-- 이미지 슬라이더 스크립트 -->
+<script>
+$('.slider').slick({
+  slide:'div',
+  dots: true,
+  arrows: true,
+  autoplay: true,
+  infinite: true,
+  speed: 300,
+  autoplaySpeed : 5000, // 자동 넘김시 슬라이드 시간 
+  pauseOnHover : true,// 마우스 hover시 슬라이드 멈춤
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  draggable: true, //드래그 가능여부
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
 
 </body>
 </html>

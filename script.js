@@ -14,21 +14,25 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
+
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
         // removing smooth scroll on slide-up button click
         $('html').css("scrollBehavior", "auto");
     });
+
     $('.navbar .menu li a').click(function(){
         // applying again smooth scroll on menu items click
         $('html').css("scrollBehavior", "smooth");
     });
+
     // toggle menu/navbar script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Flipped Learning", "플립러닝", "거꾸로 학습", "역진행 수업"],
@@ -36,12 +40,14 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
+
     var typed = new Typed(".typing-2", {
         strings: ["내분비 기관", "목에 위치", "나비모양"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
+    
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
