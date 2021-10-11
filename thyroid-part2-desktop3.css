@@ -17,36 +17,3 @@ body {
   width: 100%;
   height: 100%;
 }
-
-#T1{
-  position: absolute;
-  background-color: #e4d5b5;
-  border-radius: 5px;
-  color: #000;
-  font-weight: bold;
-  box-shadow: 0 0 4px 2px #fff;
-  border: #f1b5a2;
-  padding: 5px;
-}
-
-#C7 {
-  position: absolute;
-  background-color: #e4d5b5;
-  border-radius: 5px;
-  color: #000;
-  font-weight: bold;
-  box-shadow: 0 0 4px 2px #fff;
-  border: #f1b5a2;
-  padding: 5px;
-}
-
-#thyroid {
-  position: absolute;
-  background-color: #ee9378;
-  border-radius: 5px;
-  color: #fff;
-  font-weight: bold;
-  box-shadow: 0 0 4px 2px #fff;
-  border: #f1b5a2;
-  padding: 5px;
-}
