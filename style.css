@@ -1268,7 +1268,9 @@ section .title::after{
   .section2-0-content,
   .section7-content,
   .section10-content,
-  .section3-2-content-2{
+  .section3-2-content-2,
+  .section5-content,
+  .section12-content{
     display: flex;
     flex-direction: column;
     align-items: left;
