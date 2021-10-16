@@ -411,7 +411,7 @@ section .title::after{
   border-radius: 12px;
 } */
 
-.section2 .section2-content img{
+.section2 .section2-content .img-container img{
   height: auto;
   width: 100%;
   object-fit: cover;
