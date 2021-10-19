@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 .section2-0,.section2, .section2-content,.section2-content-2, .section3, 
 /* .section3-2,  */
 .section4,
-.section5, .section7, .section10, .section11, .section12,
+.section5, .section7,.section10-content .section11, .section12,
 .section2-content, .section3-content, .section3-2-content,.section4-content, .section4-2-content,
 
 .section5-content,  .section11-content, .section12-content  {
@@ -318,7 +318,7 @@ section .title::after{
 }
 
 .section2-0 .title::before{
-   background: #fff;
+   opacity:0;
   
 }
 
@@ -397,6 +397,10 @@ section .title::after{
   content: "Thyroid Gland";
 }
 
+.section2 .title::before{
+  opacity:0;
+}
+
 /* .section2 .section2-content .left{
   flex: 45%;
   margin-right: auto;
@@ -459,7 +463,11 @@ section .title::after{
 /*section3 thyroid 갑상샘 해부학 구조 파트 styling*/
 
 .section3 .title::after{
-  content: "Anatomy";
+  content: "Thyroid Anatomy";
+}
+
+.section3 .title::before{
+  opacity:0;
 }
 
 .section3-content{
@@ -527,6 +535,10 @@ section .title::after{
 
 .section3-2 .title::after{
   content: "Physiology";
+}
+
+.section3-2 .title::before{
+  opacity:0;
 }
 
 .section3-2-content, 
@@ -598,7 +610,7 @@ section .title::after{
 }
 
 .section4 .title::before{
-  background: #fff;
+  opacity:0;
   
 }
 
@@ -671,7 +683,7 @@ section .title::after{
 }
 
 .section5 .title::before{
-  background: #fff;
+  opacity:0;
   
 }
 
@@ -751,7 +763,7 @@ section .title::after{
 }
 
 .section12 .title::before{
-  background: #fff;
+  opacity:0;
   
 }
 
@@ -831,6 +843,10 @@ section .title::after{
   
 }
 
+.section8 .title::before{
+  opacity:0;
+}
+
 
 
 .section8-content-1{
@@ -856,34 +872,111 @@ section .title::after{
   font-weight: 500;
   }
 
-
-  /* card slider */
-  /* .slider img{
-    height: auto;
-    width: 100%;
-    padding: 2vw 2vw 0 0;
-   
+  /*기능검사 아코디언*/
+  ::selection{
+    background: rgba(132, 0, 255, 0.3);
+  }
+ 
+  .wrapper .parent-tab,
+  .wrapper .child-tab{
+    margin-bottom: 8px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.18);
+  }
+  .wrapper .parent-tab label,
+  .wrapper .child-tab label{
+    background: #3d2846;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    z-index: 99;
+    transition: all 0.3s ease;
+  }
+  .wrapper .parent-tab label:hover{
+    background: #7c4f8f;
+  }
+  .parent-tab input:checked ~ label,
+  .child-tab input:checked ~ label{
+    border-radius: 3px 3px 0 0;
+    background: #3d2846;
+  }
+  .wrapper label span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 0 -1px 1px #36203f;
+  }
+  .wrapper .child-tab label span{
+    font-size: 17px;
+  }
+  .parent-tab label .icon{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    color: #3d2846;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    text-shadow: 0 -1px 1px #36203f;
+  }
+  .wrapper .child-tab label .icon{
+    height: 27px;
+    width: 27px;
+  }
+  .parent-tab label .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .parent-tab input:checked ~ label .icon i:before,
+  .child-tab input:checked ~ label .icon i:before{
+    content: '\f068';
+  }
+  .wrapper .parent-tab .content,
+  .wrapper .child-tab .sub-content{
+    max-height: 0px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 0 0 3px 3px;
+    transition: all 0.4s ease;
+  }
+  .parent-tab input:checked ~ .content,
+  .child-tab input:checked ~ .sub-content{
+    max-height: 100vh;
+  }
+  .tab-3 input:checked ~ .content{
+    padding: 15px 20px;
+  }
+  .parent-tab .content p,
+  .child-tab .sub-content p{
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+  .child-tab .sub-content p{
+    font-size: 15px;
+  }
+  input[type="radio"],
+  input[type="checkbox"]{
+    display: none;
   }
 
-  .slick-prev:before {
-    content: "\f104";
-    
-    font-size: 30px;
-    font-family: 'FontAwesome';
-  }
 
-  .slick-next:before {
-    content: "\f105";
-    font-size: 30px;
-    font-family: 'FontAwesome';
-  } */
-
+  
 
 /*section9 환자 진료과정 styling*/
 
 
 .section9 .title::after{
   content: "Diagnostic Process";
+  }
+  .section9 .title::before{
+    opacity:0;
   }
 
 
@@ -918,13 +1011,13 @@ section .title::after{
   color: #fa8072;
   background: #fa8072;
 }
-.section9 .section9-content .wrapper{
+.section9 .section9-content .wrapper-timeline{
   max-width: 1080px;
   margin: 50px auto;
   padding: 0 20px;
   position: relative;
 }
-.section9 .section9-content .wrapper .center-line{
+.section9 .section9-content .wrapper-timeline .center-line{
   position: absolute;
   height: 100%;
   width: 4px;
@@ -933,23 +1026,23 @@ section .title::after{
   top: 20px;
   transform: translateX(-50%);
 }
-.section9 .section9-content .wrapper .row{
+.section9 .section9-content .wrapper-timeline .row{
   display: flex;
 }
-.section9 .section9-content .wrapper .row-1{
+.section9 .section9-content .wrapper-timeline .row-1{
   justify-content: flex-start;
 }
-.section9 .section9-content .wrapper .row-2{
+.section9 .section9-content .wrapper-timeline .row-2{
   justify-content: flex-end;
 }
-.section9 .section9-content .wrapper .row section{
+.section9 .section9-content .wrapper-timeline .row section{
   background: #3d2846;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
   position: relative;
 }
-.section9 .section9-content .wrapper .row section::before{
+.section9 .section9-content .wrapper-timeline .row section::before{
   position: absolute;
   content: "";
   height: 15px;
@@ -959,12 +1052,7 @@ section .title::after{
   z-index: -1;
   transform: rotate(45deg);
 }
-.section9 .section9-content .row-1 section::before{
-  right: -7px;
-}
-.section9 .section9-content .row-2 section::before{
-  left: -7px;
-}
+
 .section9 .section9-content .row section .icon,
 .section9 .section9-content .center-line .scroll-icon{
   position: absolute;
@@ -1061,22 +1149,27 @@ section .title::after{
 
 .section10{
   width:100%;
+  padding:150px 0 0 0;
 }
 
 .section10 .title::after{
   content: "Thyroid Disease";
+}
+.section10 .title::before{
+  opacity:0;
 }
 
 .section10-content{
   align-items: center;
 }
 
-.section10 .section10-content img{
+
+ .section10 .section10-content img{
   height: auto;
   width: 100%;
   object-fit: cover;
   border-radius: 6px;
-}
+} 
 
 
 
@@ -1112,6 +1205,137 @@ section .title::after{
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
+/*radio menu*/
+
+.section20{
+  width:100%;
+}
+
+.section20 .title{
+  text-align: left;
+}
+
+.section20 .title::before{
+  opacity:0;
+}
+
+.section20-content{
+  align-items: left;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  /* overflow: hidden; */
+  padding: 0 20px;
+  /* background: #17a2b8; */
+}
+::selection{
+  background: rgba(163, 103, 68, 0.3);
+}
+.wrapper{
+  
+  max-width: 1300px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 25px 30px 30px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.wrapper header{
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.wrapper nav{
+  position: relative;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.wrapper nav label{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #fa8072;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+.wrapper nav label:hover{
+  background: rgba(238, 119, 83, 0.3);
+}
+#disease:checked ~ nav label.disease,
+#blog:checked ~ nav label.blog,
+#code:checked ~ nav label.code,
+#help:checked ~ nav label.help,
+  #about:checked ~ nav label.about{
+  color: #fff;
+}
+nav label i{
+  padding-right: 7px;
+}
+nav .slider2{
+  position: absolute;
+  height: 100%;
+  width: 25%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: #fa8072;
+  transition: all 0.3s ease;
+}
+input[type="radio"]{
+  display: none;
+}
+#blog:checked ~ nav .slider2{
+  left: 25%;
+}
+#code:checked ~ nav .slider2{
+  left: 50%;
+}
+#help:checked ~ nav .slider2{
+  left: 75%;
+}
+/* #about:checked ~ nav .slider2{
+  left: 80%;
+} */
+section .content{
+  display: none;
+  background: #fff;
+}
+#disease:checked ~ section .content-1,
+#blog:checked ~ section .content-2,
+#code:checked ~ section .content-3,
+#help:checked ~ section .content-4,
+#about:checked ~ section .content-5{
+  display: block;
+}
+section .content .title{
+  font-size: 21px;
+  font-weight: 500;
+  margin: 30px 0 10px 0;
+}
+section .content p{
+text-align: justify;
+line-height: 160%;
+}
+
 
 
 /*section6 용어 모음 styling*/
