@@ -877,10 +877,7 @@ section .title::after{
     background: rgba(132, 0, 255, 0.3);
   }
  
-  .wrapper-accordian{
-    max-width: 800px;
-    padding: 0 20px;
-  }
+  
   .wrapper-accordian .parent-tab,
   .wrapper-accordian .child-tab{
     margin-bottom: 8px;
