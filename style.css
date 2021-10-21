@@ -42,12 +42,20 @@ html{
 /* all similar content styling codes */
 section{
   padding: 100px 0;
+  width: 100%;
 }
 
-.section::before {
+/* .screen {
+  background: #333;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}  */
+
+.home::before {
   animation: bounce 1s ease infinite;
   bottom: 2rem;
-  color: rgb(189, 106, 106);
+  color: rgb(241, 135, 116);
   content: '╲╱';
   font-size: 2rem;
   height: 4rem;
@@ -68,7 +76,7 @@ section{
 }
 
 .max-width{
-  max-width: 1300px;
+  max-width: 1500px;
   padding: 0 80px;
   margin: auto;
   justify-content: space-between;
@@ -1262,7 +1270,7 @@ section .title::after{
 }
 body{
   /* overflow: hidden; */
-  padding: 0 20px;
+  /* padding: 0 20px; */
   /* background: #17a2b8; */
 }
 ::selection{
