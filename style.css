@@ -277,7 +277,7 @@ section .title::after{
 /* home section styling */
 .home{
   display: flex;
-  background: white;
+  background: transparent;
   height: 100vh;
   color: #3d2846;
   min-height: 500px;
