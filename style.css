@@ -42,7 +42,7 @@ html{
 /* all similar content styling codes */
 section{
   padding: 100px 0;
-  width: 100%;
+  
 }
 
 /* .screen {
@@ -76,7 +76,7 @@ section{
 }
 
 .max-width{
-  max-width: 1500px;
+  max-width: 1300px;
   padding: 0 80px;
   margin: auto;
   justify-content: space-between;
