@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
@@ -47,7 +49,10 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
+
     
+    
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
