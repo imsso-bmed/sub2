@@ -1230,7 +1230,7 @@ section .title::after{
 
 .section10{
   width:100%;
-  padding:150px 0 0 0;
+  padding:150px 0 100px 0;
 }
 
 .section10 .title::after{
