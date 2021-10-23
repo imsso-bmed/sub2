@@ -33,6 +33,10 @@
 <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick-1.8.1/slick/slick-theme.css"/>
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
+<link rel="stylesheet" href="magnific-popup.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="jquery.magnific-popup.min.js"></script>
+
     <!-- <link rel="stylesheet" type="text/css" href="/css/common.css" />
     <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="/css/subpage2.css" /> -->
@@ -223,7 +227,7 @@
           <h2 class="title">갑상샘</h2>
           <div class="section2-content" data-aos="fade-up">
               <!-- <div class="column left"> -->
-                <img src="images/thyroid_0919_2.jpg" alt="thyroid">
+                <a class="img1" href="images/thyroid_1019-2.jpg"><img src="images/thyroid_0919_2.jpg" alt="thyroid"></a>
                 <!-- <img src="images/thyroid_1019.jpg" alt="thyroid2"> -->
                 <!-- <img src="images/thyroid_1019-2.jpg" alt="thyroid3"> -->
               <!-- </div> -->
@@ -280,7 +284,7 @@
       <h2 class="title">갑상샘의 생리</h2>
       <div class="section3-2-content">
               <div class="img-container">
-                <img src="images/iodine.gif" alt="thyroid physiology">
+                <a class="img1" href="images/iodine.gif"><img src="images/iodine.gif" alt="thyroid physiology"></a>
               </div>
       
       <div class="text1" data-aos="fade-up"><span style="color : #fa8072;"><i class="fas fa-arrow-circle-right"></i></span>&nbsp;&nbsp;요오드의 대사</div>
@@ -650,11 +654,11 @@
 
 <!-- horizontal card code starts -->
 <div class="slider" data-aos="fade-up">
-  <div><img src="slides/01.jpg" ></div>
-  <div><img src="slides/02.jpg" ></div>
-  <div><img src="slides/03.jpg" ></div>
-  <div><img src="slides/04.jpg" ></div>
-  <div><img src="slides/05.jpg" ></div>
+  <div><a class="img2" href="slides/01.jpg"><img src="slides/01.jpg" ></a></div>
+  <div><a class="img2" href="slides/02.jpg"><img src="slides/02.jpg" ></a></div>
+  <div><a class="img2" href="slides/03.jpg"><img src="slides/03.jpg" ></a></div>
+  <div><a class="img2" href="slides/04.jpg"><img src="slides/04.jpg" ></a></div>
+  <div><a class="img2" href="slides/05.jpg"><img src="slides/05.jpg" ></a></div>
 </div>
 <!-- horizontal card code ends -->
 
@@ -852,6 +856,29 @@
         </div>
    </div>
 </section>
+
+<script type="text/javascript">
+    $('.img1').magnificPopup({
+       type: 'image',
+       closeOnContentClick: true,
+       closeBtnInside: true,
+       fixedContentPos: true,
+       image: {    verticalFit: true    },
+       gallery: {   enabled: true    }, // 좌우로 사진 돌려보기 생성
+       zoom: {    enabled: true,   duration: 400    }
+    });
+
+    $('.img2').magnificPopup({
+       type: 'image',
+       closeOnContentClick: true,
+       closeBtnInside: true,
+       fixedContentPos: true,
+       image: {    verticalFit: true    },
+       gallery: {   enabled: true    }, // 좌우로 사진 돌려보기 생성
+       zoom: {    enabled: true,   duration: 400    }
+    });
+
+</script>
 
    <script src="script.js"> </script>
    <!-- <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
