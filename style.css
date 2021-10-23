@@ -856,7 +856,7 @@ section .title::after{
 }
 
 .section12 .section12-content  .right-column .text3{
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
@@ -869,13 +869,13 @@ section .title::after{
   margin-left: 30px; 
 }
 
-.section12 .section12-content  p{
+/* .section12 .section12-content  p{
   text-align: justify;
   line-height: 160%;
   display:flex;
   color:#fff;
   font-weight: 500;
-}
+} */
 
 
 .iframebox{
@@ -921,12 +921,12 @@ section .title::after{
   font-weight: 700;
   margin-bottom: 20px;
   margin-top: 10px;
-  padding-top: 30px;
+  padding-top: 20px;
   margin-left: 30px;
   
 }
 
-.section8 .section8-content  p{
+.section8 .section8-content .text3{
   text-align: justify;
   display:flex;
   font-weight: medium;
@@ -935,6 +935,7 @@ section .title::after{
   word-break: keep-all;  
   margin-right: 15px;
   margin-left: 30px; 
+  margin-bottom: 40px;
   font-size:22px;
   }
 
