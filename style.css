@@ -149,7 +149,7 @@ section{
 section .title{
   position: relative;
   text-align: center;
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 500;
   margin-bottom: 70px;
   padding-bottom: 20px;
@@ -304,20 +304,20 @@ section .title::after{
 }
 
 .home .home-content .text1{
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 500;
   line-height: 180%;
 }
 
 .home .home-content .text2{
-  font-size: 50px;
+  font-size: 60px;
   font-weight:600;
   margin-left: -3px;
   line-height: 160%;
 }
 
 .home .home-content .text3{
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 600;
   margin: 5px 0;
   line-height: 160%;
@@ -334,7 +334,7 @@ section .title::after{
   display: inline-block;
   background: #3d2846;
   color: #fff;
-  font-size: 25px;
+  font-size: 28px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 500;
@@ -482,7 +482,7 @@ section .title::after{
 
 
 .section2 .section2-content .text1{
-  font-size: 25px;
+  font-size: 29px;
   font-weight: 700;
   margin-bottom: 30px;
   margin-left: 30px;
@@ -511,7 +511,7 @@ section .title::after{
 }
 
 .section3 .section3-content .text1{
-  font-size: 25px;
+  font-size: 29px;
   font-weight: 700;
   margin-bottom: 20px;
   margin-left: 30px;
@@ -590,7 +590,7 @@ section .title::after{
 }
 
 .section3-2 .section3-2-content .text1{
-  font-size: 25px;
+  font-size: 29px;
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -676,7 +676,7 @@ section .title::after{
 }
 
 .section4 .section4-content-2 .text1{
-  font-size: 25px;
+  font-size: 29px;
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 30px;
@@ -746,7 +746,7 @@ section .title::after{
 }
 
 .section5 .section5-content .text1{
-  font-size: 25px;
+  font-size: 29px;
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 30px;
@@ -831,7 +831,7 @@ section .title::after{
 }
 
 .section12 .section12-content .text1{
-  font-size: 25px;
+  font-size: 29px;
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 30px;
@@ -917,7 +917,7 @@ section .title::after{
 
 
 .section8 .section8-content .text1{
-  font-size: 25px;
+  font-size: 29px;
   font-weight: 700;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -1063,7 +1063,7 @@ section .title::after{
 }
 
 .section9 .section9-content .text1{
-  font-size: 25px;
+  font-size: 29px;
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -1256,7 +1256,7 @@ section .title::after{
 
 
 .section10 .section10-content .text1{
-  font-size: 25px;
+  font-size: 29px;
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -1473,7 +1473,7 @@ margin-left: 30px;
 }
 
 .section7 .section7-content .text1{
-  font-size: 25px;
+  font-size: 29px;
   font-weight: 600;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -1617,14 +1617,18 @@ margin-left: 30px;
 }
 @media (max-width: 947px){
  
+  .home .home-content .text1{
+    font-size: 24px;
+}
+
   .home .home-content .text2{
-      font-size: 42px;
+      font-size: 50px;
   }
   .home .home-content .text3{
-      font-size: 42px;
+      font-size: 50px;
   }
   .home .home-content a{
-      font-size: 20px;
+      font-size: 24px;
       padding: 10px 30px;
   }
   .max-width{
@@ -1698,17 +1702,20 @@ margin-left: 30px;
   }
 
   .home .home-content .text2{
-      font-size: 36px;
+      font-size: 38px;
   }
   .home .home-content .text3{
-      font-size: 36px;
+      font-size: 38px;
   }
-  .home .home-content a{
-      font-size: 18px;
-  }
+  
   /* .services .serv-content .card{
       width: 100%;
   } */
+
+  
+  section .title{
+    font-size: 36px;
+  }
 
   .wrapper nav label{
     display: block;
@@ -1758,12 +1765,7 @@ margin-left: 30px;
   }
 
 
-  .home .home-content .text2{
-      font-size: 30px;
-  }
-  .home .home-content .text3{
-      font-size: 30px;
-  }
+
   .section2 .section2-content .right .text,
   .skills .skills-content .left .text{
       font-size: 19px;
