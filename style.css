@@ -42,10 +42,61 @@ html{
 /* all similar content styling codes */
 section{
   padding: 100px 0;
+  
+}
+
+/* 스크롤 fade in */
+.scrollFade {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scrollFade--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.scrollFade--visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scrollFade--animate {
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* .screen {
+  background: #333;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}  */
+
+.home::before {
+  animation: bounce 1s ease infinite;
+  bottom: 2rem;
+  color: rgb(241, 135, 116);
+  content: '╲╱';
+  font-size: 2rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-50%);
+  }
 }
 
 .max-width{
-  max-width: 1300px;
+  max-width: 1200px;
   padding: 0 80px;
   margin: auto;
   justify-content: space-between;
@@ -246,7 +297,7 @@ section .title::after{
 /* home section styling */
 .home{
   display: flex;
-  background: white;
+  background: transparent;
   height: 100vh;
   color: #3d2846;
   min-height: 500px;
@@ -306,6 +357,8 @@ section .title::after{
 .home .home-content a:hover{
   color: #fa8072;
 }
+
+
 
 
 /*section2.0 학습목표 styling*/
@@ -1237,7 +1290,7 @@ section .title::after{
 }
 body{
   /* overflow: hidden; */
-  padding: 0 20px;
+  /* padding: 0 20px; */
   /* background: #17a2b8; */
 }
 ::selection{
