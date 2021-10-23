@@ -595,7 +595,7 @@ section .title::after{
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
-  margin-left: 30px; 
+  margin-left: 160px; 
 }
 
 .section3-2 .section3-2-content .text3{
@@ -608,8 +608,8 @@ section .title::after{
   text-align: left;
   line-height: 180%;
   word-break: keep-all;  
-  margin-right: 15px;
-  margin-left: 30px; 
+  margin-right: 80px;
+  margin-left: 160px; 
 
 }
 
@@ -842,7 +842,7 @@ section .title::after{
 }
 
 .section12 .section12-content  .text3{
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
@@ -1264,7 +1264,7 @@ section .title::after{
 
 }
 
-.section10 .section10-content  p{
+.section10 .section10-content p{
   text-align: justify;
   line-height: 160%;
   font-weight: 500;
@@ -1406,7 +1406,7 @@ section .content{
   display: block;
 }
 section .content .title{
-  font-size: 21px;
+  font-size: 25px;
   font-weight: 500;
   margin: 30px 0 10px 30px;
 }
@@ -1414,6 +1414,7 @@ section .content p{
 text-align: left;
 line-height: 160%;
 margin-left: 30px;
+font-size: 20px;
 }
 
 
@@ -1502,11 +1503,6 @@ margin-left: 30px;
 
 
 
-.section7 .section7-content  p{
-  text-align: justify;
-  line-height: 160%;
-}
-
 /*Quiz 파트 스타일링*/
 /* .section11{
   width:100%;
@@ -1575,6 +1571,30 @@ margin-left: 30px;
     flex-basis: 50%; 
     padding-left: 0px;
   } */
+
+  .section3-2 .section3-2-content .text1{
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 30px;
+    margin-left: 140px; 
+  }
+  
+  .section3-2 .section3-2-content .text3{
+    font-size: 21px;
+    font-weight: medium;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 3vw;
+    color: black;
+    text-align: left;
+    line-height: 180%;
+    word-break: keep-all;  
+    margin-right: 80px;
+    margin-left: 140px; 
+  
+  }
 
  
 
@@ -1675,6 +1695,30 @@ margin-left: 30px;
   word-break: keep-all;
 }
 
+.section3-2 .section3-2-content .text1{
+  font-size: 29px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 30px;
+  margin-left: 120px; 
+}
+
+.section3-2 .section3-2-content .text3{
+  font-size: 21px;
+  font-weight: medium;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 3vw;
+  color: black;
+  text-align: left;
+  line-height: 180%;
+  word-break: keep-all;  
+  margin-right: 80px;
+  margin-left: 120px; 
+
+}
+
 
 }
 
@@ -1734,6 +1778,30 @@ margin-left: 30px;
     padding-top: 6px;
     transition: all 0.3s ease;
     word-break: keep-all;
+  }
+
+  .section3-2 .section3-2-content .text1{
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 30px;
+    margin-left: 40px; 
+  }
+  
+  .section3-2 .section3-2-content .text3{
+    font-size: 21px;
+    font-weight: medium;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 3vw;
+    color: black;
+    text-align: left;
+    line-height: 180%;
+    word-break: keep-all;  
+    margin-right: 20px;
+    margin-left: 40px; 
+  
   }
 }
 
