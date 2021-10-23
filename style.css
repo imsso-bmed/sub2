@@ -17,7 +17,7 @@
 
 
 
-p{ word-wrap:break-word; 
+p{ word-break: keep-all;
    text-align: left;
 }
 
@@ -131,7 +131,7 @@ h1,h2,h3,h4,h5,h6,hr,p,figure {
 }
 
 /*2-column layout section*/
-.section2-0-content,
+/* .section2-0-content, */
 .section2-content,
 .section2-content-2,
 .section7-content,
@@ -389,32 +389,46 @@ section .title::after{
 }
 
 .section2-0 .text1{
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   margin-top: 10px;
   padding-top: 30px;
   color:#fff;
   position: relative;
-  text-align: left;
-  line-height: 160%;
+  text-align: center;
+  line-height: 200%;
+  word-break: keep-all;
 }
 
-.left-column{
+/* .left-column{
   justify-content: left;
-  flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
-  flex-basis: 50%; /* sets initial width to 70% */
+  flex-shrink: 0;
+  flex-basis: 50%;
   padding-right: 10px;
 }
 
 .right-column{
   justify-content: left;
-  flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
-  flex-basis: 50%; /* sets initial width to 70% */
+  flex-shrink: 0; 
+  flex-basis: 50%; 
   padding-left: 10px;
+} */
+
+.text2{
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding-top: 30px;
+  color:#fff;
+  text-align: left;
+  line-height: 160%;
+  word-break: keep-all;
 }
 
-.left-column .text2{
+/* .right-column .text2{
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -424,19 +438,7 @@ section .title::after{
   text-align: left;
   line-height: 160%;
   word-wrap:break-word;  
-}
-
-.right-column .text2{
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  padding-top: 30px;
-  color:#fff;
-  text-align: left;
-  line-height: 160%;
-  word-wrap:break-word;  
-}
+} */
 
 .section2-0 .section2-0-content  p{
   text-align: justify;
@@ -476,34 +478,40 @@ section .title::after{
 }
 
 .section2 .section2-content-2 .left-column .text3{
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
-  padding-right: 3vw;
+  /* padding-right: 3vw; */
+  margin-left: 30px;
   color: black;
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word;  
+  line-height: 180%;
+  word-break: keep-all;
+  margin-right: 15px;
 }
 
 .section2 .section2-content-2  .right-column .text3{
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
-  padding-left: 3vw;
+  margin-left: 30px;
+  /* padding-left: 3vw; */
   color: black;
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word;  
+  line-height: 180%;
+  word-break: keep-all;  
+  margin-right: 15px;
 }
 
 
 .section2 .section2-content .text1{
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .section2 .section2-content  .text1 span{
   color: #fa8072;
@@ -530,34 +538,40 @@ section .title::after{
 .section3 .section3-content .text1{
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  word-break: keep-all;
+  margin-top: 30px;
   padding-top: 30px;
 
 }
 
 .section3 .section3-content .left-column .text3{
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding-top: 20px;
-  padding-right: 3vw;
+  /* padding-right: 3vw; */
   color: black;
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word;  
+  line-height: 180%;
+  margin-left: 30px;
+  word-break: keep-all;
+  margin-right: 15px;
 }
 
 .section3 .section3-content  .right-column .text3{
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 500;
   margin-bottom: 20px;
-  padding-top: 20px;
-  padding-left: 3vw;
+  padding-top: 15px;
+  /* padding-left: 3vw; */
   color: black;
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word;  
+  line-height: 180%;
+  margin-left: 30px;
+  word-break: keep-all;
+  margin-right: 15px;
 }
 
 .section3 .section3-content  p{
@@ -606,19 +620,21 @@ section .title::after{
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
-
+  margin-left: 30px; 
 }
 
 .section3-2 .section3-2-content .text3{
-  font-size: 18px;
+  font-size: 21px;
   font-weight: medium;
   margin-bottom: 20px;
   padding-top: 20px;
   padding-right: 3vw;
   color: black;
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word; 
+  line-height: 180%;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
 
 }
 
@@ -631,7 +647,7 @@ section .title::after{
 
 .section3-2 .section3-2-content  p{
   text-align: justify;
-  font-weight: 500;
+  font-weight: medium;
 }
 
 
@@ -688,35 +704,40 @@ section .title::after{
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 30px;
   padding-top: 30px;
   display:flex;
   color:white;
+  margin-left: 30px;
 }
 
 .section4 .section4-content-2 .left-column .text3{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: medium;
   margin-bottom: 20px;
   padding-top: 20px;
   padding-right: 3vw;
-  color: #fff;
+  color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word; 
+  line-height: 190%;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
 
 }
 
 .section4 .section4-content-2 .right-column .text3{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: medium;
   margin-bottom: 20px;
   padding-top: 20px;
   padding-right: 3vw;
-  color: #fff;
+  color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word; 
+  line-height: 190%;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
 
 }
 
@@ -753,34 +774,39 @@ section .title::after{
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-left: 30px;
   padding-top: 30px;
   display:flex;
   color:white;
 }
 
 .section5 .section5-content .left-column .text3{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
   padding-right: 3vw;
-  color: #fff;
+  color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word;  
+  line-height: 190%;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
 }
 
 .section5 .section5-content  .right-column .text3{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
-  padding-left: 3vw;
-  color: #fff;
+  /* padding-left: 3vw; */
+  color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word;  
+  line-height: 190%;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
 }
 
 .section5 .section5-content  p{
@@ -833,7 +859,8 @@ section .title::after{
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-left: 30px;
   padding-top: 30px;
   display:flex;
   color:white;
@@ -845,10 +872,12 @@ section .title::after{
   margin-bottom: 20px;
   padding-top: 20px;
   padding-right: 3vw;
-  color: #fff;
+  color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word;  
+  line-height: 190%;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
 }
 
 .section12 .section12-content  .right-column .text3{
@@ -856,11 +885,13 @@ section .title::after{
   font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
-  padding-left: 3vw;
-  color: #fff;
+  /* padding-left: 3vw; */
+  color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word;  
+  line-height: 190%;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
 }
 
 .section12 .section12-content  p{
@@ -913,16 +944,23 @@ section .title::after{
 .section8 .section8-content .text1{
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 10px;
   padding-top: 30px;
+  margin-left: 30px;
   
 }
 
 .section8 .section8-content  p{
   text-align: justify;
   display:flex;
-  font-weight: 500;
+  font-weight: medium;
+  text-align: left;
+  line-height: 190%;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
+  font-size:22px;
   }
 
   /*기능검사 아코디언*/
@@ -1061,6 +1099,12 @@ section .title::after{
   text-align: justify;
   display:flex;
   font-weight: 500;
+  text-align: left;
+  line-height: 190%;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
+  margin-bottom: 30px;
 }
 
 /*section9 - vertical timeline test*/
@@ -1147,11 +1191,15 @@ section .title::after{
   font-size: 22px;
   font-weight: 700;
   color: #fa8072;
-  line-height:  1.68;
+  line-height:  160%;
 }
 .section9 .section9-content .row section p{
   margin: 10px 0 17px 0;
   color:white;
+  text-align: left;
+  line-height: 190%;
+  word-break: keep-all;  
+  
 }
 .section9 .section9-content .row section .bottom a{
   text-decoration: none;
@@ -1244,6 +1292,7 @@ section .title::after{
   text-align: justify;
   line-height: 160%;
   font-weight: 500;
+  font-size: 21px;
 }
 
 
@@ -1454,6 +1503,7 @@ line-height: 160%;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
+  margin-left: 30px; 
 }
 
 .section7 .section7-content .right-column .text1{
@@ -1462,7 +1512,8 @@ line-height: 160%;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
-  padding-left: 40px;
+  margin-left: 30px; 
+  /* padding-left: 40px; */
 }
 
 .section7 .section7-content .left-column .text3{
@@ -1470,11 +1521,14 @@ line-height: 160%;
   font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
-  padding-right: 3vw;
+  /* padding-right: 3vw; */
   color: black;
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word;  
+  line-height: 190%;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
+  margin-bottom: 30px;
 }
 
 .section7 .section7-content  .right-column .text3{
@@ -1482,11 +1536,14 @@ line-height: 160%;
   font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
-  padding-left: 3vw;
+  /* padding-left: 3vw; */
   color: black;
   text-align: left;
-  line-height: 160%;
-  word-wrap:break-word;  
+  line-height: 190%;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
+  margin-bottom: 30px;  
 }
 
 
@@ -1497,7 +1554,7 @@ line-height: 160%;
 }
 
 /*Quiz 파트 스타일링*/
-.section11{
+/* .section11{
   width:100%;
   background: rgb(255, 221, 221);
 }
@@ -1528,7 +1585,7 @@ line-height: 160%;
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 
 
 /* responsive media query start */
