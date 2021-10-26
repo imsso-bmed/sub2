@@ -136,14 +136,14 @@ background: rgb(255, 255, 255);
 
 
 
-.section2-0, .section2, .section3, .section3-2, .section4,
+.section1, .section2, .section3, .section3-2, .section4,
 .section5, .section6, .section7, .section8, .section8-1, .section9, .section10,
 .section11, .section12{
   font-family: 'Noto Sans KR', sans-serif;
   }
 
 
-.section2-0, .section2-0-content1, .section2, .section2-content,.section2-content-2, .section3, 
+ .section2, .section2-content,.section2-content-2, .section3, 
 /* .section3-2,  */
 .section4,
 .section5, .section7,.section10-content .section11, .section12,
@@ -160,8 +160,8 @@ background: rgb(255, 255, 255);
 
 
 /*2-column layout section*/
-.section2-0-content,
-.section2-content
+.section1-content,
+.section1
 {
   display: flex;
   flex-direction: row;
@@ -384,9 +384,9 @@ section .title::after{
 
 
 
-/*section2.0 학습목표 styling*/
+/*section1학습목표 styling*/
 
-.section2-0{
+.section1{
   color:#fff;
   background:#5e5477;
   /* height:100vh; */
@@ -394,25 +394,25 @@ section .title::after{
   min-height: 100vh;
 }
 
-.section2-0 .title::before{
+.section1 .title::before{
    opacity:0;
   
 }
 
-.section2-0 .title::after{
+.section1 .title::after{
   background: #5e5477;
   content: "Learning Objectives";
 }
 
 
 
-.section2-0-content{
-  align-items: left;
+.section1-content{
+  
   background: #5e5477;
 }
 
 
-.section2-0 .text1{
+.section1 .text1{
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 30px;
@@ -426,25 +426,25 @@ section .title::after{
   margin-left: 30px;
 }
 
-.section2-0 .section2-0-content .left-column{
+.section1 .section1-content .left-column{
   justify-content: left;
   flex-shrink: 0;
   flex-basis: 50%;
-  padding-right: 10px;
+  padding-right: content;
   background: #5e5477;
   border: none ;
 }
 
-.section2-0 .section2-0-content.right-column{
+.section1 .section1-content.right-column{
   justify-content: left;
   flex-shrink: 0; 
-  flex-basis: 50%; 
+  flex-basis: content;
   padding-left: 10px;
   background: #5e5477;
   border: none ;
 }
 
-.section2-0 .text2{
+.section1 .text2{
   font-size: 1.3rem;
   font-weight: 300;
   margin-bottom: 20px;
@@ -470,7 +470,7 @@ section .title::after{
   word-wrap:break-word;  
 } */
 
-/* .section2-0 .section2-0-content  p{
+/* .section1 .section1-content  p{
   text-align: justify;
   line-height: 160%;
 } */
@@ -1599,7 +1599,7 @@ font-size: 20px;
     height: auto;
     width: 70%;
 }
-  /* .section2-0-content,
+  /* .section1-content,
   .section7-content,
   .section10-content,
   .section3-2-content-2,
@@ -1775,7 +1775,7 @@ font-size: 20px;
       padding: 0 23px;
   }
 
-  .section2-0-content1{
+  .section1-content1{
     align-items: center;
     width: 100%;
   }
