@@ -70,7 +70,7 @@ section{
   flex-wrap: wrap;
   align-items: left;
   justify-content: flex-start;
-  min-height:100vh;
+  /* min-height:100vh; */
   
 }
 
@@ -130,7 +130,7 @@ section{
 /*배경 흰색인 section*/
 .section2, .section3, .section3-2, .section9,
 .section8, .section10, .section7, .section20, .section13,
-.section10 .max-width .wrapper {
+.section10  .wrapper {
 background: rgb(255, 255, 255);
 }
 
@@ -161,12 +161,8 @@ background: rgb(255, 255, 255);
 
 /*2-column layout section*/
 .section2-0-content,
-.section2-content,
-.section2-content-2,
-.section7-content,
-.section3-2-content-2,
-.section12-content,
-.section5-content{
+.section2-content
+{
   display: flex;
   flex-direction: row;
   align-items: left;
@@ -176,15 +172,6 @@ background: rgb(255, 255, 255);
 
 
 
-/* .section2-content-2,
-.section3-content-2,
-.section4-content,
-.section4-2-content{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-} */
 
 
 section .title{
@@ -417,13 +404,11 @@ section .title::after{
   content: "Learning Objectives";
 }
 
-.section2-0-content1{
-  align-items: left;
-}
+
 
 .section2-0-content{
   align-items: left;
- 
+  background: #5e5477;
 }
 
 
@@ -441,7 +426,7 @@ section .title::after{
   margin-left: 30px;
 }
 
-.section2-0 .left-column{
+.section2-0 .section2-0-content .left-column{
   justify-content: left;
   flex-shrink: 0;
   flex-basis: 50%;
@@ -450,7 +435,7 @@ section .title::after{
   border: none ;
 }
 
-.section2-0 .right-column{
+.section2-0 .section2-0-content.right-column{
   justify-content: left;
   flex-shrink: 0; 
   flex-basis: 50%; 
