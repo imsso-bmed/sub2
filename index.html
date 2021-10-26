@@ -46,7 +46,7 @@
         text-align: center;
       }
 
-      
+            
     </style>
 
 <style type="text/css">
@@ -174,16 +174,24 @@
         });
       });
    </script>
+
    
-   <video  autoplay loop poster = "./video/video_img.JPG">
-    <source src = "./video/hormone_video.mp4"type = "video / mp4">
-  </video>
+<!-- video autoplay and overlay -->
+<div class="overlay">
+     
+</div>
+
+<video
+  src="./video/hormone_video.mp4" muted loop autoplay>
+ </video>
+  
+
   
 
    <!-- home section start -->
    <section class="home" id="home">
     
-     <div class="max-width" data-aos="fade-up">
+     <div class="max-width" >
         
        <div class="home-content">
         
@@ -198,9 +206,13 @@
          <div class="text3" >학습 콘텐츠 <span class="typing"></span></div>
          <a href="#section2-0">학습 시작</a>
         
+         
        </div>
      </div>
    </section>
+   
+   
+   
 
    <!-- section2-0 학습목표 파트 start -->
 <section class="section2-0" id="section2-0">
@@ -850,7 +862,7 @@
         
         <!-- <div class="left-column" data-aos="fade-up"> -->
             <div class="text1" data-aos="fade-up">프로젝트 소개
-              
+
             </div>
                <div class="text3" data-aos="fade-up">본 프로젝트는 의과대학 본과 1학년 2학기 임상내분비학
                      영양 및 내분비대사학 파트에서 사용되는 Flipped learning (예습용) ppt 시각자료의 개선 및 보완을 위해 기획되었습니다. 
@@ -940,6 +952,12 @@
   });
 
 </script>  
+
+ <!-- 비디오 자동재생 스크립트 -->
+ <script> document.getElementById('vid').play(); 
+</script>
+
+
 
 <!-- 이미지 슬라이더 스크립트 -->
 <script>

@@ -15,17 +15,30 @@
 }
 
 
-video {
-	position : fixed;
-	top : 0; 
-	left : 0;
-	min-width : 100%;
-	min-height : 100%;
-	width : auto;
-	height : auto;
-	z-index : -2;
-  display:block;
+
+video{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+  opacity: 0.9;
 }
+
+.overlay{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
 
 
 
@@ -307,17 +320,17 @@ section .title::after{
 /* home section styling */
 .home{
   display: flex;
-  /* background: transparent; */
-  margin : 0;
-	padding : 0;
-	background : url (src="./video/video_img.jpg") center center fixed no-repeat;
+  background: transparent;
+  margin : 0 0 0 0;
+	padding : 0 0 0 0;
+	/* background : url (src="./video/hormone_video") center center fixed no-repeat; */
   height: 100vh;
   color: #ffffff;
   min-height: 500px;
   background-size: cover;
   font-family: 'Noto Sans KR', sans-serif;
   justify-content: left;
-  margin: 0 auto 60px;
+  
 }
 
 .home .max-width{
