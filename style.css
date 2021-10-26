@@ -4,16 +4,28 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');} body, h1, h2, h3, h4, h5, h6, input, textarea, select { font-family: 'Noto Sans KR', sans-serif; }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'nanumsquare',sans-serif, 'Black Han Sans', 'Noto Sans KR';
+  font-family: 'Noto Sans KR', sans-serif;
   text-decoration: none;
 }
 
 
+video {
+	position : fixed;
+	top : 0; 
+	left : 0;
+	min-width : 100%;
+	min-height : 100%;
+	width : auto;
+	height : auto;
+	z-index : -2;
+  display:block;
+}
 
 
 
@@ -70,9 +82,10 @@ section{
 .home::before {
   animation: bounce 1s ease infinite;
   bottom: 2rem;
-  color: rgb(241, 135, 116);
+  color: rgb(255, 255, 255, 0.5);
   content: '╲╱';
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   height: 4rem;
   left: 50%;
   letter-spacing: -1px;
@@ -81,7 +94,7 @@ section{
   opacity: 0.8;
   position: absolute;
   text-align: center;
-  width: 6rem;
+  width: 2rem;
 }
 
 @keyframes bounce {
@@ -96,6 +109,14 @@ section{
   margin: auto;
   justify-content: space-between;
 }
+
+/*배경 흰색인 section*/
+.section2, .section3, .section3-2, .section9,
+.section8, .section10, .section7, .section20, .section13,
+.section10 .max-width .wrapper {
+background: white;
+}
+
 
 
 .section2-0, .section2, .section3, .section3-2, .section4,
@@ -117,6 +138,8 @@ section{
   align-items: center;
   justify-content: space-between;
 }
+
+
 
 /*2-column layout section*/
 /* .section2-0-content, */
@@ -182,7 +205,7 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-  background: #3d2846;
+  background: transparent;
   width: 100%;
   position: fixed;
   padding: 30px 0;
@@ -284,9 +307,12 @@ section .title::after{
 /* home section styling */
 .home{
   display: flex;
-  background: transparent;
+  /* background: transparent; */
+  margin : 0;
+	padding : 0;
+	background : url (src="./video/video_img.jpg") center center fixed no-repeat;
   height: 100vh;
-  color: #3d2846;
+  color: #ffffff;
   min-height: 500px;
   background-size: cover;
   font-family: 'Noto Sans KR', sans-serif;
@@ -332,17 +358,17 @@ section .title::after{
 
 .home .home-content a{
   display: inline-block;
-  background: #3d2846;
+  background: transparent;
   color: #fff;
-  font-size: 28px;
+  font-size: 24px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 500;
-  border: 2px solid #3d2846;
+  border: 1px solid #fa8072;
   transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-  color: #fa8072;
+  background: #fa807267;
 }
 
 
@@ -411,7 +437,7 @@ section .title::after{
   padding-top: 30px;
   color:#fff;
   text-align: left;
-  line-height: 160%;
+  line-height: 250%;
   word-break: keep-all;
 }
 
@@ -1097,7 +1123,7 @@ section .title::after{
 .section9 .section9-content .wrapper-timeline .center-line{
   position: absolute;
   height: 100%;
-  width: 4px;
+  width: 2px;
   background: #3d2846;
   left: 50%;
   top: 20px;
@@ -1141,7 +1167,7 @@ section .title::after{
   border-radius: 50%;
   color: #3d2846;
   font-size: 17px;
-  box-shadow: 0 0 0 4px #a190a8, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  box-shadow: 0 0 0 2px #a190a8, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 2px rgba(0,0,0,0.05);
 }
 .section9 .section9-content .center-line .scroll-icon{
   bottom: 0px;
@@ -1405,9 +1431,9 @@ section .content{
 #about:checked ~ section .content-5{
   display: block;
 }
-section .content .title{
+section .content .title2{
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 30px 0 10px 30px;
 }
 section .content p{
