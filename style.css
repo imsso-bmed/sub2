@@ -453,7 +453,7 @@ section .title::after{
   padding-top: 30px;
   color:rgba(255, 255, 255, 0.747);
   text-align: left;
-  line-height: 2em;
+  line-height: 1.618em;
   word-break: keep-all;
   margin-left: 30px;
 }
@@ -507,7 +507,7 @@ section .title::after{
   border-radius: 6px;
 }
 
-.section2 .section2-content-2  .text3{
+.section2 .section2-content  .text3{
   font-size: 21px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -516,7 +516,7 @@ section .title::after{
   margin-left: 30px;
   color: black;
   text-align: left;
-  line-height: 180%;
+  line-height: 1.618em;
   word-break: keep-all;
   margin-right: 15px;
 }
@@ -572,7 +572,7 @@ section .title::after{
   /* padding-right: 3vw; */
   color: black;
   text-align: left;
-  line-height: 180%;
+  line-height: 1.618em;
   margin-left: 30px;
   word-break: keep-all;
   margin-right: 15px;
@@ -586,7 +586,7 @@ section .title::after{
   /* padding-left: 3vw; */
   color: black;
   text-align: left;
-  line-height: 180%;
+  line-height: 1.618em;
   margin-left: 30px;
   word-break: keep-all;
   margin-right: 15px;
@@ -650,7 +650,7 @@ section .title::after{
   padding-right: 3vw;
   color: black;
   text-align: left;
-  line-height: 180%;
+  line-height:1.618em;
   word-break: keep-all;  
   margin-right: 80px;
   margin-left: 30px; 
@@ -740,7 +740,7 @@ section .title::after{
   padding-right: 3vw;
   color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 190%;
+  line-height: 1.618em;
   word-break: keep-all;  
   margin-right: 15px;
   margin-left: 30px; 
@@ -755,7 +755,7 @@ section .title::after{
   padding-right: 3vw;
   color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 190%;
+  line-height: 1.618em;
   word-break: keep-all;  
   margin-right: 15px;
   margin-left: 30px; 
@@ -765,7 +765,7 @@ section .title::after{
 .section4 .section4-content  p{
   text-align: justify;
   display:flex;
-  line-height: 160%;
+  line-height: 1.618em;
   color:#fff;
   font-weight: 500;
 }
@@ -810,7 +810,7 @@ section .title::after{
   padding-right: 3vw;
   color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 190%;
+  line-height: 1.618em;
   word-break: keep-all;  
   margin-right: 15px;
   margin-left: 30px; 
@@ -824,7 +824,7 @@ section .title::after{
   /* padding-left: 3vw; */
   color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 190%;
+  line-height: 1.618em;
   word-break: keep-all;  
   margin-right: 15px;
   margin-left: 30px; 
@@ -832,7 +832,7 @@ section .title::after{
 
 .section5 .section5-content  p{
   text-align: justify;
-  line-height: 160%;
+  line-height: 1.618em;
   display:flex;
   color:#fff;
   font-weight: 500;
@@ -895,7 +895,7 @@ section .title::after{
   padding-right: 3vw;
   color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 190%;
+  line-height: 1.618em;
   word-break: keep-all;  
   margin-right: 15px;
   margin-left: 30px; 
@@ -909,7 +909,7 @@ section .title::after{
   /* padding-left: 3vw; */
   color: rgb(230, 230, 230);
   text-align: left;
-  line-height: 190%;
+  line-height: 1.618em;
   word-break: keep-all;  
   margin-right: 15px;
   margin-left: 30px; 
@@ -977,7 +977,7 @@ section .title::after{
   display:flex;
   font-weight: medium;
   text-align: left;
-  line-height: 190%;
+  line-height: 1.618em;
   word-break: keep-all;  
   margin-right: 15px;
   margin-left: 30px; 
@@ -1122,7 +1122,7 @@ section .title::after{
   display:flex;
   font-weight: 500;
   text-align: left;
-  line-height: 190%;
+  line-height: 1.618em;
   word-break: keep-all;  
   margin-right: 15px;
   margin-left: 30px; 
@@ -1213,13 +1213,13 @@ section .title::after{
   font-size: 22px;
   font-weight: 700;
   color: #fa8072;
-  line-height:  160%;
+  line-height:  1.618em;
 }
 .section9 .section9-content .row section p{
   margin: 10px 0 17px 0;
   color:white;
   text-align: left;
-  line-height: 190%;
+  line-height: 1.618em;
   word-break: keep-all;  
   
 }
@@ -1312,7 +1312,7 @@ section .title::after{
 
 .section10 .section10-content p{
   text-align: justify;
-  line-height: 160%;
+  line-height: 1.618em;
   font-weight: 500;
   font-size: 21px;
 }
@@ -1458,7 +1458,7 @@ section .content .title2{
 }
 section .content p{
 text-align: left;
-line-height: 160%;
+line-height: 1.618em;
 margin-left: 30px;
 font-size: 20px;
 }
@@ -1509,7 +1509,8 @@ font-size: 20px;
 .section7{
   width:100%;
   height: 100vh;
-  padding: 200px 0 150px 0;
+  padding: 200px 0 200px 0;
+  margin-bottom: 50px;
 }
 
 .section7 .title::after{
@@ -1539,7 +1540,7 @@ font-size: 20px;
   /* padding-right: 3vw; */
   color: black;
   text-align: left;
-  line-height: 190%;
+  line-height: 1.618em;
   word-break: keep-all;  
   margin-right: 15px;
   margin-left: 30px; 
