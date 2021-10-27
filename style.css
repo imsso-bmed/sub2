@@ -144,7 +144,6 @@ background: rgb(255, 255, 255);
 
 
  .section2, .section2-content,.section2-content-2, .section3, 
-/* .section3-2,  */
 .section4,
 .section5, .section7,.section10-content .section11, .section12,
 .section2-content, .section3-content, .section3-2-content,.section4-content, .section4-2-content,
@@ -161,7 +160,8 @@ background: rgb(255, 255, 255);
 
 /*2-column layout section*/
 .section1-content,
-.section1
+.section1,
+.section3-2,.section3-2-content
 {
   display: flex;
   flex-direction: row;
@@ -388,10 +388,12 @@ section .title::after{
 
 .section1{
   color:#fff;
-  background:#5e5477;
+  background:linear-gradient( to bottom,#5e5477, 95%, white );
   /* height:100vh; */
   width:100%;
   min-height: 100vh;
+  padding-bottom: 400px;
+  padding-top: 200px;
 }
 
 .section1 .title::before{
@@ -477,6 +479,10 @@ section .title::after{
 
 
 /*section2 thyroid 갑상샘 파트 styling*/
+.section2{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 
 .section2 .title::after{
   content: "Thyroid Gland";
@@ -508,6 +514,7 @@ section .title::after{
 }
 
 .section2 .section2-content  .text3{
+  width: 50%;
   font-size: 21px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -530,6 +537,7 @@ section .title::after{
   margin-bottom: 30px;
   margin-left: 30px;
   margin-top: 30px;
+  
 }
 .section2 .section2-content  .text1 span{
   color: #fa8072;
@@ -540,6 +548,11 @@ section .title::after{
 
 
 /*section3 thyroid 갑상샘 해부학 구조 파트 styling*/
+
+.section3{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
 
 .section3 .title::after{
   content: "Thyroid Anatomy";
@@ -576,6 +589,7 @@ section .title::after{
   margin-left: 30px;
   word-break: keep-all;
   margin-right: 15px;
+  width: 50%;
 }
 
 .section3 .section3-content  .right-column .text3{
@@ -618,6 +632,10 @@ section .title::after{
 }
 
 /*section3-2 thyroid 갑상샘의 생리 파트 styling*/
+.section3-2{
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
 
 .section3-2 .title::after{
   content: "Physiology";
@@ -627,10 +645,23 @@ section .title::after{
   opacity:0;
 }
 
-.section3-2-content, 
-.section3-2-content-2{
-  align-items: left;
-  align-items: flex-start;
+
+
+.section3-2 .section3-2-content .left-column{
+  justify-content: left;
+  flex-shrink: 0;
+  flex-basis: 50%;
+  padding-right: content;
+  border: none ;
+}
+
+.section3-2 .section3-2-content .right-column{
+  justify-content: left;
+  flex-shrink: 0; 
+ 
+  flex-basis: content;
+  width: 50%;
+  border: none ;
 }
 
 .section3-2 .section3-2-content .text1{
@@ -647,14 +678,12 @@ section .title::after{
   font-weight: medium;
   margin-bottom: 20px;
   padding-top: 20px;
-  padding-right: 3vw;
   color: black;
   text-align: left;
   line-height:1.618em;
   word-break: keep-all;  
-  margin-right: 80px;
   margin-left: 30px; 
-
+  
 }
 
 .section3-2 .section3-2-content img{
@@ -695,8 +724,10 @@ section .title::after{
 
 .section4{
   color:#fff;
-  background:#3d2846;
+  background:linear-gradient( to top,#5e5477, 95%, white );
   width:100%;
+  padding-top: 250px;
+  padding-bottom: 150px;
 }
 
 .section4 .title::before{
@@ -706,7 +737,7 @@ section .title::after{
 
 .section4 .title::after{
   content: "Microscopic structure";
-  background: #3d2846;
+  background: #5e547700;
 }
 
 .section4-content,
@@ -773,8 +804,10 @@ section .title::after{
 /*section5 호르몬 분비 파트 styling*/
 .section5{
   color:#fff;
-  background:#3d2846;
+  background: #5e5477;
   width:100%;
+  padding-top: 200px;
+  padding-bottom: 150px;
 }
 
 .section5 .title::before{
@@ -784,7 +817,7 @@ section .title::after{
 
 .section5 .title::after{
   content: "Hormone Secretion";
-  background: #3d2846;
+  background: #5e5477;
 }
 
 .section5-content{
@@ -856,10 +889,14 @@ section .title::after{
 }
 
 /*section12 호르몬 조절기전 파트 styling*/
+
+
 .section12{
   color:#fff;
-  background:#3d2846;
+  background:linear-gradient( to bottom,#5e5477, 95%, white ); 
   width:100%;
+  padding-top: 200px;
+  padding-bottom: 220px;
 }
 
 .section12 .title::before{
@@ -869,7 +906,7 @@ section .title::after{
 
 .section12 .title::after{
   content: "Thyroid Axis";
-  background: #3d2846;
+  background: #5e5477;
 }
 
 .section12-content{
@@ -942,6 +979,11 @@ section .title::after{
 
 
 /*section8 갑상샘 기능검사 종류 styling*/
+
+.section8{
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
 
 .section8 .title::after{
   content: "Function Panel";
@@ -1088,6 +1130,10 @@ section .title::after{
 
 /*section9 환자 진료과정 styling*/
 
+.section9{
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
 
 .section9 .title::after{
   content: "Diagnostic Process";
@@ -1276,7 +1322,7 @@ section .title::after{
 
 .section10{
   width:100%;
-  padding:100px 0 0 0;
+  padding:200px 0 150px 0;
 }
 
 .section10 .title::after{
@@ -1511,6 +1557,9 @@ font-size: 20px;
   height: 100vh;
   padding: 200px 0 200px 0;
   margin-bottom: 50px;
+  background: transparent;
+  padding-top: 200px;
+  padding-bottom: 100px;
 }
 
 .section7 .title::after{
@@ -1519,6 +1568,7 @@ font-size: 20px;
 
 .section7-content{
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .section7 .section7-content .text1{
