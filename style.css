@@ -650,7 +650,8 @@ section .title::after{
 .section3-2 .section3-2-content .left-column{
   justify-content: left;
   flex-shrink: 0;
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
+  max-width: 800px;
   padding-right: content;
   border: none ;
 }
