@@ -1634,7 +1634,7 @@ font-size: 20px;
 
 
 .section7 .section7-content .text3{
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 500;
   margin-bottom: 20px;
   padding-top: 20px;
@@ -1648,12 +1648,27 @@ font-size: 20px;
   margin-bottom: 30px;
 }
 
-.section7 .section7-content .text3 span{
+.section7 .section7-content .text4{
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  /* padding-right: 3vw; */
+  color: black;
+  text-align: left;
+  line-height: 1.618em;
+  word-break: keep-all;  
+  margin-right: 15px;
+  margin-left: 30px; 
+  margin-bottom: 30px;
+}
+
+.section7 .section7-content .text4 span{
   color: #fa8072;
   
 }
 
-.section7 .section7-content .text3 p{
+.section7 .section7-content .text4 p{
   font-family: 'Hahmlet', serif;
   color: #797979;
   font-size: 16px;
