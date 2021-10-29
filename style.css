@@ -725,7 +725,7 @@ section .title::after{
   flex-basis: 50%;
    width: 50%;
   border: none ;
- padding-left: auto;
+ 
 }
 
 .section3-2 .section3-2-content .text1{
@@ -734,7 +734,7 @@ section .title::after{
   margin-bottom: 10px;
   /* margin-top: 10px; */
   /* padding-top: 30px; */
-  margin-left: 30px; 
+  /* margin-left: 30px;  */
 }
 
 .section3-2 .section3-2-content .text3{
@@ -746,7 +746,7 @@ section .title::after{
   text-align: left;
   line-height:1.618em;
   word-break: keep-all;  
-  margin-left: 30px; 
+  /* margin-left: 30px;  */
   
 }
 
@@ -1817,7 +1817,7 @@ font-size: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
     padding-top: 30px;
-    margin-left: 140px; 
+    margin-left: 30px; 
   }
   
   .section3-2 .section3-2-content .text3{
@@ -1825,13 +1825,12 @@ font-size: 20px;
     font-weight: medium;
     margin-bottom: 20px;
     padding-top: 20px;
-    padding-right: 3vw;
+
     color: black;
     text-align: left;
     line-height: 180%;
     word-break: keep-all;  
-    margin-right: 80px;
-    margin-left: 140px; 
+    margin-left: 30px;
   
   }
 
