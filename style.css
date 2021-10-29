@@ -1743,6 +1743,18 @@ font-size: 20px;
 
 /* responsive media query start */
 @media (max-width: 1104px) {
+  .section .title{
+    font-size: 34px;
+  }
+
+  .text1{
+    font-size: 28px;
+  }
+
+  .text3{
+    font-size: 24px;
+  }
+
   .section2 .section2-content  img,
   .section4 .section4-content  img{
       height: auto;
@@ -1891,10 +1903,7 @@ font-size: 20px;
     margin-left: 30px;
   }
 
-  .section .title{
-    font-size: 30px;
-  }
-
+ 
   .section3-2-content{
     display: flex;
     flex-direction: column;
@@ -2050,7 +2059,7 @@ font-size: 20px;
 
 
   section .title{
-    font-size: 36px;
+    font-size: 28px;
   }
 
   .wrapper nav label{
