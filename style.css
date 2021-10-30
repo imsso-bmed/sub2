@@ -255,7 +255,7 @@ section .title::after{
 /* navbar styling */
 .navbar{
   background: transparent;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   padding: 30px 0;
   z-index: 999;
@@ -1128,6 +1128,7 @@ align-content: left;
 
 .section8 .section8-content {
   align-items: center;
+
 }
 
 
@@ -1140,21 +1141,20 @@ align-content: left;
   margin-top: 10px;
   padding-top: 20px;
   margin-left: 30px;
-  
+  display: flex;
 }
 
 .section8 .section8-content .text3{
-  text-align: justify;
-  display:flex;
-  font-weight: medium;
+  font-size: 20px;
+  font-weight: 500;
   text-align: left;
   line-height: 1.618em;
   word-break: keep-all;  
   margin-right: 15px;
   margin-left: 30px; 
   margin-bottom: 40px;
-  font-size:22px;
-  
+ 
+
   }
 
   /*기능검사 아코디언*/
@@ -1497,6 +1497,7 @@ align-content: left;
 .iframebox{
   position: relative;
   width: 100%;
+  max-width: 100vw;
   padding-bottom: 56.25%;
   display:flex; 
 }
@@ -1746,8 +1747,8 @@ font-size: 20px;
 
 /* responsive media query start */
 @media (max-width: 1104px) {
-  .section .title{
-    font-size: 36px;
+  section .title{
+    font-size: 40px;
   }
 
   .text1{
@@ -2027,12 +2028,9 @@ font-size: 20px;
 }
 
 @media (max-width: 690px) {
-  .max-width{
-      padding: 0 23px;
-  }
-
+ 
   .section{
-    width: 100vw;
+    width: 100%;
   }
 
   section .title{
@@ -2050,7 +2048,15 @@ font-size: 20px;
   }
 
   .slider img{
-    width: 100vw;
+    width: 100%;
+  }
+
+  .iframebox{
+    position: relative;
+    width: 90%;
+    padding-bottom: 56.25%;
+    display:flex; 
+    margin-left: 30px; 
   }
 
   /*2-column layout section*/
