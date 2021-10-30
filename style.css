@@ -1126,7 +1126,9 @@ align-content: left;
 }
 
 
-
+.section8 .section8-content {
+  align-items: center;
+}
 
 
 
@@ -1152,7 +1154,7 @@ align-content: left;
   margin-left: 30px; 
   margin-bottom: 40px;
   font-size:22px;
-  width: 100vw;
+  
   }
 
   /*기능검사 아코디언*/
@@ -2218,7 +2220,7 @@ font-size: 20px;
     font-family: 'Noto Sans KR', sans-serif;
     border: none;
   }
-  section .title::before{
+  /* section .title::before{
     content: "";
     position: absolute;
     bottom: 0px;
@@ -2228,17 +2230,17 @@ font-size: 20px;
     background: #3d2846;
     transform: translateX(-50%);
     border: none;
-  }
+  } */
 
   section .title::after{
     position: absolute;
     bottom: -8px;
-    left: 50%;
+    /* left: 50%; */
     font-size: 16px;
     color: #fa8072;
     padding: 0 5px;
     background: #fff;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     text-align: center;
     text-decoration: none;
   }
