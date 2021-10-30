@@ -1152,6 +1152,7 @@ align-content: left;
   margin-left: 30px; 
   margin-bottom: 40px;
   font-size:22px;
+  width: 100vw;
   }
 
   /*기능검사 아코디언*/
@@ -1744,7 +1745,7 @@ font-size: 20px;
 /* responsive media query start */
 @media (max-width: 1104px) {
   .section .title{
-    font-size: 34px;
+    font-size: 36px;
   }
 
   .text1{
@@ -2028,19 +2029,72 @@ font-size: 20px;
       padding: 0 23px;
   }
 
-  .section1-content1{
-    align-items: center;
-    width: 100%;
+  .section{
+    width: 100vw;
   }
-  .section2-content-2,
-  .section3-content-2,
-  .section4-2-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
 
-  
+  section .title{
+    font-size: 34px;
+  }
+
+  section .text1{
+    font-size: 26px;
+  }
+
+  .text3{
+    font-size: 24px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .slider img{
+    width: 100vw;
+  }
+
+  /*2-column layout section*/
+.section1-content,
+.section1,
+.section3,.section3-content-2,
+.section3-2,.section3-2-content,
+.section4, .section4-content-2,
+.section5, .section5-content,
+.section12, .section12-content
+{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  align-items: flex-start;
+
+}
+
+
+.section1 .section1-content .right-column,
+.section2 .section2-content-2 .right-column,
+.section3.section3-content-2 .right-column,
+.section3-2.section3-2-content .right-column,
+.section4 .section4-content-2 .right-column,
+.section5 .section5-content .right-column,
+.section12 .section12-content .right-column,
+
+.section1 .section1-content .left-column,
+.section2 .section2-content-2 .left-column,
+.section3.section3-content-2 .left-column,
+.section3-2.section3-2-content .left-column,
+.section4 .section4-content-2 .left-column,
+.section5 .section5-content .left-column,
+.section12 .section12-content .left-column{
+  justify-content: left;
+  flex-shrink: 0; 
+  flex-basis: 100%;
+  width: 100%;
+  padding-left: 0px;
+    border: none ;
+    margin-bottom: auto;
+}
+
+
+
 
   .navbar .logo a{
     font-size: 24px;
@@ -2057,9 +2111,6 @@ font-size: 20px;
 
 
 
-  section .title{
-    font-size: 28px;
-  }
 
   .wrapper nav label{
     display: block;
